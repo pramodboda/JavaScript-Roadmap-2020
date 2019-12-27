@@ -26,16 +26,16 @@
 8. Objects
 9.  Events
 
-
 ## Intermediate
 10. Scope
 11. Hoisting
 12.  Closures
+13. The DOM
 ##  Advanced
 Inheritance and the prototype chain
 Strict mode
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODIyMDE0NywtMTY0ODgzMzg3NiwtMj
-EzNzcxOTI1NiwtMTc3NzMwMzM2MV19
+eyJoaXN0b3J5IjpbLTE4MTQ1MTg0MTAsLTE2NDg4MzM4NzYsLT
+IxMzc3MTkyNTYsLTE3NzczMDMzNjFdfQ==
 -->
