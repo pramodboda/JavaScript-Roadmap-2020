@@ -10,16 +10,16 @@
 	 - Custom Functions
 	 - Parameter and Arguments
 5. Operators
-6. Statements 
- 5. Arrays 
- 6. Objects
+6. Statements
+7. Arrays 
+8. Objects
  7. Events
  8. Scope
  9. Hoisting
  10. Closures
  11. The DOM  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTEzMTkyMiwxNDcyNTM5NDMzLC03OT
+eyJoaXN0b3J5IjpbLTQyODIwNDQ4NiwxNDcyNTM5NDMzLC03OT
 k3MTQzODAsLTE0OTY3MTQwOTEsLTE3MTU5MDg5NDcsLTEwOTgw
 MTcyOF19
 -->
