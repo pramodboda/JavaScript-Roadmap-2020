@@ -35,7 +35,8 @@
 Inheritance and the prototype chain
 Strict mode
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDIwNjY2NzgsLTE2NDg4MzM4NzYsLT
-IxMzc3MTkyNTYsLTE3NzczMDMzNjFdfQ==
+eyJoaXN0b3J5IjpbMTMzNDg4ODEyMCwtMTY0ODgzMzg3NiwtMj
+EzNzcxOTI1NiwtMTc3NzMwMzM2MV19
 -->
