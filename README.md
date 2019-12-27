@@ -6,11 +6,12 @@
  - Variables
  - Data Types
  - Functions
- ..*Built in Functions
+ -- Built in Functions
+
  -- Custom Functions
  -- Parameter and Arguments
  - Arrays Objects
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY3MTQwOTEsLTE3MTU5MDg5NDcsLT
-EwOTgwMTcyOF19
+eyJoaXN0b3J5IjpbMTQxMTEwNDIzNywtMTQ5NjcxNDA5MSwtMT
+cxNTkwODk0NywtMTA5ODAxNzI4XX0=
 -->
