@@ -9,8 +9,8 @@
 	 - Built in Functions
 	 - Custom Functions
 	 - Parameter and Arguments
- - Arrays Objects
+ 5. Arrays Objects
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTAxMzI5MCwtMTQ5NjcxNDA5MSwtMT
+eyJoaXN0b3J5IjpbLTc5OTcxNDM4MCwtMTQ5NjcxNDA5MSwtMT
 cxNTkwODk0NywtMTA5ODAxNzI4XX0=
 -->
