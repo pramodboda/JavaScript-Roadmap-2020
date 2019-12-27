@@ -7,11 +7,10 @@
  - Data Types
  - Functions
  -- Built in Functions
-
  -- Custom Functions
  -- Parameter and Arguments
  - Arrays Objects
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTEwNDIzNywtMTQ5NjcxNDA5MSwtMT
+eyJoaXN0b3J5IjpbMTE1ODEwODIyMywtMTQ5NjcxNDA5MSwtMT
 cxNTkwODk0NywtMTA5ODAxNzI4XX0=
 -->
