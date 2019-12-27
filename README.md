@@ -25,18 +25,17 @@
 7. Arrays 
 8. Objects
 9.  Events
+
+
+## Intermediate
 10. Scope
 11. Hoisting
 12.  Closures
-13. The DOM  
-14. Hylo
-15. 
-
 ##  Advanced
 Inheritance and the prototype chain
 Strict mode
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg4MzM4NzYsLTIxMzc3MTkyNTYsLT
-E3NzczMDMzNjFdfQ==
+eyJoaXN0b3J5IjpbLTU5ODIyMDE0NywtMTY0ODgzMzg3NiwtMj
+EzNzcxOTI1NiwtMTc3NzMwMzM2MV19
 -->
