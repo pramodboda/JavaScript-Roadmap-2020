@@ -31,6 +31,7 @@
 11. Hoisting
 12.  Closures
 13. The DOM
+14. 
 ##  Advanced
 
 Inheritance and the prototype chain
@@ -38,6 +39,6 @@ Strict mode
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjA2NjU1NjIsMTMzNDg4ODEyMCwtMT
+eyJoaXN0b3J5IjpbLTE0MzY1NTYzMjEsMTMzNDg4ODEyMCwtMT
 Y0ODgzMzg3NiwtMjEzNzcxOTI1NiwtMTc3NzMwMzM2MV19
 -->
