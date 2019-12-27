@@ -8,6 +8,19 @@ Remember this word for interview. **`SNBUNSO`**
 5. Undefined
 6. Object
 7. Symbol(ES5)
+8. 
+The latest ECMAScript standard defines eight data types:
+Seven data types that are primitives:
+
+Boolean
+Null
+Undefined
+Number
+BigInt
+String
+Symbol
+and Object
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjI4ODI4NjRdfQ==
+eyJoaXN0b3J5IjpbNzE1OTYyNTgzLC0yMTIyODgyODY0XX0=
 -->
