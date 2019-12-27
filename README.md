@@ -5,21 +5,21 @@
 1. Introduction
 2. Variables
 3. Data Types
-4. Functions
+4. Operators
+5. Statements
+6. Functions
 	 - Built in Functions
 	 - Custom Functions
 	 - Parameter and Arguments
-5. Operators
-6. Statements
 7. Arrays 
 8. Objects
- 7. Events
- 8. Scope
- 9. Hoisting
- 10. Closures
- 11. The DOM  
+9.  Events
+10. Scope
+11. Hoisting
+12.  Closures
+13. The DOM  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODIwNDQ4NiwxNDcyNTM5NDMzLC03OT
-k3MTQzODAsLTE0OTY3MTQwOTEsLTE3MTU5MDg5NDcsLTEwOTgw
-MTcyOF19
+eyJoaXN0b3J5IjpbLTIwNTkxNDA0ODYsMTQ3MjUzOTQzMywtNz
+k5NzE0MzgwLC0xNDk2NzE0MDkxLC0xNzE1OTA4OTQ3LC0xMDk4
+MDE3MjhdfQ==
 -->
