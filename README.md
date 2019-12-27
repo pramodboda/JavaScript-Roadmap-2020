@@ -17,20 +17,26 @@
 	- Unary Operators
 	- Relational Operators
 	- Type Operators
-6. Statements
-7. Functions
+5. Statements
+6. Functions
 	 - Built in Functions
 	 - Custom Functions
 	 - Parameter and Arguments
-8. Arrays 
-9. Objects
-10.  Events
-11. Scope
-12. Hoisting
-13.  Closures
-14. The DOM  
-15. Hylo
+7. Arrays 
+8. Objects
+9.  Events
+10. Scope
+11. Hoisting
+12.  Closures
+13. The DOM  
+14. Hylo
+15. 
+
+##  Advanced
+Inheritance and the prototype chain
+Strict mode
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc3MTkyNTYsLTE3NzczMDMzNjFdfQ
-==
+eyJoaXN0b3J5IjpbLTE2NDg4MzM4NzYsLTIxMzc3MTkyNTYsLT
+E3NzczMDMzNjFdfQ==
 -->
