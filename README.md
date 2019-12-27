@@ -6,16 +6,17 @@
 2. Variables
 3. Data Types
 4. Operators
-	-   Assignment Operators
-	-   Comparison Operators
-	-   Arithmetic Operators
-	-   Bitwise Operators
-	-   Logical Operators
-	-   String Operators
-	-   Conditional Operators
-	-   Comma Operators
-	-   Unary Operators
-	-   Relational Operators
+	- Assignment Operators
+	- Comparison Operators
+	- Arithmetic Operators
+	- Bitwise Operators
+	- Logical Operators
+	- String Operators
+	- Conditional Operators
+	- Comma Operators
+	- Unary Operators
+	- Relational Operators
+	- Type Operators
 6. Statements
 7. Functions
 	 - Built in Functions
@@ -30,5 +31,6 @@
 14. The DOM  
 15. Hylo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTIyNTg1OCwtMTc3NzMwMzM2MV19
+eyJoaXN0b3J5IjpbLTIxMzc3MTkyNTYsLTE3NzczMDMzNjFdfQ
+==
 -->
