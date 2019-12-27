@@ -32,11 +32,12 @@
 12.  Closures
 13. The DOM
 ##  Advanced
+
 Inheritance and the prototype chain
 Strict mode
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDg4ODEyMCwtMTY0ODgzMzg3NiwtMj
-EzNzcxOTI1NiwtMTc3NzMwMzM2MV19
+eyJoaXN0b3J5IjpbLTE3MjA2NjU1NjIsMTMzNDg4ODEyMCwtMT
+Y0ODgzMzg3NiwtMjEzNzcxOTI1NiwtMTc3NzMwMzM2MV19
 -->
