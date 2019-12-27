@@ -1,6 +1,10 @@
 # JavaScript-Roadmap-2020
 
-Hylo
+## Basics
+Introduction
+Variables
+Data Types
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTgwMTcyOF19
+eyJoaXN0b3J5IjpbOTkyMzUyMzc3LC0xMDk4MDE3MjhdfQ==
 -->
