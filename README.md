@@ -1,4 +1,4 @@
-# JavaScript-Roadmap-2020
+# JavaScript Roadmap 2020 by Pramod Boda
 
 ## Basics
 
@@ -36,6 +36,6 @@ Inheritance and the prototype chain
 Strict mode
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ1MTg0MTAsLTE2NDg4MzM4NzYsLT
+eyJoaXN0b3J5IjpbLTEwNDIwNjY2NzgsLTE2NDg4MzM4NzYsLT
 IxMzc3MTkyNTYsLTE3NzczMDMzNjFdfQ==
 -->
