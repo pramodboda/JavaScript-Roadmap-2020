@@ -1,7 +1,4 @@
 # JavaScript Data Types
-
-  
-
 ## There are total 7 data types in JavaScript
 Remember this word for interview. **`SNBUNSO`**
 1. String
@@ -12,5 +9,5 @@ Remember this word for interview. **`SNBUNSO`**
 6. Symbol(ES5)
 7. Object
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTMxMjE0NF19
+eyJoaXN0b3J5IjpbMTIyMzA4ODM4XX0=
 -->
