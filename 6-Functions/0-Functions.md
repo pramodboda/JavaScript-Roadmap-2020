@@ -1,6 +1,6 @@
 # Functions
 
-functions are nothing but set of statements in block.
+Functions are nothing but set of statements in block.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjQ0MzQ5NF19
+eyJoaXN0b3J5IjpbLTc0MjIwMTU0XX0=
 -->
