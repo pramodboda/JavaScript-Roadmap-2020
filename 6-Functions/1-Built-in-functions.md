@@ -8,8 +8,7 @@ The Number object contains only the default methods that are part of every objec
 |:--------:| -------------:|
 | [constructor()](https://www.tutorialspoint.com/javascript/number_constructor.htm)| Returns the function that created this object's instance. By default this is the Number object. |
 |[toExponential()](https://www.tutorialspoint.com/javascript/number_toexponential.htm)|Forces a number to display in exponential notation, even if the number is in the range in which JavaScript normally uses standard notation.|
-|[toFixed()](https://www.tutorialspoint.com/javascript/number_tofixed.htm)|
- Formats a number with a specific number of digits to the right of the decimal.|
+|[toFixed()](https://www.tutorialspoint.com/javascript/number_tofixed.htm)|Formats a number with a specific number of digits to the right of the decimal.|
 |[toLocaleString()](https://www.tutorialspoint.com/javascript/number_tolocalestring.htm)
 ||
 
@@ -871,5 +870,5 @@ Returns an object literal representing the specified object; you can use this va
 
 Returns a string representing the specified object.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTI4NzAzNiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwNTI0OTk1OCw3MzA5OTgxMTZdfQ==
 -->
