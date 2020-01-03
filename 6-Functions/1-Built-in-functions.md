@@ -4,10 +4,13 @@
 The Number object contains only the default methods that are part of every object's definition.
 
 
+| Method |  & Description |
+|:--------:| -------------:|
+| centered | right-aligned |
 
-Sr.No.
 
-Method & Description
+
+
 
 1
 
@@ -889,5 +892,5 @@ Returns an object literal representing the specified object; you can use this va
 
 Returns a string representing the specified object.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDEzNDgxMjUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODUyOTAxODQ1LDczMDk5ODExNl19
 -->
