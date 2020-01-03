@@ -9,24 +9,10 @@ The Number object contains only the default methods that are part of every objec
 | [constructor()](https://www.tutorialspoint.com/javascript/number_constructor.htm)| Returns the function that created this object's instance. By default this is the Number object. |
 |[toExponential()](https://www.tutorialspoint.com/javascript/number_toexponential.htm)|Forces a number to display in exponential notation, even if the number is in the range in which JavaScript normally uses standard notation.|
 |[toFixed()](https://www.tutorialspoint.com/javascript/number_tofixed.htm)|Formats a number with a specific number of digits to the right of the decimal.|
-|[toLocaleString()](https://www.tutorialspoint.com/javascript/number_tolocalestring.htm)
-||
+|[toLocaleString()](https://www.tutorialspoint.com/javascript/number_tolocalestring.htm)|Returns a string value version of the current number in a format that may vary according to a browser's locale settings.|
+|[toPrecision()](https://www.tutorialspoint.com/javascript/number_toprecision.htm)|Defines how many total digits (including digits to the left and right of the decimal) to display of a number.|
+|[toString()](https://www.tutorialspoint.com/javascript/number_tostring.htm)|Returns the string representation of the number's value.|
 
-Returns a string value version of the current number in a format that may vary according to a browser's locale settings.
-
-5
-
-[toPrecision()](https://www.tutorialspoint.com/javascript/number_toprecision.htm)
-
-Defines how many total digits (including digits to the left and right of the decimal) to display of a number.
-
-6
-
-[toString()](https://www.tutorialspoint.com/javascript/number_tostring.htm)
-
-Returns the string representation of the number's value.
-
-7
 
 [valueOf()](https://www.tutorialspoint.com/javascript/number_valueof.htm)
 
@@ -870,5 +856,5 @@ Returns an object literal representing the specified object; you can use this va
 
 Returns a string representing the specified object.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI0OTk1OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTE4ODY5MjA1NCw3MzA5OTgxMTZdfQ==
 -->
