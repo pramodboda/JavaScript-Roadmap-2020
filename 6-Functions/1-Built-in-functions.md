@@ -26,30 +26,20 @@ Here is a list of each method and its description.
 |:--------:| :-------------|
 |[toSource()](https://www.tutorialspoint.com/javascript/boolean_tosource.htm)|Returns a string containing the source of the Boolean object; you can use this string to create an equivalent object.|
 |[toString()](https://www.tutorialspoint.com/javascript/boolean_tostring.htm)|Returns a string of either "true" or "false" depending upon the value of the object.|
-|||
-[valueOf()](https://www.tutorialspoint.com/javascript/boolean_valueof.htm)
-
-Returns the primitive value of the Boolean object.
+|[valueOf()](https://www.tutorialspoint.com/javascript/boolean_valueof.htm)|Returns the primitive value of the Boolean object.|
 
 ## String Methods
 
 Here is a list of each method and its description.
 
-Sr.No.
 
-Method & Description
+| Method |  Description |
+|:--------:| :-------------|
+|[charAt()](https://www.tutorialspoint.com/javascript/string_charat.htm)|Returns the character at the specified index.|
+|[charCodeAt()](https://www.tutorialspoint.com/javascript/string_charcodeat.htm)
+|Returns a number indicating the Unicode value of the character at the given index.|
 
-1
 
-[charAt()](https://www.tutorialspoint.com/javascript/string_charat.htm)
-
-Returns the character at the specified index.
-
-2
-
-[charCodeAt()](https://www.tutorialspoint.com/javascript/string_charcodeat.htm)
-
-Returns a number indicating the Unicode value of the character at the given index.
 
 3
 
@@ -843,5 +833,5 @@ Returns an object literal representing the specified object; you can use this va
 
 Returns a string representing the specified object.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc2MDUzNzEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0MjI4NjA4ODUsNzMwOTk4MTE2XX0=
 -->
