@@ -36,8 +36,7 @@ Here is a list of each method and its description.
 | Method |  Description |
 |:--------:| :-------------|
 |[charAt()](https://www.tutorialspoint.com/javascript/string_charat.htm)|Returns the character at the specified index.|
-|[charCodeAt()](https://www.tutorialspoint.com/javascript/string_charcodeat.htm)
-|Returns a number indicating the Unicode value of the character at the given index.|
+|[charCodeAt()](https://www.tutorialspoint.com/javascript/string_charcodeat.htm)|Returns a number indicating the Unicode value of the character at the given index.|
 
 
 
@@ -833,5 +832,5 @@ Returns an object literal representing the specified object; you can use this va
 
 Returns a string representing the specified object.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI4NjA4ODUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTY0NTgwMTE1NSw3MzA5OTgxMTZdfQ==
 -->
