@@ -4,7 +4,7 @@
 The Number object contains only the default methods that are part of every object's definition.
 
 
-| Method |  & Description |
+| Method | Description |
 |:--------:| :-------------|
 | [constructor()](https://www.tutorialspoint.com/javascript/number_constructor.htm)| Returns the function that created this object's instance. By default this is the Number object. |
 |[toExponential()](https://www.tutorialspoint.com/javascript/number_toexponential.htm)|Forces a number to display in exponential notation, even if the number is in the range in which JavaScript normally uses standard notation.|
@@ -22,24 +22,11 @@ The Number object contains only the default methods that are part of every objec
 
 Here is a list of each method and its description.
 
-Sr.No.
-
-Method & Description
-
-1
-
-[toSource()](https://www.tutorialspoint.com/javascript/boolean_tosource.htm)
-
-Returns a string containing the source of the Boolean object; you can use this string to create an equivalent object.
-
-2
-
-[toString()](https://www.tutorialspoint.com/javascript/boolean_tostring.htm)
-
-Returns a string of either "true" or "false" depending upon the value of the object.
-
-3
-
+| Method |  Description |
+|:--------:| :-------------|
+|[toSource()](https://www.tutorialspoint.com/javascript/boolean_tosource.htm)|Returns a string containing the source of the Boolean object; you can use this string to create an equivalent object.|
+|[toString()](https://www.tutorialspoint.com/javascript/boolean_tostring.htm)|Returns a string of either "true" or "false" depending upon the value of the object.|
+|||
 [valueOf()](https://www.tutorialspoint.com/javascript/boolean_valueof.htm)
 
 Returns the primitive value of the Boolean object.
@@ -856,5 +843,5 @@ Returns an object literal representing the specified object; you can use this va
 
 Returns a string representing the specified object.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwOTM0OTA0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE4ODc2MDUzNzEsNzMwOTk4MTE2XX0=
 -->
