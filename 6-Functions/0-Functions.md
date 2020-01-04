@@ -70,6 +70,17 @@ console.log(checkNumber(50))
 // even
 ```
 
+_An important point of difference between Function Declaration and Function Expression is that there is no hoisting in Function Expression. If you try the same program as the one in hoisting Function Declaration, you’ll encounter an error._
+
+```javascript
+myName()
+// ReferenceError: myName is not defined
+
+let myName =function () {
+console.log(`My name is Stuti Chauhan`)
+}
+```
+
 ### Function Constructors
 
 In JavaScript functions are first-class objects - a function is a regular object of type  `function`.  
@@ -109,8 +120,8 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTczODQ4MCw4NDM4NjYzMzksMTMwOD
-g0MDc5MCwxMDc3NDA2NTYxLDE2NjM5Nzk3MjcsNDkxODg4Nzc0
-LC0yODUwMzMwMywxODAyMjQ5MjE0LDE4NTI4NTE2NjQsMTM4NT
-UxOTg3OSwtNzQyMjAxNTRdfQ==
+eyJoaXN0b3J5IjpbMTU0ODMyNTM4LC04NjE3Mzg0ODAsODQzOD
+Y2MzM5LDEzMDg4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3
+LDQ5MTg4ODc3NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwxODUyOD
+UxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0XX0=
 -->
