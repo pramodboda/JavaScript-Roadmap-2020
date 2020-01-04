@@ -16,6 +16,9 @@ name(arguments);
 
 
 ### Immediately Invoked Function Expression (IIFE)
+
+Another way of defining functions in JavaScript is to use Immediately Invoked Functions. The purpose of wrapping is to the namespace and control the visibility of member functions. It wraps the code inside a function scope and decreases clashing with other libraries. This is what we call Immediately Invoked Function Expression (IIFE) or Self Executing Anonymous Function.
+
 ```javascript
 (function () {  
 var x = "Hello!!"; // I will invoke myself  
@@ -45,7 +48,7 @@ var a = function() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzU1ODA2Miw0OTE4ODg3NzQsLTI4NT
+eyJoaXN0b3J5IjpbMTExMjk1MzI5OCw0OTE4ODg3NzQsLTI4NT
 AzMzAzLDE4MDIyNDkyMTQsMTg1Mjg1MTY2NCwxMzg1NTE5ODc5
 LC03NDIyMDE1NF19
 -->
