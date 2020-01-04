@@ -54,6 +54,18 @@ var a = function() {
 
 In JavaScript functions are first-class objects - a function is a regular object of type  `function`.  
 The ways of the declaration described above create the same function object type. Let’s see an example:
+```javascript
+function sum1(a, b) {
+  return a + b;
+}
+const sum2 = function(a, b) {
+  return a + b;
+}
+const sum3 = (a, b) => a + b;
+console.log(typeof sum1 === 'function'); // => true
+console.log(typeof sum2 === 'function'); // => true
+console.log(typeof sum3 === 'function'); // => true
+```
 
 The function object type has a constructor:  [`Function`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function).  
 When  `Function`  is invoked as a constructor  `new Function(arg1, arg2, ..., argN, bodyString)`, a new function is created. The arguments  `arg1, args2, ..., argN`passed to constructor become the parameter names for the new function and the last argument  `bodyString`  is used as the function body code.
@@ -69,7 +81,7 @@ One  _possible_  application of  `new Function`  is a  [better way](https://twit
 Remember that functions  **almost never**  should be declared using  `new Function()`. Because the function body is evaluated on runtime, this approach inherits many  `eval()`  usage  [problems](http://stackoverflow.com/a/86580/1894471): security risks, harder debugging, no way to apply engine optimizations, no editor auto-complete.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA0MDkzMCwxNjYzOTc5NzI3LDQ5MT
-g4ODc3NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0
-LDEzODU1MTk4NzksLTc0MjIwMTU0XX0=
+eyJoaXN0b3J5IjpbNjc4MTExMjAxLDE2NjM5Nzk3MjcsNDkxOD
+g4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0LDE4NTI4NTE2NjQs
+MTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
 -->
