@@ -57,9 +57,7 @@ let checkNumber = function check (num){
 console.log(checkNumber(50))
 // even
 ```
-
-Note:
-| _An important point of difference between Function Declaration and Function Expression is that there is no hoisting in Function Expression. If you try the same program as the one in hoisting Function Declaration, you’ll encounter an error._
+_An important point of difference between Function Declaration and Function Expression is that there is no hoisting in Function Expression. If you try the same program as the one in hoisting Function Declaration, you’ll encounter an error._
 ```javascript
 myName();
 
@@ -77,7 +75,7 @@ let myName = function () {
 }
 // Uncaught ReferenceError: Cannot access 'myName' before initialization at <anonymous>:1:1
 ```
-### IIFE (Immediately Invoked Function Expression)
+### 5. IIFE (Immediately Invoked Function Expression)
 
 This means that the function runs as soon as it is defined, here function expression is enclosed within _Grouping Operator ()_,
 
@@ -98,7 +96,7 @@ The purpose of wrapping is to the namespace and control the visibility of member
 })();
 ```
 
-### Function Constructors
+### 6. Function Constructors
 
 In JavaScript functions are first-class objects - a function is a regular object of type  `function`.  
 The ways of the declaration described above create the same function object type. Let’s see an example:
@@ -145,7 +143,7 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDExNDYyOCwtNjQwMDU1OTU5LC0xMj
+eyJoaXN0b3J5IjpbMjExOTg2MDYzOSwtNjQwMDU1OTU5LC0xMj
 M4ODE1OTYyLC0zMzA0NzgxMzAsMTU3OTI4ODQyOCw2NTIyODA3
 NTMsLTIyODU1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5LDEzMD
 g4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3
