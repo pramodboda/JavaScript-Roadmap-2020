@@ -49,6 +49,8 @@ Here’s an example:
 var a = function() {
    return 5;
 }
+
+
 ```
 
 ### Function Constructors
@@ -72,7 +74,13 @@ The function object type has a constructor:  [`Function`](https://developer.mozi
 When  `Function`  is invoked as a constructor  `new Function(arg1, arg2, ..., argN, bodyString)`, a new function is created. The arguments  `arg1, args2, ..., argN`passed to constructor become the parameter names for the new function and the last argument  `bodyString`  is used as the function body code.
 
 Let’s create a function that sums two numbers:
-
+```javascript
+const numberA = 'numberA', numberB = 'numberB';
+const sumFunction = new Function(numberA, numberB, 
+   'return numberA + numberB'
+);
+sumFunction(10, 15) // => 25
+```
 `sumFunction`  created with  `Function`  constructor invocation has parameters  `numberA`and  `numberB`  and the body  `return numberA + numberB`.
 
 The functions created this way don’t have access to the current scope, thus closures cannot be created. They are always created in the global scope.
@@ -94,7 +102,7 @@ console.log(checkNumber(50))
 // even
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjczNDI5MiwxMDc3NDA2NTYxLDE2Nj
+eyJoaXN0b3J5IjpbLTczNjc5NjY4NiwxMDc3NDA2NTYxLDE2Nj
 M5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0
 LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
 -->
