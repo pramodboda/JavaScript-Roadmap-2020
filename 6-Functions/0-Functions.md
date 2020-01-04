@@ -47,7 +47,26 @@ console.log(checkNumber(50));
 //"even"
 ```
 A function named `hello` is declared with an argument `name`, which logs a message in the console. As you can see from the example, since no type is specified on the argument it works for both string and number. But what if I just want my function to greet a name, not a number? Sadly there is no pre-built method of doing this in Javascript, so we have to manually check the type of the argument that’s passed in the function like this:
+```javascript
+function hello(name) {
+    if (typeof name === 'string'){
+        console.log("Hello " + name);
+    }else if(typeof name === "undefined"){
+        console.log(`Please input a text`);
+    }
+    else{
+        console.log("Please input a Name");
+    }
+}
 
+hello(12);
+// Please input a Name
+hello();
+// Please input a text
+hello("Pramod");
+//
+
+```
 ### 2. Anonymous Function Expression
 
 Anonymous functions are always loaded using a variable name. if you are not using a variable name for Anonymous function it thorws an error `SyntaxError: Function statements must have a name.`
@@ -162,11 +181,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDA0ODY3NywtMjEyMjc0NjYxMyw5Mz
-cyNDI3MDAsLTY0MDA1NTk1OSwtMTIzODgxNTk2MiwtMzMwNDc4
-MTMwLDE1NzkyODg0MjgsNjUyMjgwNzUzLC0yMjg1NTQ5NiwtOD
-YxNzM4NDgwLDg0Mzg2NjMzOSwxMzA4ODQwNzkwLDEwNzc0MDY1
-NjEsMTY2Mzk3OTcyNyw0OTE4ODg3NzQsLTI4NTAzMzAzLDE4MD
-IyNDkyMTQsMTg1Mjg1MTY2NCwxMzg1NTE5ODc5LC03NDIyMDE1
-NF19
+eyJoaXN0b3J5IjpbLTUzOTIwMDM5MCwtMjIwMDQ4Njc3LC0yMT
+IyNzQ2NjEzLDkzNzI0MjcwMCwtNjQwMDU1OTU5LC0xMjM4ODE1
+OTYyLC0zMzA0NzgxMzAsMTU3OTI4ODQyOCw2NTIyODA3NTMsLT
+IyODU1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5LDEzMDg4NDA3
+OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3NCwtMj
+g1MDMzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0LDEzODU1MTk4
+NzldfQ==
 -->
