@@ -21,10 +21,9 @@ Another way of defining functions in JavaScript is to use Immediately Invoked Fu
 
 ```javascript
 (function () {  
-var x = "Hello!!"; // I will invoke myself  
+	var x = "Hello!!"; // I will invoke myself  
 })();
 ```
-
 
 ### Anonymous Functions
 
@@ -48,7 +47,7 @@ var a = function() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjk1MzI5OCw0OTE4ODg3NzQsLTI4NT
+eyJoaXN0b3J5IjpbMTM0NTg2MTkwMCw0OTE4ODg3NzQsLTI4NT
 AzMzAzLDE4MDIyNDkyMTQsMTg1Mjg1MTY2NCwxMzg1NTE5ODc5
 LC03NDIyMDE1NF19
 -->
