@@ -121,10 +121,11 @@ let myName = function () {
 ```javascript
 //=== inch to cm ===
 const inchToCM = (inches) => {
-	return `${inches * 2.54}cm`;
+	return `${Math.round(inches * 2.54)}cm`;
 }
-inchToCM(22.04);
-//"55.9816cm"
+inchToCM(22);
+//"56cm"
+
 inchToCM(30);
 //"76.2cm"
 
@@ -210,11 +211,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTM1Nzc1NywtMTU3NjMyMjYzMCwtOT
-k1MTA0MDUsNDY1MTM2OTgsMTAzOTUzMzIzNywxODMwMTk0NjIx
-LDg0MDg0ODQ0MywxMTg5Mzk0NDU3LC0yMjAwNDg2NzcsLTIxMj
-I3NDY2MTMsOTM3MjQyNzAwLC02NDAwNTU5NTksLTEyMzg4MTU5
-NjIsLTMzMDQ3ODEzMCwxNTc5Mjg4NDI4LDY1MjI4MDc1MywtMj
-I4NTU0OTYsLTg2MTczODQ4MCw4NDM4NjYzMzksMTMwODg0MDc5
-MF19
+eyJoaXN0b3J5IjpbMjE1ODA0NTI1LDE0MTUzNTc3NTcsLTE1Nz
+YzMjI2MzAsLTk5NTEwNDA1LDQ2NTEzNjk4LDEwMzk1MzMyMzcs
+MTgzMDE5NDYyMSw4NDA4NDg0NDMsMTE4OTM5NDQ1NywtMjIwMD
+Q4Njc3LC0yMTIyNzQ2NjEzLDkzNzI0MjcwMCwtNjQwMDU1OTU5
+LC0xMjM4ODE1OTYyLC0zMzA0NzgxMzAsMTU3OTI4ODQyOCw2NT
+IyODA3NTMsLTIyODU1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5
+XX0=
 -->
