@@ -36,7 +36,7 @@ This is how JavaScript anonymous functions can be used:
 
 ```javascript
 var func = function() {
-   alert(‘This is anonymous');
+	alert(‘This is anonymous');
 }
 func();
 
@@ -47,14 +47,7 @@ var a = function() {
 }
 ```
 
-
-
-
-function display()
-      {
-         alert("Hello World!");
-      }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU2Mjk2NTcsMTgwMjI0OTIxNCwxOD
-UyODUxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0XX0=
+eyJoaXN0b3J5IjpbLTI4NTAzMzAzLDE4MDIyNDkyMTQsMTg1Mj
+g1MTY2NCwxMzg1NTE5ODc5LC03NDIyMDE1NF19
 -->
