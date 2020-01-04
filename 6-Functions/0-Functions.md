@@ -14,7 +14,7 @@ name(arguments);
 
 ## Different ways of declaring functions in JavaScript
 
-1. Immediately Invoked Function Expression (IIFE)
+1. IIFE (Immediately Invoked Function Expression)
 2. Function Declaration
 3. Anonymous Functions
 4. Anonymous Function Expression
@@ -22,7 +22,11 @@ name(arguments);
 6. Function Constructors
 
 
-### Immediately Invoked Function Expression (IIFE)
+## **IIFE (Immediately Invoked Function Expression)**
+
+This means that the function runs as soon as it is defined, here function expression is enclosed within _Grouping Operator ()_,
+
+Why do we need an IIFE in our typical function expression? We define the function and then call it sometime later any number of times, but what if I want to just call the function only once to produce an output and that's it — I don't want to use it again? This is where IIFE comes in. It is immediately executed and never ever in the future it is accessed by the program again. Since it is not called again, it doesn’t need a name, so an anonymous function expression is preferred for IIFE.
 
 Another way of defining functions in JavaScript is to use Immediately Invoked Functions. The purpose of wrapping is to the namespace and control the visibility of member functions. It wraps the code inside a function scope and decreases clashing with other libraries. This is what we call Immediately Invoked Function Expression (IIFE) or Self Executing Anonymous Function.
 
@@ -120,7 +124,8 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODg0MDc5MCwxMDc3NDA2NTYxLDE2Nj
-M5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0
-LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
+eyJoaXN0b3J5IjpbLTE5OTk2OTg2ODMsMTMwODg0MDc5MCwxMD
+c3NDA2NTYxLDE2NjM5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMw
+MywxODAyMjQ5MjE0LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNz
+QyMjAxNTRdfQ==
 -->
