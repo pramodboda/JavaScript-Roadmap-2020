@@ -22,7 +22,7 @@ name(arguments);
 6. Function Constructors
 
 
-## **IIFE (Immediately Invoked Function Expression)**
+### IIFE (Immediately Invoked Function Expression)
 
 This means that the function runs as soon as it is defined, here function expression is enclosed within _Grouping Operator ()_,
 
@@ -31,6 +31,8 @@ Why do we need an IIFE in our typical function expression? We define the functio
 Another way of defining functions in JavaScript is to use Immediately Invoked Functions. The purpose of wrapping is to the namespace and control the visibility of member functions. It wraps the code inside a function scope and decreases clashing with other libraries. This is what we call Immediately Invoked Function Expression (IIFE) or Self Executing Anonymous Function.
 
 ```javascript
+
+
 (function () {  
 	var x = "Hello!!"; // I will invoke myself  
 })();
@@ -124,7 +126,7 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk2OTg2ODMsMTMwODg0MDc5MCwxMD
+eyJoaXN0b3J5IjpbLTEzMzQyNjA5NjAsMTMwODg0MDc5MCwxMD
 c3NDA2NTYxLDE2NjM5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMw
 MywxODAyMjQ5MjE0LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNz
 QyMjAxNTRdfQ==
