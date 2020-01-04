@@ -77,8 +77,18 @@ myName()
 // ReferenceError: myName is not defined
 
 let myName =function () {
+	console.log(`My name is Pramod Boda`)
+}
+
+// Uncaught ReferenceError: Cannot access 'myName' before initialization at <anonymous>:1:1
+
+myFirstName();
+
+let myName =function () {
 console.log(`My name is Pramod Boda`)
 }
+VM165:1 
+    
 ```
 
 ### Function Constructors
@@ -120,8 +130,9 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODU1NDk2LC04NjE3Mzg0ODAsODQzOD
-Y2MzM5LDEzMDg4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3
-LDQ5MTg4ODc3NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwxODUyOD
-UxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0XX0=
+eyJoaXN0b3J5IjpbLTEyOTIxMTMxNDYsLTIyODU1NDk2LC04Nj
+E3Mzg0ODAsODQzODY2MzM5LDEzMDg4NDA3OTAsMTA3NzQwNjU2
+MSwxNjYzOTc5NzI3LDQ5MTg4ODc3NCwtMjg1MDMzMDMsMTgwMj
+I0OTIxNCwxODUyODUxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0
+XX0=
 -->
