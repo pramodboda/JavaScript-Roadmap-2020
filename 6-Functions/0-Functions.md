@@ -28,7 +28,7 @@ function(){...}
 
 ### Anonymous Functions
 
-Anonymous functions are always loaded using a variable name. Anonymous, as the name suggests, allows creating a function without any names identifier. It can be used as an argument to other functions. Call them using a variable name:
+Anonymous functions are always loaded using a variable name. if you not using a variable name for Anonymous function it thorws an . Anonymous, as the name suggests, allows creating a function without any names identifier. It can be used as an argument to other functions. Call them using a variable name:
 
 This is how JavaScript anonymous functions can be used:
 
@@ -49,6 +49,6 @@ function Display()
          alert("Hello World!");
       }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTA2MTQ3ODAsMTgwMjI0OTIxNCwxOD
-UyODUxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0XX0=
+eyJoaXN0b3J5IjpbMTc0NDk1ODM5MiwxODAyMjQ5MjE0LDE4NT
+I4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
 -->
