@@ -125,8 +125,7 @@ let myName = function () {
 const inchToCM = (inches) => {
 	return `${Math.round(inches * 2.54)}cm`;
 }
-//same as aboue but use when it has only one argument, if you have more than one argument you should use pranthasis()
-
+//same as aboue but use when it has only one argument, If you have more than one argument you should use pranthasis()
 const inchToCM = inches => `${Math.round(inches * 2.54)}cm`;
 
 inchToCM(22);
@@ -138,7 +137,7 @@ inchToCM(30);
 const cmToInch = (cm) => {
 	return `${Math.round(cm * 0.39370)}in`;
 }
-//same as aboue but use when it has only one argument
+//same as aboue but use when it has only one argument, if you have more than one argument you should use pranthasis()
 const cmToInch = cm => `${Math.round(cm * 0.39370)}in`;
 
 cmToInch(56);
@@ -218,11 +217,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk2MDgzNjYsMjAzMzEwNzI0MCwtNj
-c2NzQzMzQ0LDE0ODY4NjA5NDAsMTQxNTM1Nzc1NywtMTU3NjMy
-MjYzMCwtOTk1MTA0MDUsNDY1MTM2OTgsMTAzOTUzMzIzNywxOD
-MwMTk0NjIxLDg0MDg0ODQ0MywxMTg5Mzk0NDU3LC0yMjAwNDg2
-NzcsLTIxMjI3NDY2MTMsOTM3MjQyNzAwLC02NDAwNTU5NTksLT
-EyMzg4MTU5NjIsLTMzMDQ3ODEzMCwxNTc5Mjg4NDI4LDY1MjI4
-MDc1M119
+eyJoaXN0b3J5IjpbMTk4OTM2Nzg4MCwyMDMzMTA3MjQwLC02Nz
+Y3NDMzNDQsMTQ4Njg2MDk0MCwxNDE1MzU3NzU3LC0xNTc2MzIy
+NjMwLC05OTUxMDQwNSw0NjUxMzY5OCwxMDM5NTMzMjM3LDE4Mz
+AxOTQ2MjEsODQwODQ4NDQzLDExODkzOTQ0NTcsLTIyMDA0ODY3
+NywtMjEyMjc0NjYxMyw5MzcyNDI3MDAsLTY0MDA1NTk1OSwtMT
+IzODgxNTk2MiwtMzMwNDc4MTMwLDE1NzkyODg0MjgsNjUyMjgw
+NzUzXX0=
 -->
