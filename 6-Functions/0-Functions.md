@@ -14,10 +14,10 @@ name(arguments);
 
 ## Different ways of declaring functions in JavaScript
 
-1. IIFE (Immediately Invoked Function Expression)
-2. Function Declaration
-4. Anonymous Function Expression
-5. Named Function Expression
+1. Function Declaration
+3. Anonymous Function Expression
+4. Named Function Expression
+5. IIFE (Immediately Invoked Function Expression)
 6. Function Constructors
 
 
@@ -127,9 +127,9 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMzMwNTU5LDY1MjI4MDc1MywtMjI4NT
-U0OTYsLTg2MTczODQ4MCw4NDM4NjYzMzksMTMwODg0MDc5MCwx
-MDc3NDA2NTYxLDE2NjM5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMz
-MwMywxODAyMjQ5MjE0LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwt
-NzQyMjAxNTRdfQ==
+eyJoaXN0b3J5IjpbLTE4MzYzMjk0Niw2NTIyODA3NTMsLTIyOD
+U1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5LDEzMDg4NDA3OTAs
+MTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3NCwtMjg1MD
+MzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0LDEzODU1MTk4Nzks
+LTc0MjIwMTU0XX0=
 -->
