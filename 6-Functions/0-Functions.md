@@ -21,9 +21,8 @@ name(arguments);
 6. Function Constructors
 
 
-
-
 ### Anonymous Function Expression
+
 Anonymous functions are always loaded using a variable name. if you are not using a variable name for Anonymous function it thorws an error `SyntaxError: Function statements must have a name.`
 
  Anonymous, as the name suggests, allows creating a function without any names identifier. It can be used as an argument to other functions. Call them using a variable name:
@@ -40,6 +39,7 @@ console.log(checkNumber(50))
 // even
 ```
 ### Named Function Expression
+
 A function expression is very similar to, and has almost the same syntax as, a function statement. The main difference is that a function expression does not start with the keyword `function` and the `name` of the function is also optional, in which case it becomes an _Anonymous Function_. If the function has a `name` then it is called _Named Function Expression_**.**
 ```javascript
 let checkNumber = function check (num){
@@ -136,9 +136,9 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwNTY1NDQyLC0zMzA0NzgxMzAsMTU3OT
-I4ODQyOCw2NTIyODA3NTMsLTIyODU1NDk2LC04NjE3Mzg0ODAs
-ODQzODY2MzM5LDEzMDg4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOT
-c5NzI3LDQ5MTg4ODc3NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwx
-ODUyODUxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0XX0=
+eyJoaXN0b3J5IjpbLTEyMzg4MTU5NjIsLTMzMDQ3ODEzMCwxNT
+c5Mjg4NDI4LDY1MjI4MDc1MywtMjI4NTU0OTYsLTg2MTczODQ4
+MCw4NDM4NjYzMzksMTMwODg0MDc5MCwxMDc3NDA2NTYxLDE2Nj
+M5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0
+LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
 -->
