@@ -1,5 +1,7 @@
 # Functions
 
+Functions are one of the key components in programming. They are defined to perform a specific task and can be called again and again to execute. The main difference between functions in Javascript and other programming languages is that in javascript functions are of first-class objects, which means that they behave like objects and can be assigned to variables, array, and other objects.
+
 Functions are nothing but set of statements in a block.
 ```javascript
 function name(parameters){
@@ -135,9 +137,9 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTI4ODQyOCw2NTIyODA3NTMsLTIyOD
-U1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5LDEzMDg4NDA3OTAs
-MTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3NCwtMjg1MD
-MzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0LDEzODU1MTk4Nzks
-LTc0MjIwMTU0XX0=
+eyJoaXN0b3J5IjpbLTMzMDQ3ODEzMCwxNTc5Mjg4NDI4LDY1Mj
+I4MDc1MywtMjI4NTU0OTYsLTg2MTczODQ4MCw4NDM4NjYzMzks
+MTMwODg0MDc5MCwxMDc3NDA2NTYxLDE2NjM5Nzk3MjcsNDkxOD
+g4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0LDE4NTI4NTE2NjQs
+MTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
 -->
