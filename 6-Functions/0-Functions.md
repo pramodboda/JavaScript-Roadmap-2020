@@ -81,8 +81,20 @@ One  _possible_  application of  `new Function`  is a  [better way](https://twit
 
 Remember that functions  **almost never**  should be declared using  `new Function()`. Because the function body is evaluated on runtime, this approach inherits many  `eval()`  usage  [problems](http://stackoverflow.com/a/86580/1894471): security risks, harder debugging, no way to apply engine optimizations, no editor auto-complete.
 
+
+
+let checkNumber = function check (num){
+
+return (num %2==0)?"even" : "odd"
+
+}
+
+console.log(checkNumber(50))
+
+// even
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MT
-g4ODc3NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0
-LDEzODU1MTk4NzksLTc0MjIwMTU0XX0=
+eyJoaXN0b3J5IjpbMTI1MjczNDI5MiwxMDc3NDA2NTYxLDE2Nj
+M5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0
+LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
 -->
