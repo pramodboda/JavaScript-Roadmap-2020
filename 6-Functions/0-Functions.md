@@ -15,12 +15,15 @@ name(arguments);
 ## Different ways of declaring functions in JavaScript?
 
 
+```javascript
+
+```
 
 function Display()
       {
          alert("Hello World!");
       }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzMwNjQ3OCwxODUyODUxNjY0LDEzOD
-U1MTk4NzksLTc0MjIwMTU0XX0=
+eyJoaXN0b3J5IjpbNDI3NzkwODM1LDE4NTI4NTE2NjQsMTM4NT
+UxOTg3OSwtNzQyMjAxNTRdfQ==
 -->
