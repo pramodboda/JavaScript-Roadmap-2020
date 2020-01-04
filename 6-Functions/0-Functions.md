@@ -16,7 +16,7 @@ name(arguments);
 
 1. Immediately Invoked Function Expression (IIFE)
 2. Anonymous Functions
-3. 
+3. Function Declaration
 4. Function Constructors
 
 
@@ -82,7 +82,7 @@ One  _possible_  application of  `new Function`  is a  [better way](https://twit
 Remember that functions  **almost never**  should be declared using  `new Function()`. Because the function body is evaluated on runtime, this approach inherits many  `eval()`  usage  [problems](http://stackoverflow.com/a/86580/1894471): security risks, harder debugging, no way to apply engine optimizations, no editor auto-complete.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1MTQ0MjM5LDE2NjM5Nzk3MjcsNDkxOD
-g4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0LDE4NTI4NTE2NjQs
-MTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
+eyJoaXN0b3J5IjpbMTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MT
+g4ODc3NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0
+LDEzODU1MTk4NzksLTc0MjIwMTU0XX0=
 -->
