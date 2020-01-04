@@ -125,6 +125,9 @@ let myName = function () {
 const inchToCM = (inches) => {
 	return `${Math.round(inches * 2.54)}cm`;
 }
+//same
+const inchToCM = (inches) => `${Math.round(inches * 2.54)}cm`;
+
 inchToCM(22);
 //"56cm"
 inchToCM(30);
@@ -134,6 +137,9 @@ inchToCM(30);
 const cmToInch = (cm) => {
 	return `${Math.round(cm * 0.39370)}in`;
 }
+//same
+const cmToInch = (cm) => `${Math.round(cm * 0.39370)}in`;
+
 cmToInch(56);
 //"22in"
 cmToInch(76);
@@ -211,11 +217,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Njg2MDk0MCwxNDE1MzU3NzU3LC0xNT
-c2MzIyNjMwLC05OTUxMDQwNSw0NjUxMzY5OCwxMDM5NTMzMjM3
-LDE4MzAxOTQ2MjEsODQwODQ4NDQzLDExODkzOTQ0NTcsLTIyMD
-A0ODY3NywtMjEyMjc0NjYxMyw5MzcyNDI3MDAsLTY0MDA1NTk1
-OSwtMTIzODgxNTk2MiwtMzMwNDc4MTMwLDE1NzkyODg0MjgsNj
-UyMjgwNzUzLC0yMjg1NTQ5NiwtODYxNzM4NDgwLDg0Mzg2NjMz
-OV19
+eyJoaXN0b3J5IjpbLTY3Njc0MzM0NCwxNDg2ODYwOTQwLDE0MT
+UzNTc3NTcsLTE1NzYzMjI2MzAsLTk5NTEwNDA1LDQ2NTEzNjk4
+LDEwMzk1MzMyMzcsMTgzMDE5NDYyMSw4NDA4NDg0NDMsMTE4OT
+M5NDQ1NywtMjIwMDQ4Njc3LC0yMTIyNzQ2NjEzLDkzNzI0Mjcw
+MCwtNjQwMDU1OTU5LC0xMjM4ODE1OTYyLC0zMzA0NzgxMzAsMT
+U3OTI4ODQyOCw2NTIyODA3NTMsLTIyODU1NDk2LC04NjE3Mzg0
+ODBdfQ==
 -->
