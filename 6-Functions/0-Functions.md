@@ -44,7 +44,6 @@ The purpose of wrapping is to the namespace and control the visibility of member
 ```
 
 ### Anonymous Functions
-
 Anonymous functions are always loaded using a variable name. if you are not using a variable name for Anonymous function it thorws an error `SyntaxError: Function statements must have a name.`
 
  Anonymous, as the name suggests, allows creating a function without any names identifier. It can be used as an argument to other functions. Call them using a variable name:
@@ -52,6 +51,7 @@ Anonymous functions are always loaded using a variable name. if you are not usin
 This is how JavaScript anonymous functions can be used:
 
 ```javascript
+//Anonymous Function Expression
 var func = function() {
 	alert(‘This is anonymous');
 }
@@ -62,10 +62,7 @@ Here’s an example:
 var a = function() {
    return 5;
 }
-
-
 ```
-
 
 ### Anonymous Function Expression
 anonymous way of defining
@@ -128,8 +125,8 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzE3NDk0MTUsODQzODY2MzM5LDEzMD
-g4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3
-NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0LDEzOD
-U1MTk4NzksLTc0MjIwMTU0XX0=
+eyJoaXN0b3J5IjpbNjk5OTE1MzIyLDg0Mzg2NjMzOSwxMzA4OD
+QwNzkwLDEwNzc0MDY1NjEsMTY2Mzk3OTcyNyw0OTE4ODg3NzQs
+LTI4NTAzMzAzLDE4MDIyNDkyMTQsMTg1Mjg1MTY2NCwxMzg1NT
+E5ODc5LC03NDIyMDE1NF19
 -->
