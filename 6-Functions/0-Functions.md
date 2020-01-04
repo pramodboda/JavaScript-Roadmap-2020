@@ -28,6 +28,8 @@ The function declaration  **creates a variable**  in the current scope with the 
 
 The function variable is  **hoisted**  up to the top of the current scope, which means that the function can be invoked before the declaration
 
+```javascript
+```
 
 ### 2. Anonymous Function Expression
 
@@ -143,10 +145,10 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTg2MDYzOSwtNjQwMDU1OTU5LC0xMj
-M4ODE1OTYyLC0zMzA0NzgxMzAsMTU3OTI4ODQyOCw2NTIyODA3
-NTMsLTIyODU1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5LDEzMD
-g4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3
-NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0LDEzOD
-U1MTk4NzksLTc0MjIwMTU0XX0=
+eyJoaXN0b3J5IjpbOTM3MjQyNzAwLC02NDAwNTU5NTksLTEyMz
+g4MTU5NjIsLTMzMDQ3ODEzMCwxNTc5Mjg4NDI4LDY1MjI4MDc1
+MywtMjI4NTU0OTYsLTg2MTczODQ4MCw4NDM4NjYzMzksMTMwOD
+g0MDc5MCwxMDc3NDA2NTYxLDE2NjM5Nzk3MjcsNDkxODg4Nzc0
+LC0yODUwMzMwMywxODAyMjQ5MjE0LDE4NTI4NTE2NjQsMTM4NT
+UxOTg3OSwtNzQyMjAxNTRdfQ==
 -->
