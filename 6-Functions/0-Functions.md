@@ -120,7 +120,7 @@ let myName = function () {
 ### 3. Arrow Function
 ```javascript
 const inchToCM = (inches) => {
-	return inches * 2.54;
+	return `${inches * 2.54}`;
 }
 
 
@@ -137,6 +137,9 @@ const cmToInch = (cm) => {
 }
 cmToInch(56);
 //"22.0472in"
+
+cmToInch(76);
+//"29.9212in"
 ```
 
 ### 5. IIFE (Immediately Invoked Function Expression)
@@ -210,11 +213,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTgxMzAwLDEwMzk1MzMyMzcsMTgzMD
-E5NDYyMSw4NDA4NDg0NDMsMTE4OTM5NDQ1NywtMjIwMDQ4Njc3
-LC0yMTIyNzQ2NjEzLDkzNzI0MjcwMCwtNjQwMDU1OTU5LC0xMj
-M4ODE1OTYyLC0zMzA0NzgxMzAsMTU3OTI4ODQyOCw2NTIyODA3
-NTMsLTIyODU1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5LDEzMD
-g4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3
-NF19
+eyJoaXN0b3J5IjpbNDY1MTM2OTgsMTAzOTUzMzIzNywxODMwMT
+k0NjIxLDg0MDg0ODQ0MywxMTg5Mzk0NDU3LC0yMjAwNDg2Nzcs
+LTIxMjI3NDY2MTMsOTM3MjQyNzAwLC02NDAwNTU5NTksLTEyMz
+g4MTU5NjIsLTMzMDQ3ODEzMCwxNTc5Mjg4NDI4LDY1MjI4MDc1
+MywtMjI4NTU0OTYsLTg2MTczODQ4MCw4NDM4NjYzMzksMTMwOD
+g0MDc5MCwxMDc3NDA2NTYxLDE2NjM5Nzk3MjcsNDkxODg4Nzc0
+XX0=
 -->
