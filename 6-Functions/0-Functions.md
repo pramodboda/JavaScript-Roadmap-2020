@@ -124,6 +124,11 @@ const inchToCM = (inches) => {
 }
 
 
+const cmToInch = (cm) => {
+	return cm * 0.39370;
+}
+cmToInch(56);
+// 22.0472
 ```
 
 ### 5. IIFE (Immediately Invoked Function Expression)
@@ -197,7 +202,7 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjA2NTM1OCwxODMwMTk0NjIxLDg0MD
+eyJoaXN0b3J5IjpbMTAzOTUzMzIzNywxODMwMTk0NjIxLDg0MD
 g0ODQ0MywxMTg5Mzk0NDU3LC0yMjAwNDg2NzcsLTIxMjI3NDY2
 MTMsOTM3MjQyNzAwLC02NDAwNTU5NTksLTEyMzg4MTU5NjIsLT
 MzMDQ3ODEzMCwxNTc5Mjg4NDI4LDY1MjI4MDc1MywtMjI4NTU0
