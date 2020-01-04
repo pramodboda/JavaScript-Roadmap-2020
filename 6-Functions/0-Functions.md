@@ -28,27 +28,33 @@ function(){...}
 
 ### Anonymous Functions
 
-Anonymous functions are always loaded using a variable name. if you not using a variable name for Anonymous function it thorws an error `SyntaxError: Function statements must have a name.` Anonymous, as the name suggests, allows creating a function without any names identifier. It can be used as an argument to other functions. Call them using a variable name:
+Anonymous functions are always loaded using a variable name. if you not using a variable name for Anonymous function it thorws an error `SyntaxError: Function statements must have a name.`
+
+ Anonymous, as the name suggests, allows creating a function without any names identifier. It can be used as an argument to other functions. Call them using a variable name:
 
 This is how JavaScript anonymous functions can be used:
 
+```javascript
 var func = function() {
    alert(‘This is anonymous');
 }
 func();
 
 Here’s an example:
-
 //anonymous function
 var a = function() {
    return 5;
 }
+```
 
-function Display()
+
+
+
+function display()
       {
          alert("Hello World!");
       }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5NDg5MDc0LDE4MDIyNDkyMTQsMTg1Mj
-g1MTY2NCwxMzg1NTE5ODc5LC03NDIyMDE1NF19
+eyJoaXN0b3J5IjpbLTE4NzU2Mjk2NTcsMTgwMjI0OTIxNCwxOD
+UyODUxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0XX0=
 -->
