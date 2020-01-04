@@ -57,8 +57,28 @@ var a = function() {
 
 
 ### Anonymous Function Expression
+```javascript
+//Anonymous Function
+let checkNumber = function (num){
+	return (num %2==0)?"even" : "odd"
+}
+
+console.log(checkNumber(50))
+// even
+```
 
 ### Named Function Expression
+```javascript
+let checkNumber = function check (num){
+	return (num %2==0)?"even" : "odd"
+}
+
+console.log(checkNumber(50))
+// even
+```
+
+
+
 
 ### Function Constructors
 
@@ -109,7 +129,7 @@ console.log(checkNumber(50))
 // even
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzEyNzc5MywxMDc3NDA2NTYxLDE2Nj
-M5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0
-LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
+eyJoaXN0b3J5IjpbNDM4OTIyODIwLDEwNzc0MDY1NjEsMTY2Mz
+k3OTcyNyw0OTE4ODg3NzQsLTI4NTAzMzAzLDE4MDIyNDkyMTQs
+MTg1Mjg1MTY2NCwxMzg1NTE5ODc5LC03NDIyMDE1NF19
 -->
