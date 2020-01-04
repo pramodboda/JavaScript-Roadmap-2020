@@ -136,7 +136,8 @@ const cmToInch = (cm) => {
 }
 cmToInch(56);
 //"22in"
-
+cmToInch(76);
+//"30in"
 ```
 
 ### 5. IIFE (Immediately Invoked Function Expression)
@@ -210,7 +211,7 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzY2MzYxMiwxNDE1MzU3NzU3LC0xNT
+eyJoaXN0b3J5IjpbMTQ4Njg2MDk0MCwxNDE1MzU3NzU3LC0xNT
 c2MzIyNjMwLC05OTUxMDQwNSw0NjUxMzY5OCwxMDM5NTMzMjM3
 LDE4MzAxOTQ2MjEsODQwODQ4NDQzLDExODkzOTQ0NTcsLTIyMD
 A0ODY3NywtMjEyMjc0NjYxMyw5MzcyNDI3MDAsLTY0MDA1NTk1
