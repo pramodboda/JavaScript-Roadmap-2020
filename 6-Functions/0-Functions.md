@@ -123,6 +123,9 @@ let myName = function () {
 const inchToCM = (inches) => {
 	return `${inches * 2.54}cm`;
 }
+undefined
+inchToCM(22.04);
+//"55.9816cm"
 
 
 //cm to inch
@@ -207,11 +210,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTEwNDA1LDQ2NTEzNjk4LDEwMzk1Mz
-MyMzcsMTgzMDE5NDYyMSw4NDA4NDg0NDMsMTE4OTM5NDQ1Nywt
-MjIwMDQ4Njc3LC0yMTIyNzQ2NjEzLDkzNzI0MjcwMCwtNjQwMD
-U1OTU5LC0xMjM4ODE1OTYyLC0zMzA0NzgxMzAsMTU3OTI4ODQy
-OCw2NTIyODA3NTMsLTIyODU1NDk2LC04NjE3Mzg0ODAsODQzOD
-Y2MzM5LDEzMDg4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3
+eyJoaXN0b3J5IjpbLTYyODcwNzcwMiwtOTk1MTA0MDUsNDY1MT
+M2OTgsMTAzOTUzMzIzNywxODMwMTk0NjIxLDg0MDg0ODQ0Mywx
+MTg5Mzk0NDU3LC0yMjAwNDg2NzcsLTIxMjI3NDY2MTMsOTM3Mj
+QyNzAwLC02NDAwNTU5NTksLTEyMzg4MTU5NjIsLTMzMDQ3ODEz
+MCwxNTc5Mjg4NDI4LDY1MjI4MDc1MywtMjI4NTU0OTYsLTg2MT
+czODQ4MCw4NDM4NjYzMzksMTMwODg0MDc5MCwxMDc3NDA2NTYx
 XX0=
 -->
