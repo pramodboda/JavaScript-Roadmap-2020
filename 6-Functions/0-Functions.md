@@ -16,7 +16,6 @@ name(arguments);
 
 1. IIFE (Immediately Invoked Function Expression)
 2. Function Declaration
-3. Anonymous Functions
 4. Anonymous Function Expression
 5. Named Function Expression
 6. Function Constructors
@@ -51,20 +50,6 @@ Anonymous functions are always loaded using a variable name. if you are not usin
 This is how JavaScript anonymous functions can be used:
 
 ```javascript
-//Anonymous Function Expression
-var func = function() {
-	alert(‘This is anonymous');
-}
-func();
-
-Here’s an example:
-//anonymous function
-var a = function() {
-   return 5;
-}
-```
-anonymous way of defining
-```javascript
 //Anonymous Function
 let checkNumber = function (num){
 	return (num %2==0)?"even" : "odd"
@@ -73,6 +58,7 @@ let checkNumber = function (num){
 console.log(checkNumber(50))
 // even
 ```
+
 
 ### Named Function Expression
 ```javascript
@@ -123,8 +109,8 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY5NTg1MTMsODQzODY2MzM5LDEzMD
-g4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3
-NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0LDEzOD
-U1MTk4NzksLTc0MjIwMTU0XX0=
+eyJoaXN0b3J5IjpbLTg2MTczODQ4MCw4NDM4NjYzMzksMTMwOD
+g0MDc5MCwxMDc3NDA2NTYxLDE2NjM5Nzk3MjcsNDkxODg4Nzc0
+LC0yODUwMzMwMywxODAyMjQ5MjE0LDE4NTI4NTE2NjQsMTM4NT
+UxOTg3OSwtNzQyMjAxNTRdfQ==
 -->
