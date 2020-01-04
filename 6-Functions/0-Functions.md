@@ -64,7 +64,7 @@ hello(12);
 hello();
 // Please input a text
 hello("Pramod");
-//
+// Hello Pramod
 
 ```
 ### 2. Anonymous Function Expression
@@ -181,7 +181,7 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTIwMDM5MCwtMjIwMDQ4Njc3LC0yMT
+eyJoaXN0b3J5IjpbMTE4OTM5NDQ1NywtMjIwMDQ4Njc3LC0yMT
 IyNzQ2NjEzLDkzNzI0MjcwMCwtNjQwMDU1OTU5LC0xMjM4ODE1
 OTYyLC0zMzA0NzgxMzAsMTU3OTI4ODQyOCw2NTIyODA3NTMsLT
 IyODU1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5LDEzMDg4NDA3
