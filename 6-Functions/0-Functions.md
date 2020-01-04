@@ -137,7 +137,7 @@ inchToCM(30);
 const cmToInch = (cm) => {
 	return `${Math.round(cm * 0.39370)}in`;
 }
-//same
+//same but use when it has only one argument
 const cmToInch = (cm) => `${Math.round(cm * 0.39370)}in`;
 
 cmToInch(56);
@@ -217,11 +217,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Njc0MzM0NCwxNDg2ODYwOTQwLDE0MT
-UzNTc3NTcsLTE1NzYzMjI2MzAsLTk5NTEwNDA1LDQ2NTEzNjk4
-LDEwMzk1MzMyMzcsMTgzMDE5NDYyMSw4NDA4NDg0NDMsMTE4OT
-M5NDQ1NywtMjIwMDQ4Njc3LC0yMTIyNzQ2NjEzLDkzNzI0Mjcw
-MCwtNjQwMDU1OTU5LC0xMjM4ODE1OTYyLC0zMzA0NzgxMzAsMT
-U3OTI4ODQyOCw2NTIyODA3NTMsLTIyODU1NDk2LC04NjE3Mzg0
-ODBdfQ==
+eyJoaXN0b3J5IjpbMTI4NjUxNTUzOCwtNjc2NzQzMzQ0LDE0OD
+Y4NjA5NDAsMTQxNTM1Nzc1NywtMTU3NjMyMjYzMCwtOTk1MTA0
+MDUsNDY1MTM2OTgsMTAzOTUzMzIzNywxODMwMTk0NjIxLDg0MD
+g0ODQ0MywxMTg5Mzk0NDU3LC0yMjAwNDg2NzcsLTIxMjI3NDY2
+MTMsOTM3MjQyNzAwLC02NDAwNTU5NTksLTEyMzg4MTU5NjIsLT
+MzMDQ3ODEzMCwxNTc5Mjg4NDI4LDY1MjI4MDc1MywtMjI4NTU0
+OTZdfQ==
 -->
