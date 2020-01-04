@@ -15,8 +15,11 @@ name(arguments);
 ## Different ways of declaring functions in JavaScript?
 
 
+### Immediately Invoked Function Expression (IIFE)
 ```javascript
-
+(function () {  
+var x = "Hello!!"; // I will invoke myself  
+})();
 ```
 
 function Display()
@@ -24,6 +27,6 @@ function Display()
          alert("Hello World!");
       }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3NzkwODM1LDE4NTI4NTE2NjQsMTM4NT
-UxOTg3OSwtNzQyMjAxNTRdfQ==
+eyJoaXN0b3J5IjpbMTgwMjI0OTIxNCwxODUyODUxNjY0LDEzOD
+U1MTk4NzksLTc0MjIwMTU0XX0=
 -->
