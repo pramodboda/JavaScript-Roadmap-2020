@@ -2,6 +2,8 @@
 
 https://medium.com/better-programming/three-ways-to-define-functions-in-javascript-750a908e51d9 
 
+https://dmitripavlutin.com/6-ways-to-declare-javascript-functions/#5-generator-function
+
 Functions are one of the key components in programming. They are defined to perform a specific task and can be called again and again to execute. The main difference between functions in Javascript and other programming languages is that in javascript functions are of first-class objects, which means that they behave like objects and can be assigned to variables, array, and other objects.
 
 Functions are nothing but set of statements in a block.
@@ -182,12 +184,15 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTgzMDk2MCwxMTg5Mzk0NDU3LC0yMj
-AwNDg2NzcsLTIxMjI3NDY2MTMsOTM3MjQyNzAwLC02NDAwNTU5
-NTksLTEyMzg4MTU5NjIsLTMzMDQ3ODEzMCwxNTc5Mjg4NDI4LD
-Y1MjI4MDc1MywtMjI4NTU0OTYsLTg2MTczODQ4MCw4NDM4NjYz
-MzksMTMwODg0MDc5MCwxMDc3NDA2NTYxLDE2NjM5Nzk3MjcsND
-kxODg4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0LDE4NTI4NTE2
-NjRdfQ==
+eyJoaXN0b3J5IjpbODQwODQ4NDQzLDExODkzOTQ0NTcsLTIyMD
+A0ODY3NywtMjEyMjc0NjYxMyw5MzcyNDI3MDAsLTY0MDA1NTk1
+OSwtMTIzODgxNTk2MiwtMzMwNDc4MTMwLDE1NzkyODg0MjgsNj
+UyMjgwNzUzLC0yMjg1NTQ5NiwtODYxNzM4NDgwLDg0Mzg2NjMz
+OSwxMzA4ODQwNzkwLDEwNzc0MDY1NjEsMTY2Mzk3OTcyNyw0OT
+E4ODg3NzQsLTI4NTAzMzAzLDE4MDIyNDkyMTQsMTg1Mjg1MTY2
+NF19
 -->
