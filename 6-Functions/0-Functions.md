@@ -119,6 +119,7 @@ let myName = function () {
 ```
 ### 3. Arrow Function
 ```javascript
+// Math.round for 
 //=== inch to cm ===
 const inchToCM = (inches) => {
 	return `${Math.round(inches * 2.54)}cm`;
@@ -210,11 +211,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3MTc0MDc1LDE0MTUzNTc3NTcsLTE1Nz
-YzMjI2MzAsLTk5NTEwNDA1LDQ2NTEzNjk4LDEwMzk1MzMyMzcs
-MTgzMDE5NDYyMSw4NDA4NDg0NDMsMTE4OTM5NDQ1NywtMjIwMD
-Q4Njc3LC0yMTIyNzQ2NjEzLDkzNzI0MjcwMCwtNjQwMDU1OTU5
-LC0xMjM4ODE1OTYyLC0zMzA0NzgxMzAsMTU3OTI4ODQyOCw2NT
-IyODA3NTMsLTIyODU1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5
-XX0=
+eyJoaXN0b3J5IjpbLTEzMjMzNDIwODYsMTQxNTM1Nzc1NywtMT
+U3NjMyMjYzMCwtOTk1MTA0MDUsNDY1MTM2OTgsMTAzOTUzMzIz
+NywxODMwMTk0NjIxLDg0MDg0ODQ0MywxMTg5Mzk0NDU3LC0yMj
+AwNDg2NzcsLTIxMjI3NDY2MTMsOTM3MjQyNzAwLC02NDAwNTU5
+NTksLTEyMzg4MTU5NjIsLTMzMDQ3ODEzMCwxNTc5Mjg4NDI4LD
+Y1MjI4MDc1MywtMjI4NTU0OTYsLTg2MTczODQ4MCw4NDM4NjYz
+MzldfQ==
 -->
