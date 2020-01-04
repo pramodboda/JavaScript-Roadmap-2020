@@ -15,8 +15,9 @@ name(arguments);
 ## Different ways of declaring functions in JavaScript
 
 1. Function Declaration
-3. Anonymous Function Expression
-4. Named Function Expression
+2. Anonymous Function Expression
+3. Named Function Expression
+4. Arrow Function
 5. IIFE (Immediately Invoked Function Expression)
 6. Function Constructors
 
@@ -136,9 +137,10 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzg4MTU5NjIsLTMzMDQ3ODEzMCwxNT
-c5Mjg4NDI4LDY1MjI4MDc1MywtMjI4NTU0OTYsLTg2MTczODQ4
-MCw4NDM4NjYzMzksMTMwODg0MDc5MCwxMDc3NDA2NTYxLDE2Nj
-M5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0
-LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
+eyJoaXN0b3J5IjpbLTY0MDA1NTk1OSwtMTIzODgxNTk2MiwtMz
+MwNDc4MTMwLDE1NzkyODg0MjgsNjUyMjgwNzUzLC0yMjg1NTQ5
+NiwtODYxNzM4NDgwLDg0Mzg2NjMzOSwxMzA4ODQwNzkwLDEwNz
+c0MDY1NjEsMTY2Mzk3OTcyNyw0OTE4ODg3NzQsLTI4NTAzMzAz
+LDE4MDIyNDkyMTQsMTg1Mjg1MTY2NCwxMzg1NTE5ODc5LC03ND
+IyMDE1NF19
 -->
