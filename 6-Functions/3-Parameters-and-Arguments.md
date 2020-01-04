@@ -12,10 +12,11 @@ function calculateBill(originalPrice, discount){
     return `Price After Discount : ${afterDiscountPrice}, You saved: ${youSaved}`;
 }
 
+
 calculateBill(1175,15);
 //"Price After Discount : 998.75, You saved: 176.25"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1ODYyMTk1LDIwOTI2NDI0NTMsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbMTI0Mjk3MDAxNyw5ODU4NjIxOTUsMjA5Mj
+Y0MjQ1Myw3MzA5OTgxMTZdfQ==
 -->
