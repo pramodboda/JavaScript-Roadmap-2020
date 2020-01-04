@@ -12,7 +12,11 @@ name(arguments);
 
 
 
-## Different ways of declaring functions in JavaScript?
+## Different ways of declaring functions in JavaScript
+
+1. Immediately Invoked Function Expression (IIFE)
+2. Anonymous Functions
+3. 
 
 
 ### Immediately Invoked Function Expression (IIFE)
@@ -47,7 +51,7 @@ var a = function() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTg2MTkwMCw0OTE4ODg3NzQsLTI4NT
+eyJoaXN0b3J5IjpbMTY2Mzk3OTcyNyw0OTE4ODg3NzQsLTI4NT
 AzMzAzLDE4MDIyNDkyMTQsMTg1Mjg1MTY2NCwxMzg1NTE5ODc5
 LC03NDIyMDE1NF19
 -->
