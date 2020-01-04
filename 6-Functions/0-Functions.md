@@ -5,7 +5,7 @@ Functions are nothing but set of statements in a block.
 function name(parameters){
 ...statements ...
 }
-
+//To invoke our function, we call it.
 name(arguments);
 ```
 
@@ -21,6 +21,6 @@ function Display()
          alert("Hello World!");
       }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMTU2NzAsMTg1Mjg1MTY2NCwxMzg1NT
-E5ODc5LC03NDIyMDE1NF19
+eyJoaXN0b3J5IjpbLTU5MzMwNjQ3OCwxODUyODUxNjY0LDEzOD
+U1MTk4NzksLTc0MjIwMTU0XX0=
 -->
