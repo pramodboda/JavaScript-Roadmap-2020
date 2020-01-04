@@ -71,7 +71,14 @@ console.log(checkNumber(50))
 ```
 
 _An important point of difference between Function Declaration and Function Expression is that there is no hoisting in Function Expression. If you try the same program as the one in hoisting Function Declaration, you’ll encounter an error._
+```javascript
+myName();
 
+function myName() {
+	console.log(`My name is Pramod Boda`)
+}
+//My name is Pramod Boda 
+```
 ```javascript
 myName()
 // ReferenceError: myName is not defined
@@ -79,16 +86,7 @@ myName()
 let myName =function () {
 	console.log(`My name is Pramod Boda`)
 }
-
 // Uncaught ReferenceError: Cannot access 'myName' before initialization at <anonymous>:1:1
-
-myFirstName();
-
-let myName =function () {
-console.log(`My name is Pramod Boda`)
-}
-VM165:1 
-    
 ```
 
 ### Function Constructors
@@ -130,9 +128,9 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTIxMTMxNDYsLTIyODU1NDk2LC04Nj
-E3Mzg0ODAsODQzODY2MzM5LDEzMDg4NDA3OTAsMTA3NzQwNjU2
-MSwxNjYzOTc5NzI3LDQ5MTg4ODc3NCwtMjg1MDMzMDMsMTgwMj
-I0OTIxNCwxODUyODUxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0
-XX0=
+eyJoaXN0b3J5IjpbLTk4MzEzMTQxNSwtMjI4NTU0OTYsLTg2MT
+czODQ4MCw4NDM4NjYzMzksMTMwODg0MDc5MCwxMDc3NDA2NTYx
+LDE2NjM5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMj
+Q5MjE0LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRd
+fQ==
 -->
