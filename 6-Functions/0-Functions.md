@@ -119,7 +119,8 @@ let myName = function () {
 ```
 ### 3. Arrow Function
 ```javascript
-// Math.round for 
+//Math.round() for accurate calculation.
+
 //=== inch to cm ===
 const inchToCM = (inches) => {
 	return `${Math.round(inches * 2.54)}cm`;
@@ -131,13 +132,11 @@ inchToCM(30);
 
 //=== cm to inch ===
 const cmToInch = (cm) => {
-	return `${cm * 0.39370}in`;
+	return `${Math.round(cm * 0.39370)}in`;
 }
 cmToInch(56);
-//"22.0472in"
+//"22in"
 
-cmToInch(76);
-//"29.9212in"
 ```
 
 ### 5. IIFE (Immediately Invoked Function Expression)
@@ -211,11 +210,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjMzNDIwODYsMTQxNTM1Nzc1NywtMT
-U3NjMyMjYzMCwtOTk1MTA0MDUsNDY1MTM2OTgsMTAzOTUzMzIz
-NywxODMwMTk0NjIxLDg0MDg0ODQ0MywxMTg5Mzk0NDU3LC0yMj
-AwNDg2NzcsLTIxMjI3NDY2MTMsOTM3MjQyNzAwLC02NDAwNTU5
-NTksLTEyMzg4MTU5NjIsLTMzMDQ3ODEzMCwxNTc5Mjg4NDI4LD
-Y1MjI4MDc1MywtMjI4NTU0OTYsLTg2MTczODQ4MCw4NDM4NjYz
-MzldfQ==
+eyJoaXN0b3J5IjpbMTY1MzY2MzYxMiwxNDE1MzU3NzU3LC0xNT
+c2MzIyNjMwLC05OTUxMDQwNSw0NjUxMzY5OCwxMDM5NTMzMjM3
+LDE4MzAxOTQ2MjEsODQwODQ4NDQzLDExODkzOTQ0NTcsLTIyMD
+A0ODY3NywtMjEyMjc0NjYxMyw5MzcyNDI3MDAsLTY0MDA1NTk1
+OSwtMTIzODgxNTk2MiwtMzMwNDc4MTMwLDE1NzkyODg0MjgsNj
+UyMjgwNzUzLC0yMjg1NTQ5NiwtODYxNzM4NDgwLDg0Mzg2NjMz
+OV19
 -->
