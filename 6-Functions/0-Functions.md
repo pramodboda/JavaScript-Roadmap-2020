@@ -17,8 +17,9 @@ name(arguments);
 1. Immediately Invoked Function Expression (IIFE)
 2. Function Declaration
 3. Anonymous Functions
-4. Named Function Expression
-5. Function Constructors
+4. Anonymous Function Expression
+5. Named Function Expression
+6. Function Constructors
 
 
 ### Immediately Invoked Function Expression (IIFE)
@@ -53,6 +54,11 @@ var a = function() {
 
 
 ```
+
+
+### Anonymous Function Expression
+
+### Named Function Expression
 
 ### Function Constructors
 
@@ -103,7 +109,7 @@ console.log(checkNumber(50))
 // even
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwNDQ5MzQ4LDEwNzc0MDY1NjEsMTY2Mz
-k3OTcyNyw0OTE4ODg3NzQsLTI4NTAzMzAzLDE4MDIyNDkyMTQs
-MTg1Mjg1MTY2NCwxMzg1NTE5ODc5LC03NDIyMDE1NF19
+eyJoaXN0b3J5IjpbLTgyNzEyNzc5MywxMDc3NDA2NTYxLDE2Nj
+M5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0
+LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
 -->
