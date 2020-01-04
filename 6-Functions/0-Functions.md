@@ -31,15 +31,18 @@ The function variable is  **hoisted**  up to the top of the current scope, which
 ```javascript
 console.log(checkNumber(62));
 console.log(checkNumber(77));
+
 function checkNumber(num){
 	return (num %2==0)?"even" : "odd"
 }
 
-console.log(checkNumber(62));
-console.log(checkNumber(77));
+console.log(checkNumber(127));
+console.log(checkNumber(50));
 
 //"even"
 //"odd"
+//"odd"
+//"even"
 
 ```
 
@@ -157,10 +160,10 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDYwODU3NSw5MzcyNDI3MDAsLTY0MD
-A1NTk1OSwtMTIzODgxNTk2MiwtMzMwNDc4MTMwLDE1NzkyODg0
-MjgsNjUyMjgwNzUzLC0yMjg1NTQ5NiwtODYxNzM4NDgwLDg0Mz
-g2NjMzOSwxMzA4ODQwNzkwLDEwNzc0MDY1NjEsMTY2Mzk3OTcy
-Nyw0OTE4ODg3NzQsLTI4NTAzMzAzLDE4MDIyNDkyMTQsMTg1Mj
-g1MTY2NCwxMzg1NTE5ODc5LC03NDIyMDE1NF19
+eyJoaXN0b3J5IjpbLTIxMjI3NDY2MTMsOTM3MjQyNzAwLC02ND
+AwNTU5NTksLTEyMzg4MTU5NjIsLTMzMDQ3ODEzMCwxNTc5Mjg4
+NDI4LDY1MjI4MDc1MywtMjI4NTU0OTYsLTg2MTczODQ4MCw4ND
+M4NjYzMzksMTMwODg0MDc5MCwxMDc3NDA2NTYxLDE2NjM5Nzk3
+MjcsNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0LDE4NT
+I4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
 -->
