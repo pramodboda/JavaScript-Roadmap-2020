@@ -129,6 +129,15 @@ const cmToInch = (cm) => {
 }
 cmToInch(56);
 // 22.0472
+
+
+
+const cmToInch = (cm) => {
+	return `${cm * 0.39370}in`;
+}
+undefined
+cmToInch(61);
+// "24.0157in"
 ```
 
 ### 5. IIFE (Immediately Invoked Function Expression)
@@ -202,11 +211,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTUzMzIzNywxODMwMTk0NjIxLDg0MD
-g0ODQ0MywxMTg5Mzk0NDU3LC0yMjAwNDg2NzcsLTIxMjI3NDY2
-MTMsOTM3MjQyNzAwLC02NDAwNTU5NTksLTEyMzg4MTU5NjIsLT
-MzMDQ3ODEzMCwxNTc5Mjg4NDI4LDY1MjI4MDc1MywtMjI4NTU0
-OTYsLTg2MTczODQ4MCw4NDM4NjYzMzksMTMwODg0MDc5MCwxMD
-c3NDA2NTYxLDE2NjM5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMw
-M119
+eyJoaXN0b3J5IjpbNTE1NDczNjM0LDEwMzk1MzMyMzcsMTgzMD
+E5NDYyMSw4NDA4NDg0NDMsMTE4OTM5NDQ1NywtMjIwMDQ4Njc3
+LC0yMTIyNzQ2NjEzLDkzNzI0MjcwMCwtNjQwMDU1OTU5LC0xMj
+M4ODE1OTYyLC0zMzA0NzgxMzAsMTU3OTI4ODQyOCw2NTIyODA3
+NTMsLTIyODU1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5LDEzMD
+g4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3
+NF19
 -->
