@@ -121,7 +121,7 @@ let myName = function () {
 ```javascript
 //inch to cm
 const inchToCM = (inches) => {
-	return `${inches * 2.54}`;
+	return `${inches * 2.54}cm`;
 }
 
 
@@ -207,11 +207,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODE2ODk5Nyw0NjUxMzY5OCwxMDM5NT
-MzMjM3LDE4MzAxOTQ2MjEsODQwODQ4NDQzLDExODkzOTQ0NTcs
-LTIyMDA0ODY3NywtMjEyMjc0NjYxMyw5MzcyNDI3MDAsLTY0MD
-A1NTk1OSwtMTIzODgxNTk2MiwtMzMwNDc4MTMwLDE1NzkyODg0
-MjgsNjUyMjgwNzUzLC0yMjg1NTQ5NiwtODYxNzM4NDgwLDg0Mz
-g2NjMzOSwxMzA4ODQwNzkwLDEwNzc0MDY1NjEsMTY2Mzk3OTcy
-N119
+eyJoaXN0b3J5IjpbLTk5NTEwNDA1LDQ2NTEzNjk4LDEwMzk1Mz
+MyMzcsMTgzMDE5NDYyMSw4NDA4NDg0NDMsMTE4OTM5NDQ1Nywt
+MjIwMDQ4Njc3LC0yMTIyNzQ2NjEzLDkzNzI0MjcwMCwtNjQwMD
+U1OTU5LC0xMjM4ODE1OTYyLC0zMzA0NzgxMzAsMTU3OTI4ODQy
+OCw2NTIyODA3NTMsLTIyODU1NDk2LC04NjE3Mzg0ODAsODQzOD
+Y2MzM5LDEzMDg4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3
+XX0=
 -->
