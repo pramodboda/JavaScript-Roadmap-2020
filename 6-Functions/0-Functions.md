@@ -28,11 +28,16 @@ This means that the function runs as soon as it is defined, here function expres
 
 Why do we need an IIFE in our typical function expression? We define the function and then call it sometime later any number of times, but what if I want to just call the function only once to produce an output and that's it — I don't want to use it again? This is where IIFE comes in. It is immediately executed and never ever in the future it is accessed by the program again. Since it is not called again, it doesn’t need a name, so an anonymous function expression is preferred for IIFE.
 
-Another way of defining functions in JavaScript is to use Immediately Invoked Functions. The purpose of wrapping is to the namespace and control the visibility of member functions. It wraps the code inside a function scope and decreases clashing with other libraries. This is what we call Immediately Invoked Function Expression (IIFE) or Self Executing Anonymous Function.
+The purpose of wrapping is to the namespace and control the visibility of member functions. It wraps the code inside a function scope and decreases clashing with other libraries. This is what we call Immediately Invoked Function Expression (IIFE) or Self Executing Anonymous Function.
 
 ```javascript
-
-
+(function () {
+	let num = 4
+	return num
+})()
+//4
+```
+```javascript
 (function () {  
 	var x = "Hello!!"; // I will invoke myself  
 })();
@@ -126,8 +131,8 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQyNjA5NjAsMTMwODg0MDc5MCwxMD
-c3NDA2NTYxLDE2NjM5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMw
-MywxODAyMjQ5MjE0LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNz
-QyMjAxNTRdfQ==
+eyJoaXN0b3J5IjpbODQzODY2MzM5LDEzMDg4NDA3OTAsMTA3Nz
+QwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3NCwtMjg1MDMzMDMs
+MTgwMjI0OTIxNCwxODUyODUxNjY0LDEzODU1MTk4NzksLTc0Mj
+IwMTU0XX0=
 -->
