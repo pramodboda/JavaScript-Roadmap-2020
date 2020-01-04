@@ -118,7 +118,11 @@ let myName = function () {
 // Uncaught ReferenceError: Cannot access 'myName' before initialization at <anonymous>:1:1
 ```
 ### 3. Arrow Function
+```javascript
+const inchToCM => (inches){
 
+}
+```
 
 ### 5. IIFE (Immediately Invoked Function Expression)
 
@@ -191,11 +195,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjEzNTAsODQwODQ4NDQzLDExODkzOT
-Q0NTcsLTIyMDA0ODY3NywtMjEyMjc0NjYxMyw5MzcyNDI3MDAs
-LTY0MDA1NTk1OSwtMTIzODgxNTk2MiwtMzMwNDc4MTMwLDE1Nz
-kyODg0MjgsNjUyMjgwNzUzLC0yMjg1NTQ5NiwtODYxNzM4NDgw
-LDg0Mzg2NjMzOSwxMzA4ODQwNzkwLDEwNzc0MDY1NjEsMTY2Mz
-k3OTcyNyw0OTE4ODg3NzQsLTI4NTAzMzAzLDE4MDIyNDkyMTRd
-fQ==
+eyJoaXN0b3J5IjpbOTY4MzQ3NzA5LDg0MDg0ODQ0MywxMTg5Mz
+k0NDU3LC0yMjAwNDg2NzcsLTIxMjI3NDY2MTMsOTM3MjQyNzAw
+LC02NDAwNTU5NTksLTEyMzg4MTU5NjIsLTMzMDQ3ODEzMCwxNT
+c5Mjg4NDI4LDY1MjI4MDc1MywtMjI4NTU0OTYsLTg2MTczODQ4
+MCw4NDM4NjYzMzksMTMwODg0MDc5MCwxMDc3NDA2NTYxLDE2Nj
+M5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0
+XX0=
 -->
