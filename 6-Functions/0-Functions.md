@@ -58,9 +58,8 @@ let checkNumber = function (num){
 console.log(checkNumber(50))
 // even
 ```
-
-
 ### Named Function Expression
+A function expression is very similar to, and has almost the same syntax as, a function statement. The main difference is that a function expression does not start with the keyword `function` and the `name` of the function is also optional, in which case it becomes an _Anonymous Function_. If the function has a `name` then it is called _Named Function Expression_**.**
 ```javascript
 let checkNumber = function check (num){
 	return (num %2==0)?"even" : "odd"
@@ -128,9 +127,9 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyMjgwNzUzLC0yMjg1NTQ5NiwtODYxNz
-M4NDgwLDg0Mzg2NjMzOSwxMzA4ODQwNzkwLDEwNzc0MDY1NjEs
-MTY2Mzk3OTcyNyw0OTE4ODg3NzQsLTI4NTAzMzAzLDE4MDIyND
-kyMTQsMTg1Mjg1MTY2NCwxMzg1NTE5ODc5LC03NDIyMDE1NF19
-
+eyJoaXN0b3J5IjpbNDAzMzMwNTU5LDY1MjI4MDc1MywtMjI4NT
+U0OTYsLTg2MTczODQ4MCw4NDM4NjYzMzksMTMwODg0MDc5MCwx
+MDc3NDA2NTYxLDE2NjM5Nzk3MjcsNDkxODg4Nzc0LC0yODUwMz
+MwMywxODAyMjQ5MjE0LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwt
+NzQyMjAxNTRdfQ==
 -->
