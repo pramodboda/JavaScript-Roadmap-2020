@@ -25,7 +25,7 @@ var x = "Hello!!"; // I will invoke myself
 
 ### Anonymous Functions
 
-Anonymous functions are always loaded using a variable name. if you not using a variable name for Anonymous function it thorws an error `SyntaxError: Function statements must have a name.`
+Anonymous functions are always loaded using a variable name. if you are not using a variable name for Anonymous function it thorws an error `SyntaxError: Function statements must have a name.`
 
  Anonymous, as the name suggests, allows creating a function without any names identifier. It can be used as an argument to other functions. Call them using a variable name:
 
@@ -45,7 +45,7 @@ var a = function() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMj
-Q5MjE0LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRd
-fQ==
+eyJoaXN0b3J5IjpbLTc0MzU1ODA2Miw0OTE4ODg3NzQsLTI4NT
+AzMzAzLDE4MDIyNDkyMTQsMTg1Mjg1MTY2NCwxMzg1NTE5ODc5
+LC03NDIyMDE1NF19
 -->
