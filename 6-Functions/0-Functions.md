@@ -125,8 +125,8 @@ let myName = function () {
 const inchToCM = (inches) => {
 	return `${Math.round(inches * 2.54)}cm`;
 }
-//same
-const inchToCM = (inches) => `${Math.round(inches * 2.54)}cm`;
+//same as aboue but use when it has only one argument
+const inchToCM = inches => `${Math.round(inches * 2.54)}cm`;
 
 inchToCM(22);
 //"56cm"
@@ -137,8 +137,8 @@ inchToCM(30);
 const cmToInch = (cm) => {
 	return `${Math.round(cm * 0.39370)}in`;
 }
-//same but use when it has only one argument
-const cmToInch = (cm) => `${Math.round(cm * 0.39370)}in`;
+//same as aboue but use when it has only one argument
+const cmToInch = cm => `${Math.round(cm * 0.39370)}in`;
 
 cmToInch(56);
 //"22in"
@@ -217,7 +217,7 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjUxNTUzOCwtNjc2NzQzMzQ0LDE0OD
+eyJoaXN0b3J5IjpbMjAzMzEwNzI0MCwtNjc2NzQzMzQ0LDE0OD
 Y4NjA5NDAsMTQxNTM1Nzc1NywtMTU3NjMyMjYzMCwtOTk1MTA0
 MDUsNDY1MTM2OTgsMTAzOTUzMzIzNywxODMwMTk0NjIxLDg0MD
 g0ODQ0MywxMTg5Mzk0NDU3LC0yMjAwNDg2NzcsLTIxMjI3NDY2
