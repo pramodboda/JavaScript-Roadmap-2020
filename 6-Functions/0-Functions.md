@@ -125,9 +125,8 @@ const inchToCM = (inches) => {
 }
 inchToCM(22);
 //"56cm"
-
 inchToCM(30);
-//"76.2cm"
+//"76cm"
 
 //=== cm to inch ===
 const cmToInch = (cm) => {
@@ -211,7 +210,7 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1ODA0NTI1LDE0MTUzNTc3NTcsLTE1Nz
+eyJoaXN0b3J5IjpbNTI3MTc0MDc1LDE0MTUzNTc3NTcsLTE1Nz
 YzMjI2MzAsLTk5NTEwNDA1LDQ2NTEzNjk4LDEwMzk1MzMyMzcs
 MTgzMDE5NDYyMSw4NDA4NDg0NDMsMTE4OTM5NDQ1NywtMjIwMD
 Q4Njc3LC0yMTIyNzQ2NjEzLDkzNzI0MjcwMCwtNjQwMDU1OTU5
