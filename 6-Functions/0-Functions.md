@@ -77,7 +77,7 @@ myName()
 // ReferenceError: myName is not defined
 
 let myName =function () {
-console.log(`My name is Stuti Chauhan`)
+console.log(`My name is Pramod Boda`)
 }
 ```
 
@@ -120,7 +120,7 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODMyNTM4LC04NjE3Mzg0ODAsODQzOD
+eyJoaXN0b3J5IjpbLTIyODU1NDk2LC04NjE3Mzg0ODAsODQzOD
 Y2MzM5LDEzMDg4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3
 LDQ5MTg4ODc3NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwxODUyOD
 UxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0XX0=
