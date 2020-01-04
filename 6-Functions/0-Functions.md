@@ -46,6 +46,7 @@ console.log(checkNumber(50));
 //"odd"
 //"even"
 ```
+A function named `hello` is declared with an argument `name`, which logs a message in the console. As you can see from the example, since no type is specified on the argument it works for both string and number. But what if I just want my function to greet a name, not a number? Sadly there is no pre-built method of doing this in Javascript, so we have to manually check the type of the argument that’s passed in the function like this:
 
 ### 2. Anonymous Function Expression
 
@@ -161,11 +162,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyNTc2MjY0LC0yMTIyNzQ2NjEzLDkzNz
-I0MjcwMCwtNjQwMDU1OTU5LC0xMjM4ODE1OTYyLC0zMzA0Nzgx
-MzAsMTU3OTI4ODQyOCw2NTIyODA3NTMsLTIyODU1NDk2LC04Nj
-E3Mzg0ODAsODQzODY2MzM5LDEzMDg4NDA3OTAsMTA3NzQwNjU2
-MSwxNjYzOTc5NzI3LDQ5MTg4ODc3NCwtMjg1MDMzMDMsMTgwMj
-I0OTIxNCwxODUyODUxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0
-XX0=
+eyJoaXN0b3J5IjpbLTIyMDA0ODY3NywtMjEyMjc0NjYxMyw5Mz
+cyNDI3MDAsLTY0MDA1NTk1OSwtMTIzODgxNTk2MiwtMzMwNDc4
+MTMwLDE1NzkyODg0MjgsNjUyMjgwNzUzLC0yMjg1NTQ5NiwtOD
+YxNzM4NDgwLDg0Mzg2NjMzOSwxMzA4ODQwNzkwLDEwNzc0MDY1
+NjEsMTY2Mzk3OTcyNyw0OTE4ODg3NzQsLTI4NTAzMzAzLDE4MD
+IyNDkyMTQsMTg1Mjg1MTY2NCwxMzg1NTE5ODc5LC03NDIyMDE1
+NF19
 -->
