@@ -1,12 +1,12 @@
 # Functions
 
 Functions are nothing but set of statements in a block.
-
-### Define a Function.
 ```javascript
 function name(parameters){
 ...statements ...
 }
+
+name(arguments);
 ```
 
 
@@ -14,11 +14,13 @@ function name(parameters){
 
 ## Different ways of declaring functions in JavaScript?
 
+
+
 function Display()
       {
          alert("Hello World!");
       }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Mjg1MTY2NCwxMzg1NTE5ODc5LC03ND
-IyMDE1NF19
+eyJoaXN0b3J5IjpbMzAyMTU2NzAsMTg1Mjg1MTY2NCwxMzg1NT
+E5ODc5LC03NDIyMDE1NF19
 -->
