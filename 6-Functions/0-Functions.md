@@ -25,11 +25,30 @@ As you can see above, the following pair of parentheses converts the code inside
 
 function(){...}
 
+
+### Anonymous Functions
+
+Anonymous functions are always loaded using a variable name. Anonymous, as the name suggests, allows creating a function without any names identifier. It can be used as an argument to other functions. Call them using a variable name:
+
+This is how JavaScript anonymous functions can be used:
+
+var func = function() {
+   alert(‘This is anonymous');
+}
+func();
+
+Here’s an example:
+
+//anonymous function
+var a = function() {
+   return 5;
+}
+
 function Display()
       {
          alert("Hello World!");
       }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTAyMDI0NSwxODAyMjQ5MjE0LDE4NT
-I4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
+eyJoaXN0b3J5IjpbLTE5MTA2MTQ3ODAsMTgwMjI0OTIxNCwxOD
+UyODUxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0XX0=
 -->
