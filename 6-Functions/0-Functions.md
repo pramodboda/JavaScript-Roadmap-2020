@@ -21,9 +21,6 @@ name(arguments);
 var x = "Hello!!"; // I will invoke myself  
 })();
 ```
-As you can see above, the following pair of parentheses converts the code inside the parentheses into an expression:
-
-function(){...}
 
 
 ### Anonymous Functions
@@ -48,6 +45,7 @@ var a = function() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTAzMzAzLDE4MDIyNDkyMTQsMTg1Mj
-g1MTY2NCwxMzg1NTE5ODc5LC03NDIyMDE1NF19
+eyJoaXN0b3J5IjpbNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMj
+Q5MjE0LDE4NTI4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRd
+fQ==
 -->
