@@ -128,7 +128,6 @@ One  _possible_  application of  `new Function`  is a  [better way](https://twit
    console.log(global === window); // => true
    console.log(this === window);   // => false
 })();
-
 ```
 
 Remember that functions  **almost never**  should be declared using  `new Function()`. Because the function body is evaluated on runtime, this approach inherits many  `eval()`  usage  [problems](http://stackoverflow.com/a/86580/1894471): security risks, harder debugging, no way to apply engine optimizations, no editor auto-complete.
@@ -136,9 +135,9 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODIxMDM4NzQsNjUyMjgwNzUzLC0yMj
-g1NTQ5NiwtODYxNzM4NDgwLDg0Mzg2NjMzOSwxMzA4ODQwNzkw
-LDEwNzc0MDY1NjEsMTY2Mzk3OTcyNyw0OTE4ODg3NzQsLTI4NT
-AzMzAzLDE4MDIyNDkyMTQsMTg1Mjg1MTY2NCwxMzg1NTE5ODc5
-LC03NDIyMDE1NF19
+eyJoaXN0b3J5IjpbMTU3OTI4ODQyOCw2NTIyODA3NTMsLTIyOD
+U1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5LDEzMDg4NDA3OTAs
+MTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3NCwtMjg1MD
+MzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0LDEzODU1MTk4Nzks
+LTc0MjIwMTU0XX0=
 -->
