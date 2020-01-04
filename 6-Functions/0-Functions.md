@@ -28,6 +28,8 @@ The function declaration  **creates a variable**  in the current scope with the 
 
 The function variable is  **hoisted**  up to the top of the current scope, which means that the function can be invoked before the declaration
 
+_It’s important that you know the difference between parameter and argument of a function_. A parameter is a variable/placeholder when defining a function. When a function is called, the arguments are the actual data you pass into the functions parameters.
+
 ```javascript
 console.log(checkNumber(62));
 console.log(checkNumber(77));
@@ -43,7 +45,6 @@ console.log(checkNumber(50));
 //"odd"
 //"odd"
 //"even"
-
 ```
 
 ### 2. Anonymous Function Expression
@@ -160,10 +161,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjI3NDY2MTMsOTM3MjQyNzAwLC02ND
-AwNTU5NTksLTEyMzg4MTU5NjIsLTMzMDQ3ODEzMCwxNTc5Mjg4
-NDI4LDY1MjI4MDc1MywtMjI4NTU0OTYsLTg2MTczODQ4MCw4ND
-M4NjYzMzksMTMwODg0MDc5MCwxMDc3NDA2NTYxLDE2NjM5Nzk3
-MjcsNDkxODg4Nzc0LC0yODUwMzMwMywxODAyMjQ5MjE0LDE4NT
-I4NTE2NjQsMTM4NTUxOTg3OSwtNzQyMjAxNTRdfQ==
+eyJoaXN0b3J5IjpbNDgyNTc2MjY0LC0yMTIyNzQ2NjEzLDkzNz
+I0MjcwMCwtNjQwMDU1OTU5LC0xMjM4ODE1OTYyLC0zMzA0Nzgx
+MzAsMTU3OTI4ODQyOCw2NTIyODA3NTMsLTIyODU1NDk2LC04Nj
+E3Mzg0ODAsODQzODY2MzM5LDEzMDg4NDA3OTAsMTA3NzQwNjU2
+MSwxNjYzOTc5NzI3LDQ5MTg4ODc3NCwtMjg1MDMzMDMsMTgwMj
+I0OTIxNCwxODUyODUxNjY0LDEzODU1MTk4NzksLTc0MjIwMTU0
+XX0=
 -->
