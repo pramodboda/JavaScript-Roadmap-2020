@@ -15,9 +15,9 @@ name(arguments);
 ## Different ways of declaring functions in JavaScript
 
 1. Immediately Invoked Function Expression (IIFE)
-2. Anonymous Functions
-3. 
-4. Function Declaration
+2. Function Declaration
+3. Anonymous Functions
+4. Named Function Expression
 5. Function Constructors
 
 
@@ -103,7 +103,7 @@ console.log(checkNumber(50))
 // even
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxOTQ5MzEzLDEwNzc0MDY1NjEsMTY2Mz
+eyJoaXN0b3J5IjpbMzQwNDQ5MzQ4LDEwNzc0MDY1NjEsMTY2Mz
 k3OTcyNyw0OTE4ODg3NzQsLTI4NTAzMzAzLDE4MDIyNDkyMTQs
 MTg1Mjg1MTY2NCwxMzg1NTE5ODc5LC03NDIyMDE1NF19
 -->
