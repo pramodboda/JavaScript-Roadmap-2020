@@ -125,7 +125,7 @@ let myName = function () {
 const inchToCM = (inches) => {
 	return `${Math.round(inches * 2.54)}cm`;
 }
-//same as aboue but use when it has only one argument
+//same as aboue but use when it has only one argument 
 const inchToCM = inches => `${Math.round(inches * 2.54)}cm`;
 
 inchToCM(22);
@@ -217,11 +217,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzEwNzI0MCwtNjc2NzQzMzQ0LDE0OD
-Y4NjA5NDAsMTQxNTM1Nzc1NywtMTU3NjMyMjYzMCwtOTk1MTA0
-MDUsNDY1MTM2OTgsMTAzOTUzMzIzNywxODMwMTk0NjIxLDg0MD
-g0ODQ0MywxMTg5Mzk0NDU3LC0yMjAwNDg2NzcsLTIxMjI3NDY2
-MTMsOTM3MjQyNzAwLC02NDAwNTU5NTksLTEyMzg4MTU5NjIsLT
-MzMDQ3ODEzMCwxNTc5Mjg4NDI4LDY1MjI4MDc1MywtMjI4NTU0
-OTZdfQ==
+eyJoaXN0b3J5IjpbMTM0ODAyNTQwMCwyMDMzMTA3MjQwLC02Nz
+Y3NDMzNDQsMTQ4Njg2MDk0MCwxNDE1MzU3NzU3LC0xNTc2MzIy
+NjMwLC05OTUxMDQwNSw0NjUxMzY5OCwxMDM5NTMzMjM3LDE4Mz
+AxOTQ2MjEsODQwODQ4NDQzLDExODkzOTQ0NTcsLTIyMDA0ODY3
+NywtMjEyMjc0NjYxMyw5MzcyNDI3MDAsLTY0MDA1NTk1OSwtMT
+IzODgxNTk2MiwtMzMwNDc4MTMwLDE1NzkyODg0MjgsNjUyMjgw
+NzUzXX0=
 -->
