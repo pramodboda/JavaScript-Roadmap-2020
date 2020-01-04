@@ -117,6 +117,9 @@ let myName = function () {
 }
 // Uncaught ReferenceError: Cannot access 'myName' before initialization at <anonymous>:1:1
 ```
+### 3. Arrow Function
+
+
 ### 5. IIFE (Immediately Invoked Function Expression)
 
 This means that the function runs as soon as it is defined, here function expression is enclosed within _Grouping Operator ()_,
@@ -188,11 +191,11 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwODQ4NDQzLDExODkzOTQ0NTcsLTIyMD
-A0ODY3NywtMjEyMjc0NjYxMyw5MzcyNDI3MDAsLTY0MDA1NTk1
-OSwtMTIzODgxNTk2MiwtMzMwNDc4MTMwLDE1NzkyODg0MjgsNj
-UyMjgwNzUzLC0yMjg1NTQ5NiwtODYxNzM4NDgwLDg0Mzg2NjMz
-OSwxMzA4ODQwNzkwLDEwNzc0MDY1NjEsMTY2Mzk3OTcyNyw0OT
-E4ODg3NzQsLTI4NTAzMzAzLDE4MDIyNDkyMTQsMTg1Mjg1MTY2
-NF19
+eyJoaXN0b3J5IjpbLTM3MjEzNTAsODQwODQ4NDQzLDExODkzOT
+Q0NTcsLTIyMDA0ODY3NywtMjEyMjc0NjYxMyw5MzcyNDI3MDAs
+LTY0MDA1NTk1OSwtMTIzODgxNTk2MiwtMzMwNDc4MTMwLDE1Nz
+kyODg0MjgsNjUyMjgwNzUzLC0yMjg1NTQ5NiwtODYxNzM4NDgw
+LDg0Mzg2NjMzOSwxMzA4ODQwNzkwLDEwNzc0MDY1NjEsMTY2Mz
+k3OTcyNyw0OTE4ODg3NzQsLTI4NTAzMzAzLDE4MDIyNDkyMTRd
+fQ==
 -->
