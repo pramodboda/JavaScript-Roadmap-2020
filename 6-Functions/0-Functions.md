@@ -89,9 +89,6 @@ console.log(checkNumber(50))
 // even
 ```
 
-
-
-
 ### Function Constructors
 
 In JavaScript functions are first-class objects - a function is a regular object of type  `function`.  
@@ -131,8 +128,8 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzODY2MzM5LDEzMDg4NDA3OTAsMTA3Nz
-QwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3NCwtMjg1MDMzMDMs
-MTgwMjI0OTIxNCwxODUyODUxNjY0LDEzODU1MTk4NzksLTc0Mj
-IwMTU0XX0=
+eyJoaXN0b3J5IjpbLTE1MzE3NDk0MTUsODQzODY2MzM5LDEzMD
+g4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3
+NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0LDEzOD
+U1MTk4NzksLTc0MjIwMTU0XX0=
 -->
