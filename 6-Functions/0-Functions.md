@@ -21,8 +21,15 @@ name(arguments);
 5. IIFE (Immediately Invoked Function Expression)
 6. Function Constructors
 
+### 1. Function Declaration
 
-### Anonymous Function Expression
+Probably the most common way to declare a function. Let’s look at its syntax:
+The function declaration  **creates a variable**  in the current scope with the identifier equal to the function name. This variable holds the function object.
+
+The function variable is  **hoisted**  up to the top of the current scope, which means that the function can be invoked before the declaration
+
+
+### 2. Anonymous Function Expression
 
 Anonymous functions are always loaded using a variable name. if you are not using a variable name for Anonymous function it thorws an error `SyntaxError: Function statements must have a name.`
 
@@ -39,7 +46,7 @@ let checkNumber = function (num){
 console.log(checkNumber(50))
 // even
 ```
-### Named Function Expression
+### 3. Named Function Expression
 
 A function expression is very similar to, and has almost the same syntax as, a function statement. The main difference is that a function expression does not start with the keyword `function` and the `name` of the function is also optional, in which case it becomes an _Anonymous Function_. If the function has a `name` then it is called _Named Function Expression_**.**
 ```javascript
@@ -51,7 +58,8 @@ console.log(checkNumber(50))
 // even
 ```
 
-_An important point of difference between Function Declaration and Function Expression is that there is no hoisting in Function Expression. If you try the same program as the one in hoisting Function Declaration, you’ll encounter an error._
+Note:
+| _An important point of difference between Function Declaration and Function Expression is that there is no hoisting in Function Expression. If you try the same program as the one in hoisting Function Declaration, you’ll encounter an error._
 ```javascript
 myName();
 
@@ -137,10 +145,10 @@ Remember that functions  **almost never**  should be declared using  `new Functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDA1NTk1OSwtMTIzODgxNTk2MiwtMz
-MwNDc4MTMwLDE1NzkyODg0MjgsNjUyMjgwNzUzLC0yMjg1NTQ5
-NiwtODYxNzM4NDgwLDg0Mzg2NjMzOSwxMzA4ODQwNzkwLDEwNz
-c0MDY1NjEsMTY2Mzk3OTcyNyw0OTE4ODg3NzQsLTI4NTAzMzAz
-LDE4MDIyNDkyMTQsMTg1Mjg1MTY2NCwxMzg1NTE5ODc5LC03ND
-IyMDE1NF19
+eyJoaXN0b3J5IjpbMTAzMDExNDYyOCwtNjQwMDU1OTU5LC0xMj
+M4ODE1OTYyLC0zMzA0NzgxMzAsMTU3OTI4ODQyOCw2NTIyODA3
+NTMsLTIyODU1NDk2LC04NjE3Mzg0ODAsODQzODY2MzM5LDEzMD
+g4NDA3OTAsMTA3NzQwNjU2MSwxNjYzOTc5NzI3LDQ5MTg4ODc3
+NCwtMjg1MDMzMDMsMTgwMjI0OTIxNCwxODUyODUxNjY0LDEzOD
+U1MTk4NzksLTc0MjIwMTU0XX0=
 -->
