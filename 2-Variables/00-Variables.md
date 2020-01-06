@@ -41,15 +41,10 @@ Initialized means a variable was declared (i.e. using var, let, or const) and wa
 
 var  person; // Declared But Not Initialized any value.
 person  =  "Pramod"; // Now Initialized
-
-  
-
 // Calling a variable.
 
 person;
-
 // output: "Pramod"
-
 ```
 
   
@@ -194,5 +189,5 @@ let  age; // Error: At this point when we delcared a variable with let its decla
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjkzMjkyMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMDgyNzE4Myw3MzA5OTgxMTZdfQ==
 -->
