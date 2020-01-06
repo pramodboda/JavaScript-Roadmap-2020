@@ -35,8 +35,6 @@ person;
 
 Initialized means a variable was declared (i.e. using var, let, or const) and was assigned a value.
 
-  
-
 ```javascript
 
 var  person; // Declared But Not Initialized any value.
@@ -189,5 +187,6 @@ let  age; // Error: At this point when we delcared a variable with let its decla
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDgyNzE4Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1ODQxMzY0NTksLTEwMDgyNzE4Myw3Mz
+A5OTgxMTZdfQ==
 -->
