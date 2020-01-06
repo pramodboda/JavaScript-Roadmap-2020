@@ -1,6 +1,7 @@
 
+`var` variables are function scope
 ```javascript
-for (vi = 0; i < 5; i++) {
+for (var i = 0; i < 5; i++) {
   console.log(i);
 }
 
@@ -13,7 +14,7 @@ for (vi = 0; i < 5; i++) {
 i
 //5
 ```
-
+`let` and `const` variables are block scope
 ```javascript
 for (let i = 0; i < 5; i++) {
   console.log(i);
@@ -29,5 +30,5 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTQwMDYyOV19
+eyJoaXN0b3J5IjpbLTYwODM1ODkxOV19
 -->
