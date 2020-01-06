@@ -69,8 +69,6 @@ re-declaration is not allowed with `let`.
 
 You can re-initialize/ re-assign the vaule to the declared variable. but you can't re-declaration the variable name.
 
-  
-
 ```javascript
 
 let  person  =  "Pramod";
@@ -78,15 +76,10 @@ let  person  =  "Boda"; // Uncaught SyntaxError: `let` will not allow the duplic
 
 ```
 
-  
-
 ## Variable Declaration with `const` keyword
-
-  
 
 With `let` you can atleast re-initialize/ re-assign the vaule to the declared variable. but you can't re-declaration the variable name.
 
- 
 But with `const` you can't do re-declaration or re-initialize/ re-assign
 ```javascript
 const  person  =  "Pramod";
@@ -153,6 +146,6 @@ let  age; // Error: At this point when we delcared a variable with let its decla
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM4NDkyNjgsLTEwMDgyNzE4Myw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTM5MDA4OTEwLC0xMDA4MjcxODMsNzMwOT
+k4MTE2XX0=
 -->
