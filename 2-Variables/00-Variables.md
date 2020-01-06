@@ -107,19 +107,10 @@ person  =  "Boda"; //Uncaught SyntaxError
   
 
 ```javascript
-
 var  age;
-
 console.log(age);
-
-  
-
 //output: undefined
-
 ```
-
-  
-
 ```javascript
 console.log(age);
 
@@ -138,6 +129,6 @@ let  age; // Error: At this point when we delcared a variable with 'let' its dec
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjE4NTYyLC0xMDA4MjcxODMsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4NzI3OTU0MjgsLTEwMDgyNzE4Myw3Mz
+A5OTgxMTZdfQ==
 -->
