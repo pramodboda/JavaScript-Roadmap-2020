@@ -138,14 +138,12 @@ var  age; // At this point when we delcared a variable with var its declaraion -
 
 console.log(age);
 
-let  age; // Error: At this point when we delcared a variable with let its declaraion - hoisted at the same place(scope).
-
-  
+let  age; // Error: At this point when we delcared a variable with 'let' its declaraion - hoisted at the same place(scope).
 
 //output: undefined
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDA4OTEwLC0xMDA4MjcxODMsNzMwOT
+eyJoaXN0b3J5IjpbODc0OTE1NTk4LC0xMDA4MjcxODMsNzMwOT
 k4MTE2XX0=
 -->
