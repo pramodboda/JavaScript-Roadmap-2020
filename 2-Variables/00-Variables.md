@@ -121,19 +121,13 @@ console.log(age);
   
 
 ```javascript
-
 console.log(age);
 
-var  age; // At this point when we delcared a variable with var its declaraion - hoisted at the top of the scope.
-
-  
+var  age; // At this point when we delcared a variable with 'var' its declaraion - hoisted at the top of the scope.
 
 //output: undefined
 
 ```
-
-  
-
 ```javascript
 
 console.log(age);
@@ -144,6 +138,6 @@ let  age; // Error: At this point when we delcared a variable with 'let' its dec
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc0OTE1NTk4LC0xMDA4MjcxODMsNzMwOT
+eyJoaXN0b3J5IjpbMTI0MjE4NTYyLC0xMDA4MjcxODMsNzMwOT
 k4MTE2XX0=
 -->
