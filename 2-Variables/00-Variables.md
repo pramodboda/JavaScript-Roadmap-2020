@@ -27,11 +27,7 @@ person;
 
 ```
 
-  
-
-### Variable Initialition
-
-  
+### Variable Initialization
 
 Initialized means a variable was declared (i.e. using var, let, or const) and was assigned a value.
 
@@ -45,24 +41,13 @@ person;
 // output: "Pramod"
 ```
 
-  
-
 ### Initializing variable without `var` keyword
-
-  
-
 If you declared or initialized a variable anywhere in the script without using any `var` or `let` or `const` keyword, by JavaScript that variable will be converted to global variable for entire script.
 
-  
-
 ```javascript
-
 // person = "Pramod"; // Became global by JavaScript
-
 function  someFunc(){
-
-person  =  "Pramod"; // this will become global variable at the top of script.
-
+	person  =  "Pramod"; // this will become global variable at the top of script.
 }
 
   
@@ -78,16 +63,9 @@ person;
   
 
 ## Variable Declaration with `let` keyword
-
-  
-
 `let` will not allow the duplicate variable declaration.
 
-  
-
 re-declaration is not allowed with `let`.
-
-  
 
 You can re-initialize/ re-assign the vaule to the declared variable. but you can't re-declaration the variable name.
 
@@ -96,9 +74,6 @@ You can re-initialize/ re-assign the vaule to the declared variable. but you can
 ```javascript
 
 let  person  =  "Pramod";
-
-  
-
 let  person  =  "Boda"; // Uncaught SyntaxError: `let` will not allow the duplicate variable declaration, re-declarations is not allowed with `let`.
 
 ```
@@ -111,22 +86,13 @@ let  person  =  "Boda"; // Uncaught SyntaxError: `let` will not allow the duplic
 
 With `let` you can atleast re-initialize/ re-assign the vaule to the declared variable. but you can't re-declaration the variable name.
 
-  
-
+ 
 But with `const` you can't do re-declaration or re-initialize/ re-assign
-
-  
-
 ```javascript
-
 const  person  =  "Pramod";
-
 const  person  =  "Boda";
-
 or
-
 person  =  "Boda"; //Uncaught SyntaxError
-
 ```
 
   
@@ -187,6 +153,6 @@ let  age; // Error: At this point when we delcared a variable with let its decla
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQxMzY0NTksLTEwMDgyNzE4Myw3Mz
+eyJoaXN0b3J5IjpbLTExNDM4NDkyNjgsLTEwMDgyNzE4Myw3Mz
 A5OTgxMTZdfQ==
 -->
