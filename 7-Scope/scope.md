@@ -14,7 +14,7 @@ for (var i = 0; i < 5; i++) {
 i
 //5
 ```
-`let` and `const` variables are block scope. can't access outside of the block.
+`let` and `const` variables are block scope. can not access outside of the block.
 ```javascript
 for (let i = 0; i < 5; i++) {
   console.log(i);
@@ -30,5 +30,5 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTYyNjA4MF19
+eyJoaXN0b3J5IjpbNDAxMjkwMDg2XX0=
 -->
