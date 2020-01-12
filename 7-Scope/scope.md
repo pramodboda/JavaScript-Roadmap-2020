@@ -2,7 +2,7 @@
 In the JavaScript language there are two types of scopes:
 
 -   Global Scope
--   Local Scope / block scope / function scope
+-   Local Scope (inside block/ function)
 
 `var` variables are function scope.
 ```javascript
@@ -35,5 +35,6 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5Njg2NTQxLDQwMTI5MDA4Nl19
+eyJoaXN0b3J5IjpbLTUxMDAzMjUzLDE1OTY4NjU0MSw0MDEyOT
+AwODZdfQ==
 -->
