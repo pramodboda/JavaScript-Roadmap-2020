@@ -100,7 +100,49 @@ person  =  "Boda"; //Uncaught SyntaxError
 
 | `const` | block based scope | No | No | Yes | Yes |
 
-  
+  ## Difference Between  `var`,  `let`, and  `const`
+
+The differences between the three are based on scope, hoisting, and reassignment.
+
+Keyword
+
+Scope
+
+Hoisting
+
+Can Be Reassigned
+
+Can Be Redeclared
+
+[`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
+
+Function scope
+
+Yes
+
+Yes
+
+Yes
+
+[`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+
+Block scope
+
+No
+
+Yes
+
+No
+
+[`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+
+Block scope
+
+No
+
+No
+
+No
 
 ## `var` hoisting thing
 
@@ -129,6 +171,6 @@ let  age; // Error: At this point when we delcared a variable with 'let' its dec
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzI3OTU0MjgsLTEwMDgyNzE4Myw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODk2NjczNTk2LC0xODcyNzk1NDI4LC0xMD
+A4MjcxODMsNzMwOTk4MTE2XX0=
 -->
