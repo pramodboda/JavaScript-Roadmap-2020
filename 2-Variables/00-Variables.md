@@ -12,11 +12,7 @@
 
 ### Variable Declaration with `var` keyword
 
-  
-
 Declared But Not Initialized any value, even thought JavaScript will assign the `undefined` value to the uninitialized variable.
-
-  
 
 ```javascript
 var  person; // Declared But Not Initialized any value.
@@ -49,8 +45,6 @@ If you declared or initialized a variable anywhere in the script without using a
 function  someFunc(){
 	person  =  "Pramod"; // this will become global variable at the top of script.
 }
-
-  
 
 // variable `person` can be accessible from outside the function, Thats not the best practice.
 
@@ -126,6 +120,6 @@ let  age; // Error: At this point when we delcared a variable with 'let' its dec
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjg2MDk2NDIsLTE4NzI3OTU0MjgsLT
-EwMDgyNzE4Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNTg5MTIwMTg2LC0xODcyNzk1NDI4LC0xMD
+A4MjcxODMsNzMwOTk4MTE2XX0=
 -->
