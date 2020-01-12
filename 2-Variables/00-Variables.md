@@ -87,20 +87,7 @@ const  person  =  "Boda";
 or
 person  =  "Boda"; //Uncaught SyntaxError
 ```
-
-  
-
-| | Scope | Re-Declaration | Re-Initialization | Mutable | Temporal Dead Zone |
-
-|---|---|---|---|---|---|
-
-| `var` | function based scope | Yes | Yes | Yes | No |
-
-| `let` | block based scope | No | Yes | Yes | Yes |
-
-| `const` | block based scope | No | No | Yes | Yes |
-
-  ## Difference Between  `var`,  `let`, and  `const`
+## Difference Between  `var`,  `let`, and  `const`
 
 The differences between the three are based on scope, hoisting, and reassignment.
 
@@ -139,6 +126,6 @@ let  age; // Error: At this point when we delcared a variable with 'let' its dec
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzM4NjYyNCwtMTg3Mjc5NTQyOCwtMT
-AwODI3MTgzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTIwNjg2MDk2NDIsLTE4NzI3OTU0MjgsLT
+EwMDgyNzE4Myw3MzA5OTgxMTZdfQ==
 -->
