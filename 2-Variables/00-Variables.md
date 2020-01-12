@@ -54,8 +54,6 @@ person;
 
 ```
 
-  
-
 ## Variable Declaration with `let` keyword
 `let` will not allow the duplicate variable declaration.
 
@@ -92,10 +90,7 @@ The differences between the three are based on scope, hoisting, and reassignment
 |[`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)|Block scope|No|No|No|
 
 
-
 ## `var` hoisting thing
-
-  
 
 ```javascript
 var  age;
@@ -120,6 +115,6 @@ let  age; // Error: At this point when we delcared a variable with 'let' its dec
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5MTIwMTg2LC0xODcyNzk1NDI4LC0xMD
-A4MjcxODMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTcxOTUwMzQ4LDU4OTEyMDE4NiwtMTg3Mj
+c5NTQyOCwtMTAwODI3MTgzLDczMDk5ODExNl19
 -->
