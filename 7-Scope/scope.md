@@ -1,4 +1,9 @@
 
+In the JavaScript language there are two types of scopes:
+
+-   Global Scope
+-   Local Scope / block scope / function scope
+
 `var` variables are function scope.
 ```javascript
 for (var i = 0; i < 5; i++) {
@@ -30,5 +35,5 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxMjkwMDg2XX0=
+eyJoaXN0b3J5IjpbMTU5Njg2NTQxLDQwMTI5MDA4Nl19
 -->
