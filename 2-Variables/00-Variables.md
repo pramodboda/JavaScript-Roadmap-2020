@@ -107,19 +107,10 @@ The differences between the three are based on scope, hoisting, and reassignment
 | Keyword | Scope | Hoisting | Can Be Reassigned|Can Be Redeclared
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 | [`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var) | Function scope | Yes | Yes | Yes|
-
 |[`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)| Block scope| No |Yes | No|
+|[`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)|Block scope|No|No|No|
 
 
-[`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
-
-Block scope
-
-No
-
-No
-
-No
 
 ## `var` hoisting thing
 
@@ -148,6 +139,6 @@ let  age; // Error: At this point when we delcared a variable with 'let' its dec
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDcyMTU4MjIsLTE4NzI3OTU0MjgsLT
-EwMDgyNzE4Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTY4NzM4NjYyNCwtMTg3Mjc5NTQyOCwtMT
+AwODI3MTgzLDczMDk5ODExNl19
 -->
