@@ -104,15 +104,15 @@ person  =  "Boda"; //Uncaught SyntaxError
 
 The differences between the three are based on scope, hoisting, and reassignment.
 
-| Keyword | Scope |
-|:--------:| -------------:|
+| Keyword | Scope | Hoisting |
+|:--------:|:-------------:|
 | centered | right-aligned |
 
 
 
 
 
-Hoisting
+
 
 Can Be Reassigned
 
@@ -175,6 +175,6 @@ let  age; // Error: At this point when we delcared a variable with 'let' its dec
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTI1ODEyNzgsLTE4NzI3OTU0MjgsLT
+eyJoaXN0b3J5IjpbLTE2NTk3MzI5ODgsLTE4NzI3OTU0MjgsLT
 EwMDgyNzE4Myw3MzA5OTgxMTZdfQ==
 -->
