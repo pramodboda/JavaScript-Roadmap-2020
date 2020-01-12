@@ -104,9 +104,9 @@ person  =  "Boda"; //Uncaught SyntaxError
 
 The differences between the three are based on scope, hoisting, and reassignment.
 
-| Keyword | Scope | Hoisting |
-|:--------:|:-------------:|
-| centered | right-aligned |
+| Keyword | Scope | Hoisting | Can Be Reassigned|Can Be Redeclared
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| [`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var) | right-aligned |
 
 
 
@@ -114,13 +114,13 @@ The differences between the three are based on scope, hoisting, and reassignment
 
 
 
-Can Be Reassigned
 
-Can Be Redeclared
 
-[`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
 
-Function scope
+
+
+
+
 
 Yes
 
@@ -175,6 +175,6 @@ let  age; // Error: At this point when we delcared a variable with 'let' its dec
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk3MzI5ODgsLTE4NzI3OTU0MjgsLT
-EwMDgyNzE4Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTQ1OTA2MzEyNywtMTg3Mjc5NTQyOCwtMT
+AwODI3MTgzLDczMDk5ODExNl19
 -->
