@@ -39,13 +39,13 @@ painting();
 
 ```javascript
 function painting() {
-	var category='watercolor';
+	var category='watercolor!';
 	return category;
 }
 painting();
-// Ouput: watercolor!
+// Ouput: "watercolor!"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwNjUxNjg3LDEwOTY2NjA0OSwtMTQ4Nz
-M2MzQ3LDI4NzAyMjg3MSwxNDc3MTU5MDA2XX0=
+eyJoaXN0b3J5IjpbLTYxNDc3NjQ5NiwxMDk2NjYwNDksLTE0OD
+czNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
 -->
