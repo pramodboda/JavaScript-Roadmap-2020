@@ -54,8 +54,19 @@ painting();
 console.log(category); // Output: ReferenceError: hoist is not defined ... 
 let category = 'watercolor!';
 ```
+Like before, for the  `var`  keyword, we expect the output of the log to be  `undefined`. However, since the es6  _let_  doesn't take kindly on us using undeclared variables, the interpreter explicitly spits out a  `Reference`  error.
+
+This ensures that we  **always**  declare our variables first.
+
+However, we still have to be careful here. An implementation like the following will result in an ouput of `undefined` instead of a `Reference error`.
+
+```javascript
+let category;
+console.log(category); // Output: ReferenceError: hoist is not defined ... 
+let category = 'watercolor!';
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODA1NzcyLC02NjQwOTE5ODAsMTA5Nj
-Y2MDQ5LC0xNDg3MzYzNDcsMjg3MDIyODcxLDE0NzcxNTkwMDZd
-fQ==
+eyJoaXN0b3J5IjpbLTQwMjQxMjYxMCwtOTM4MDU3NzIsLTY2ND
+A5MTk4MCwxMDk2NjYwNDksLTE0ODczNjM0NywyODcwMjI4NzEs
+MTQ3NzE1OTAwNl19
 -->
