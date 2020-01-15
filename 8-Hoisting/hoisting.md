@@ -48,7 +48,7 @@ painting();
 // Ouput: "watercolor!"
 ```
 
-### `let` or `const`
+### `let` 
 
 ```javascript
 console.log(category); // Output: ReferenceError: hoist is not defined ... 
@@ -66,8 +66,15 @@ console.log(category); // Output: undefined
 category = 'watercolor!';
 ```
 Hence, to err on the side of caution, we should _declare_ then _assign_ our variables to a value before using them.
+
+
+### `const` 
+
+The  `const`  keyword was introduced in es6 to allow  _immutable variables_. That is, variables whose value cannot be modified once assigned.
+
+With  `const`, just as with  `let`, the variable is hoisted to the top of the block.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODkxMTUzOSwtOTM4MDU3NzIsLTY2ND
-A5MTk4MCwxMDk2NjYwNDksLTE0ODczNjM0NywyODcwMjI4NzEs
-MTQ3NzE1OTAwNl19
+eyJoaXN0b3J5IjpbOTYxMjQxMjM4LDExNTg5MTE1MzksLTkzOD
+A1NzcyLC02NjQwOTE5ODAsMTA5NjY2MDQ5LC0xNDg3MzYzNDcs
+Mjg3MDIyODcxLDE0NzcxNTkwMDZdfQ==
 -->
