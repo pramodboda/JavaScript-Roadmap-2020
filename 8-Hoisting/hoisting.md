@@ -51,7 +51,7 @@ painting();
 ### `let` 
 
 ```javascript
-console.log(category); // Output: ReferenceError: hoist is not defined ... 
+console.log(category); // Output: ReferenceError: category is not defined ... 
 let category = 'watercolor!';
 ```
 Like before, for the  `var`  keyword, we expect the output of the log to be  `undefined`. However, since the es6  _let_  doesn't take kindly on us using undeclared variables, the interpreter explicitly spits out a  `Reference`  error.
@@ -90,8 +90,11 @@ console.log(PI);
 // Output: ReferenceError: hoist is not defined 
 const PI = 3.142;
 ```
+
+
+The same occurs when using `const` within functions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njc4NTg4OTIsMTE1ODkxMTUzOSwtOT
+eyJoaXN0b3J5IjpbLTE1OTQ2MzU5MTQsMTE1ODkxMTUzOSwtOT
 M4MDU3NzIsLTY2NDA5MTk4MCwxMDk2NjYwNDksLTE0ODczNjM0
 NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
 -->
