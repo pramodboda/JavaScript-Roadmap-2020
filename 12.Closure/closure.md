@@ -1,5 +1,6 @@
-# Closure
+# JavaScript  Closures
 
+Global variables can be made local (private) with **closures**. 
 var counter = 0;
 
 // Function to increment counter
@@ -16,5 +17,5 @@ add();
 counter
 3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODEwNDg0OV19
+eyJoaXN0b3J5IjpbNzQzOTI3NjJdfQ==
 -->
