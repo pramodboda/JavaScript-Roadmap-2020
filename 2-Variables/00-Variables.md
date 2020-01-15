@@ -1,6 +1,7 @@
 # Variables
 
   
+Variables created **without** a declaration keyword (`var`, `let`, or `const`) are always global, even if they are created inside a function.
 
 ### Types of variable declarations (`var`, `let`, `const`)
 
@@ -130,7 +131,7 @@ doSomething();
 //Uncaught ReferenceError: x is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE5NzI4Myw5NzE5NTAzNDgsNTg5MT
-IwMTg2LC0xODcyNzk1NDI4LC0xMDA4MjcxODMsNzMwOTk4MTE2
-XX0=
+eyJoaXN0b3J5IjpbNDM4MDMyNjk1LC0xNTkxOTcyODMsOTcxOT
+UwMzQ4LDU4OTEyMDE4NiwtMTg3Mjc5NTQyOCwtMTAwODI3MTgz
+LDczMDk5ODExNl19
 -->
