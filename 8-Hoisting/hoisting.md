@@ -103,8 +103,20 @@ function getCircumference(radius) {
 
 getCircumference(2) // ReferenceError: circumference is not defined
 ```
+
+```javascript
+function getCircumference(radius) {
+	const PI = 22/7;
+	circumference = PI*radius*2;
+
+	console.log(circumference);
+}
+
+getCircumference(2);
+//output: 5 12.571428571428571
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDQ0MzA3MSwxMjY4MjE3OTcsMTE1OD
+eyJoaXN0b3J5IjpbLTg2MDg0NTI0OSwxMjY4MjE3OTcsMTE1OD
 kxMTUzOSwtOTM4MDU3NzIsLTY2NDA5MTk4MCwxMDk2NjYwNDks
 LTE0ODczNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
 -->
