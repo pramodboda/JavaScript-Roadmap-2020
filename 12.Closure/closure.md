@@ -30,7 +30,25 @@ counter;
 
 There is a problem with the solution above: Any code on the page can change the counter, without calling `add()`.
 
-The counter should be local to the `add()` function, to prevent other code from changing it: 
+The counter should be local to the `add()` function, to prevent other code from changing it:
+
+We can remove the global counter and access the local counter by letting the function return it:
+
+```javascript
+// Function to increment counter  
+function add() {  
+	var counter = 0;  
+	counter += 1;  
+	return counter;  
+}  
+  
+// Call add() 3 times  
+add();  
+add();  
+add();  
+  
+//The counter should now be 3. But it is 1. 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDU1ODk0MF19
+eyJoaXN0b3J5IjpbLTEwNjQxMjQ0OTVdfQ==
 -->
