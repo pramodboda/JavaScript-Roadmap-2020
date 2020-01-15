@@ -25,14 +25,14 @@ Function scope means that parameters and variables defined in a function are vis
 
 Consider the next function that auto-executes, called IIFE.
 ```javascript
-(function autoexecute() {
+(function autoExecute() {
     let hobby = "painting";
 })();
 hobby;
 // Uncaught ReferenceError: hobby is not defined
 ```
 ```javascript
-(function autoexecute() {
+(function autoExecute() {
     let hobby = "painting";
     return hobby;
 })();
@@ -70,6 +70,6 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjkwMDE2MiwtNTEwMDMyNTMsMTU5Nj
-g2NTQxLDQwMTI5MDA4Nl19
+eyJoaXN0b3J5IjpbLTExNTE3NDA0NzgsLTUxMDAzMjUzLDE1OT
+Y4NjU0MSw0MDEyOTAwODZdfQ==
 -->
