@@ -39,6 +39,7 @@ hobby;
 // "painting"
 ```
 
+## ````
 `var` variables are function scope.
 ```javascript
 for (var i = 0; i < 5; i++) {
@@ -70,6 +71,6 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE3NDA0NzgsLTUxMDAzMjUzLDE1OT
-Y4NjU0MSw0MDEyOTAwODZdfQ==
+eyJoaXN0b3J5IjpbLTIyNzY1MjA3MiwtMTE1MTc0MDQ3OCwtNT
+EwMDMyNTMsMTU5Njg2NTQxLDQwMTI5MDA4Nl19
 -->
