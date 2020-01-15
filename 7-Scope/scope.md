@@ -17,8 +17,11 @@ hobby;
 // "dancing"
 ```
 
-## Local Scope
+## Local/Function/Block Scope
 
+Function scope means that parameters and variables defined in a function are visible everywhere within the function, but are not visible outside of the function.
+
+Consider the next function that auto-executes, called IIFE.
 ```javascript
 
 ```
@@ -54,6 +57,6 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTMzMjM5LC01MTAwMzI1MywxNTk2OD
-Y1NDEsNDAxMjkwMDg2XX0=
+eyJoaXN0b3J5IjpbLTE0MjMwMzczNywtNTEwMDMyNTMsMTU5Nj
+g2NTQxLDQwMTI5MDA4Nl19
 -->
