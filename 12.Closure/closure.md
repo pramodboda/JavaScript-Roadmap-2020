@@ -77,14 +77,17 @@ var add = (function () {
 			counter +=  1;
 			return  counter;
 		}
-})();  
-  
-add();  
-add();  
-add();  
-  
+})();
+
+add();
+//output: 1
+add()
+//output: 2
+add();
+//output: 3
+
 // the counter is now 3
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxOTg3MDExLC0xMDQ4MjQ3MDY2XX0=
+eyJoaXN0b3J5IjpbMTc3OTg1MjMzMSwtMTA0ODI0NzA2Nl19
 -->
