@@ -23,7 +23,7 @@ function hoist() {
 }
 hoist();
 ```
-
+This is how the interpreter views the above code:
 ```javascript
 function hoist() {
 	var message;
@@ -33,7 +33,11 @@ function hoist() {
 hoist();
 // Ouput: undefined
 ```
+
+To avoid this pitfall, we would make sure to **declare** and **initialise** the variable before we use it:
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk0MjEzMCwxMDk2NjYwNDksLTE0OD
+eyJoaXN0b3J5IjpbMjAzOTI3NDUzMSwxMDk2NjYwNDksLTE0OD
 czNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
 -->
