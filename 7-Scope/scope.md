@@ -7,7 +7,8 @@ In the JavaScript language there are two types of scopes:
 -   Local Scope (inside block/ function)
 
 ## Global Scope
-
+Variables defined outside any function, block, or module scope have global scope.
+Variables in global scope can be accessed from everywhere in the application.
 ```javascript
 // Initialize a global variable
 let hobby = "dancing";
@@ -53,6 +54,6 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NjY5Nzc0LC01MTAwMzI1MywxNTk2OD
+eyJoaXN0b3J5IjpbMjAyMTMzMjM5LC01MTAwMzI1MywxNTk2OD
 Y1NDEsNDAxMjkwMDg2XX0=
 -->
