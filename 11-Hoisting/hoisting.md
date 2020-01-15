@@ -180,6 +180,21 @@ class Hobbit {
 }
 ```
 I'm sure you've noticed that instead of getting an `undefined` we get a `Reference error`. That evidence lends claim to our position that class declarations are hoisted.
+
+So, as far as class declarations go, to access the class declaration, you have to declare first.
+```javascript
+class Hobbit {
+	constructor(height, weight){
+		this.height = height;
+		this.weight = weight;
+	}
+}
+
+var Frodo = new Hobbit();
+Frodo.height = 100;
+Frodo.weight = 300; 
+console.log(Frodo); // Output: Hobbit {height: 100, weight: 300}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzI4NzQ1ODAsLTI2MjUzODg3OV19
+eyJoaXN0b3J5IjpbMTM2NzY3MTgzMywtMjYyNTM4ODc5XX0=
 -->
