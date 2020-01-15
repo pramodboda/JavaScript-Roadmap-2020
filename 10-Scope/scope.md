@@ -43,7 +43,11 @@ hobby;
 //Output: "painting"
 ```
 
-## Differet
+## Different btw Global and Local Scopes
+
+- Global variables can be used (and changed) by all scripts in the page (and in the window).
+- A local variable can only be used inside the function where it is defined. It is hidden from other functions and other scripting code.
+- Global and local variables with the same name are different variables. Modifying one, does not modify the other.
 
 > :warning: 
 Do NOT create global variables unless you intend to.
@@ -83,5 +87,5 @@ i
 //Output: Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzOTg2Nzg1XX0=
+eyJoaXN0b3J5IjpbLTUyOTkzMTM4Nl19
 -->
