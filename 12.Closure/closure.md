@@ -54,6 +54,9 @@ add();
   
 //The counter should now be 3. But it is 1. 
 ```
+It did not work because we reset the local counter every time we call the function.
+
+**A JavaScript inner function can solve this.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzI4NDc5NV19
+eyJoaXN0b3J5IjpbLTEwNDgyNDcwNjZdfQ==
 -->
