@@ -65,8 +65,9 @@ let category;
 console.log(category); // Output: undefined 
 category = 'watercolor!';
 ```
+Hence, to err on the side of caution, we should _declare_ then _assign_ our variables to a value before using them.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjcxOTAxMSwtOTM4MDU3NzIsLTY2ND
+eyJoaXN0b3J5IjpbMTE1ODkxMTUzOSwtOTM4MDU3NzIsLTY2ND
 A5MTk4MCwxMDk2NjYwNDksLTE0ODczNjM0NywyODcwMjI4NzEs
 MTQ3NzE1OTAwNl19
 -->
