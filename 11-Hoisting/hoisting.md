@@ -146,6 +146,16 @@ var expression = function() {
 ```
 
 Let's try the combination of a function declaration and expression.
+
+```javascript
+expression(); // Ouput: TypeError: expression is not a function
+var expression = function hoisting() {
+	console.log('Will this work?');
+};
+```
+As we can see above, the variable declaration `var expression` is hoisted but it's assignment to a function is not. Therefore, the intepreter throws a `TypeError` since it sees `expression` as a _variable_and not a _function_.
+
+## [Hoisting classes](https://scotch.io/tutorials/understanding-hoisting-in-javascript#toc-hoisting-classes)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjI1OTY0OTgsLTI2MjUzODg3OV19
+eyJoaXN0b3J5IjpbMTU1Nzk0NDMxOCwtMjYyNTM4ODc5XX0=
 -->
