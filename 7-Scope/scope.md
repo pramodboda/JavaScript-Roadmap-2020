@@ -26,7 +26,8 @@ Consider the next function that auto-executes, called IIFE.
 (function autoexecute() {
     let hobby = "painting";
 })();
-undefined
+hobby;
+// Uncaught ReferenceError: hobby is not defined
 ```
 
 `var` variables are function scope.
@@ -60,6 +61,6 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4NzA5ODk4LC01MTAwMzI1MywxNTk2OD
+eyJoaXN0b3J5IjpbODYwMjI1NzcxLC01MTAwMzI1MywxNTk2OD
 Y1NDEsNDAxMjkwMDg2XX0=
 -->
