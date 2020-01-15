@@ -114,10 +114,14 @@ let  age; // Error: At this point when we delcared a variable with 'let' its dec
 another example
 
 ```javascript
-
+function doSomething(){
+	console.log(x);
+	var x = 1;
+}
+doSomething(); //undefined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxNjYxNDc4LDk3MTk1MDM0OCw1ODkxMj
-AxODYsLTE4NzI3OTU0MjgsLTEwMDgyNzE4Myw3MzA5OTgxMTZd
-fQ==
+eyJoaXN0b3J5IjpbLTQ5NjcxNTg0MCw5NzE5NTAzNDgsNTg5MT
+IwMTg2LC0xODcyNzk1NDI4LC0xMDA4MjcxODMsNzMwOTk4MTE2
+XX0=
 -->
