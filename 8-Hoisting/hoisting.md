@@ -26,9 +26,14 @@ hoist();
 
 ```javascript
 function hoist() {
-var message;   console.log(message);   message='Hoisting is all the rage!' }  hoist(); // Ouput: undefined
+	var message;
+	console.log(message);
+	message='Hoisting is all the rage!';
+}
+hoist();
+// Ouput: undefined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjEyMjExOSwxMDk2NjYwNDksLTE0OD
+eyJoaXN0b3J5IjpbLTE2Mjk0MjEzMCwxMDk2NjYwNDksLTE0OD
 czNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
 -->
