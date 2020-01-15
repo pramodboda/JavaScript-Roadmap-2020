@@ -74,9 +74,9 @@ Remember self-invoking functions? What does this function do?
 var add = (function () {
 	var counter =  0;  
 	return function () {
-		counter +=  1;
-		return  counter
-	}
+			counter +=  1;
+			return  counter;
+		}
 })();  
   
 add();  
@@ -86,6 +86,5 @@ add();
 // the counter is now 3
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY0NzkzOTQsLTEwNDgyNDcwNjZdfQ
-==
+eyJoaXN0b3J5IjpbNjAxOTg3MDExLC0xMDQ4MjQ3MDY2XX0=
 -->
