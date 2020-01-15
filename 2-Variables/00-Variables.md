@@ -120,8 +120,17 @@ function doSomething(){
 }
 doSomething(); //undefined
 ```
+
+```javascript
+function doSomething(){
+	console.log(x);
+	let x = 1;
+}
+doSomething();
+//Uncaught ReferenceError: x is not defined
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjcxNTg0MCw5NzE5NTAzNDgsNTg5MT
+eyJoaXN0b3J5IjpbLTE0MTUwMjgxMSw5NzE5NTAzNDgsNTg5MT
 IwMTg2LC0xODcyNzk1NDI4LC0xMDA4MjcxODMsNzMwOTk4MTE2
 XX0=
 -->
