@@ -45,7 +45,13 @@ function painting() {
 painting();
 // Ouput: "watercolor!"
 ```
+
+`let` or `const`
+
+```javascript
+console.log(hoist); // Output: ReferenceError: hoist is not defined ... let hoist = 'The variable has been hoisted.';
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDc3NjQ5NiwxMDk2NjYwNDksLTE0OD
-czNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
+eyJoaXN0b3J5IjpbLTE2OTE5NDkxNDIsMTA5NjY2MDQ5LC0xND
+g3MzYzNDcsMjg3MDIyODcxLDE0NzcxNTkwMDZdfQ==
 -->
