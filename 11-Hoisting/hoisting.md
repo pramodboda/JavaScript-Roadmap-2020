@@ -116,7 +116,7 @@ getCircumference(2);
 //output: 5 12.571428571428571
 ```
 
-## [Hoisting functions](https://scotch.io/tutorials/understanding-hoisting-in-javascript#toc-hoisting-functions)
+## Hoisting functions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg3MzIwNzFdfQ==
+eyJoaXN0b3J5IjpbODM4Mjc2MTkxXX0=
 -->
