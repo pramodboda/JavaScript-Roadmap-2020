@@ -4,7 +4,9 @@
 console.log(category); //undefined
 var category = 'watercolor';
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODczNjM0NywyODcwMjI4NzEsMTQ3Nz
-E1OTAwNl19
+eyJoaXN0b3J5IjpbLTE2OTE0OTEwNzEsLTE0ODczNjM0NywyOD
+cwMjI4NzEsMTQ3NzE1OTAwNl19
 -->
