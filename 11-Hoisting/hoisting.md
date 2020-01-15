@@ -179,6 +179,7 @@ class Hobbit {
 	}
 }
 ```
+I'm sure you've noticed that instead of getting an `undefined` we get a `Reference error`. That evidence lends claim to our position that class declarations are hoisted.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3MDc0MzYwLC0yNjI1Mzg4NzldfQ==
+eyJoaXN0b3J5IjpbLTEzMzI4NzQ1ODAsLTI2MjUzODg3OV19
 -->
