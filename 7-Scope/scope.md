@@ -39,7 +39,7 @@ hobby;
 // "painting"
 ```
 
-## ````
+## different between `var`,`let` and `const` scope
 `var` variables are function scope.
 ```javascript
 for (var i = 0; i < 5; i++) {
@@ -71,6 +71,6 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzY1MjA3MiwtMTE1MTc0MDQ3OCwtNT
+eyJoaXN0b3J5IjpbMTgxMzA5MzE3MywtMTE1MTc0MDQ3OCwtNT
 EwMDMyNTMsMTU5Njg2NTQxLDQwMTI5MDA4Nl19
 -->
