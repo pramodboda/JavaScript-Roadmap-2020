@@ -156,6 +156,15 @@ var expression = function hoisting() {
 As we can see above, the variable declaration `var expression` is hoisted but it's assignment to a function is not. Therefore, the intepreter throws a `TypeError` since it sees `expression` as a _variable_and not a _function_.
 
 ## Hoisting `Classes`
+
+JavaScript classes too can be loosely classified either as:
+
+1.  Class declarations
+2.  Class expressions
+
+### `Class` declarations
+
+Much like their function counterparts, JavaScript class declarations are hoisted. However, they remain uninitialised until evaluation. This effectively means that you have to declare a class before you can use it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc1NjAxNSwtMjYyNTM4ODc5XX0=
+eyJoaXN0b3J5IjpbMTcxNjQwNjM1MywtMjYyNTM4ODc5XX0=
 -->
