@@ -12,7 +12,7 @@ console.log(category); // Output: undefined
 category = 'watercolor';
 ```
 
-The best option would be to declare and initialise our variable before use.
+>***The best option would be to declare and initialise our variable before use.
 
 ## Function scoped variables
 
@@ -34,7 +34,7 @@ painting();
 // Ouput: undefined
 ```
 
-To avoid this pitfall, we would make sure to **declare** and **initialise** the variable before we use it:
+>To avoid this pitfall, we would make sure to **declare** and **initialise** the variable before we use it:
 
 ```javascript
 function painting() {
@@ -45,6 +45,6 @@ painting();
 // Ouput: Hoisting is all the rage!
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjEzODYwMCwxMDk2NjYwNDksLTE0OD
+eyJoaXN0b3J5IjpbMTg2NTkwMDQyNCwxMDk2NjYwNDksLTE0OD
 czNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
 -->
