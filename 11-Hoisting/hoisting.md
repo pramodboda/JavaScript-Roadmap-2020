@@ -1,6 +1,6 @@
 # Hoisting
 
-## Variables Hoisting
+## Hoisting `Variables`
 
 ```javascript
 console.log(category); //Output: undefined
@@ -116,7 +116,7 @@ getCircumference(2);
 //output: 5 12.571428571428571
 ```
 
-## Hoisting functions
+## Hoisting `Functions`
 JavaScript functions can be loosely classified as the following:
 
 1.  Function declarations
@@ -124,7 +124,7 @@ JavaScript functions can be loosely classified as the following:
 
 We'll investigate how hoisting is affected by both function types.
 
-### Function declarations
+### `Function` declarations
 
 These are of the following form and are hoisted completely to the top. Now, we can understand why JavaScript enable us to invoke a function seemingly before declaring it.
 
@@ -135,7 +135,7 @@ function hoisted() {
 };
 ```
 
-### Function expressions
+### `Function` expressions
 
 Function expressions, however are not hoisted.
 ```javascript
@@ -155,7 +155,7 @@ var expression = function hoisting() {
 ```
 As we can see above, the variable declaration `var expression` is hoisted but it's assignment to a function is not. Therefore, the intepreter throws a `TypeError` since it sees `expression` as a _variable_and not a _function_.
 
-## [Hoisting classes](https://scotch.io/tutorials/understanding-hoisting-in-javascript#toc-hoisting-classes)
+## Hoisting `Classes`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Nzk0NDMxOCwtMjYyNTM4ODc5XX0=
+eyJoaXN0b3J5IjpbLTEzNTc1NjAxNSwtMjYyNTM4ODc5XX0=
 -->
