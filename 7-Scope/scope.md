@@ -1,8 +1,21 @@
 
+# Scope in JavaScript
+
 In the JavaScript language there are two types of scopes:
 
 -   Global Scope
 -   Local Scope (inside block/ function)
+
+## Global Scope
+
+```javascript
+// Initialize a global variable
+var hobby = "dancing";
+
+hobby;
+// "dancing"
+
+```
 
 `var` variables are function scope.
 ```javascript
@@ -35,6 +48,6 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDAzMjUzLDE1OTY4NjU0MSw0MDEyOT
-AwODZdfQ==
+eyJoaXN0b3J5IjpbMTc2NDg3MjY1MCwtNTEwMDMyNTMsMTU5Nj
+g2NTQxLDQwMTI5MDA4Nl19
 -->
