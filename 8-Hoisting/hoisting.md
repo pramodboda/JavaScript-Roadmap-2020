@@ -50,9 +50,9 @@ painting();
 
 ```javascript
 console.log(category); // Output: ReferenceError: hoist is not defined ... 
-let hoist = 'watercolor!';
+let category = 'watercolor!';
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc3NDkyMDMsMTA5NjY2MDQ5LC0xND
-g3MzYzNDcsMjg3MDIyODcxLDE0NzcxNTkwMDZdfQ==
+eyJoaXN0b3J5IjpbLTY2NDA5MTk4MCwxMDk2NjYwNDksLTE0OD
+czNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
 -->
