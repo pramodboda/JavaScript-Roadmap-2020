@@ -57,6 +57,31 @@ add();
 It did not work because we reset the local counter every time we call the function.
 
 **A JavaScript inner function can solve this.**
+
+This could have solved the counter dilemma, if we could reach the  `plus()`  function from the outside.
+
+We also need to find a way to execute  `counter = 0`  only once.
+
+**We need a closure.**
+
+----------
+
+## JavaScript Closures
+
+Remember self-invoking functions? What does this function do?
+
+### Example
+
+var  add = (function  () {  
+var  counter =  0;  
+return  function  () {counter +=  1;  return  counter}  
+})();  
+  
+add();  
+add();  
+add();  
+  
+// the counter is now 3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDgyNDcwNjZdfQ==
+eyJoaXN0b3J5IjpbMTg2MjYzNjQwOCwtMTA0ODI0NzA2Nl19
 -->
