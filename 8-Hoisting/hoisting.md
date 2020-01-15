@@ -84,8 +84,15 @@ console.log(PI);
 ```
 
 How does `const` alter variable declaration? Let's take a look.
+
+```javascript
+const PI = 3.142;
+PI = 22/7; // Let's reassign the value of PI  
+console.log(PI); 
+// Output: TypeError: Assignment to constant variable.
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg4NTg1ODgsMTE1ODkxMTUzOSwtOT
-M4MDU3NzIsLTY2NDA5MTk4MCwxMDk2NjYwNDksLTE0ODczNjM0
-NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
+eyJoaXN0b3J5IjpbOTQzOTI4MDE4LDExNTg5MTE1MzksLTkzOD
+A1NzcyLC02NjQwOTE5ODAsMTA5NjY2MDQ5LC0xNDg3MzYzNDcs
+Mjg3MDIyODcxLDE0NzcxNTkwMDZdfQ==
 -->
