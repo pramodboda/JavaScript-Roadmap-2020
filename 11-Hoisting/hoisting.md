@@ -144,6 +144,8 @@ var expression = function() {
 	console.log('Will this work?');
 };
 ```
+
+Let's try the combination of a function declaration and expression.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjUzODg3OV19
+eyJoaXN0b3J5IjpbLTIxMjI1OTY0OTgsLTI2MjUzODg3OV19
 -->
