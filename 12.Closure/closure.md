@@ -27,6 +27,8 @@ add();
 counter;
 //output: 3
 ```
+
+There is a problem with the solution above: Any code on the page can change the counter, without calling `add()`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjkxNzU0NDBdfQ==
+eyJoaXN0b3J5IjpbLTczODQ3MDM0XX0=
 -->
