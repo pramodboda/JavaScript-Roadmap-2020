@@ -12,7 +12,7 @@ console.log(category); // Output: undefined
 category = 'watercolor';
 ```
 
->***The best option would be to declare and initialise our variable before use.
+>The best option would be to declare and initialise our variable before use.
 
 ## Function scoped variables
 
@@ -45,6 +45,6 @@ painting();
 // Ouput: Hoisting is all the rage!
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTkwMDQyNCwxMDk2NjYwNDksLTE0OD
-czNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
+eyJoaXN0b3J5IjpbLTEwNzY4MzY4ODgsMTA5NjY2MDQ5LC0xND
+g3MzYzNDcsMjg3MDIyODcxLDE0NzcxNTkwMDZdfQ==
 -->
