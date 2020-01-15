@@ -38,12 +38,12 @@ hobby;
 })();
 // "painting"
 ```
-
+<aside class="notice">
 Do NOT create global variables unless you intend to.
 
 Your global variables (or functions) can overwrite window variables (or functions).  
 Any function, including the window object, can overwrite your global variables and functions.
-
+</aside>
 
 ## different between `var`,`let` and `const` scope
 `var` variables are function scope.
@@ -77,6 +77,6 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTk2MzM0OSwtMTE1MTc0MDQ3OCwtNT
+eyJoaXN0b3J5IjpbMTMwNzU4MTc5MywtMTE1MTc0MDQ3OCwtNT
 EwMDMyNTMsMTU5Njg2NTQxLDQwMTI5MDA4Nl19
 -->
