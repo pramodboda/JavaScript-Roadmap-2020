@@ -62,11 +62,11 @@ However, we still have to be careful here. An implementation like the following 
 
 ```javascript
 let category;
-console.log(category); // Output: ReferenceError: hoist is not defined ... 
-let category = 'watercolor!';
+console.log(category); // Output: undefined 
+category = 'watercolor!';
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjQxMjYxMCwtOTM4MDU3NzIsLTY2ND
+eyJoaXN0b3J5IjpbMTA0NjcxOTAxMSwtOTM4MDU3NzIsLTY2ND
 A5MTk4MCwxMDk2NjYwNDksLTE0ODczNjM0NywyODcwMjI4NzEs
 MTQ3NzE1OTAwNl19
 -->
