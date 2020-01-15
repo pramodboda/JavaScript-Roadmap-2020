@@ -90,11 +90,11 @@ console.log(PI);
 // Output: ReferenceError: PI is not defined 
 const PI = 3.142;
 ```
+Much like the `let` keyword.
 
-
-The same occurs when using `const` within functions.
+Now, The same occurs when using `const` within functions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDY1MjcxMiwxMTU4OTExNTM5LC05Mz
+eyJoaXN0b3J5IjpbMjA5NTU2MjQwNSwxMTU4OTExNTM5LC05Mz
 gwNTc3MiwtNjY0MDkxOTgwLDEwOTY2NjA0OSwtMTQ4NzM2MzQ3
 LDI4NzAyMjg3MSwxNDc3MTU5MDA2XX0=
 -->
