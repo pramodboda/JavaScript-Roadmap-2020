@@ -111,7 +111,7 @@ let  age; // Error: At this point when we delcared a variable with 'let' its dec
 //output: undefined
 ```
 
-another example
+another example:
 
 ```javascript
 function doSomething(){
@@ -130,7 +130,7 @@ doSomething();
 //Uncaught ReferenceError: x is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTUwMjgxMSw5NzE5NTAzNDgsNTg5MT
+eyJoaXN0b3J5IjpbLTE1OTE5NzI4Myw5NzE5NTAzNDgsNTg5MT
 IwMTg2LC0xODcyNzk1NDI4LC0xMDA4MjcxODMsNzMwOTk4MTE2
 XX0=
 -->
