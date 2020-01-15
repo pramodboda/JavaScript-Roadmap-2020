@@ -6,10 +6,6 @@ In the JavaScript language there are two types of scopes:
 -   Global Scope
 -   Local Scope (inside block/ function)
 
-A local variable can only be used inside the function where it is defined. It is hidden from other functions and other scripting code.
-
-Global and local variables with the same name are different variables. Modifying one, does not modify the other.
-
 ## Global Scope
 Variables defined outside any function, block, or module scope have global scope.
 Variables in global scope can be accessed from everywhere in the application.
@@ -87,5 +83,5 @@ i
 //Output: Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTkzMTM4Nl19
+eyJoaXN0b3J5IjpbLTE4Njg5ODY1NjRdfQ==
 -->
