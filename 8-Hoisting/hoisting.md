@@ -115,8 +115,11 @@ function getCircumference(radius) {
 getCircumference(2);
 //output: 5 12.571428571428571
 ```
+
+## [Hoisting functions](https://scotch.io/tutorials/understanding-hoisting-in-javascript#toc-hoisting-functions)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDg0NTI0OSwxMjY4MjE3OTcsMTE1OD
-kxMTUzOSwtOTM4MDU3NzIsLTY2NDA5MTk4MCwxMDk2NjYwNDks
-LTE0ODczNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
+eyJoaXN0b3J5IjpbLTEzMDg3MzIwNzEsLTg2MDg0NTI0OSwxMj
+Y4MjE3OTcsMTE1ODkxMTUzOSwtOTM4MDU3NzIsLTY2NDA5MTk4
+MCwxMDk2NjYwNDksLTE0ODczNjM0NywyODcwMjI4NzEsMTQ3Nz
+E1OTAwNl19
 -->
