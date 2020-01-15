@@ -70,11 +70,13 @@ We also need to find a way to execute  `counter = 0`  only once.
 
 Remember self-invoking functions? What does this function do?
 
-### Example
-
-var  add = (function  () {  
-var  counter =  0;  
-return  function  () {counter +=  1;  return  counter}  
+```javascript
+var add = (function () {
+	var counter =  0;  
+	return function () {
+		counter +=  1;
+		return  counter
+	}
 })();  
   
 add();  
@@ -82,6 +84,8 @@ add();
 add();  
   
 // the counter is now 3
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjYzNjQwOCwtMTA0ODI0NzA2Nl19
+eyJoaXN0b3J5IjpbLTEzMzY0NzkzOTQsLTEwNDgyNDcwNjZdfQ
+==
 -->
