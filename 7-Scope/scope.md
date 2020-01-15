@@ -38,7 +38,9 @@ hobby;
 })();
 // "painting"
 ```
-<aside class="notice">
+
+| WARNING: be careful to baz the quux before initializing the retro encabulator! | | --- |
+
 Do NOT create global variables unless you intend to.
 
 Your global variables (or functions) can overwrite window variables (or functions).  
@@ -77,6 +79,7 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzU4MTc5MywtMTE1MTc0MDQ3OCwtNT
-EwMDMyNTMsMTU5Njg2NTQxLDQwMTI5MDA4Nl19
+eyJoaXN0b3J5IjpbLTIxMTI1ODY4NTAsMTMwNzU4MTc5MywtMT
+E1MTc0MDQ3OCwtNTEwMDMyNTMsMTU5Njg2NTQxLDQwMTI5MDA4
+Nl19
 -->
