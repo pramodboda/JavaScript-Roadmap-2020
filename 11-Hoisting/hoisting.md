@@ -129,11 +129,20 @@ We'll investigate how hoisting is affected by both function types.
 These are of the following form and are hoisted completely to the top. Now, we can understand why JavaScript enable us to invoke a function seemingly before declaring it.
 
 ```javascript
-painting(); // Output: "This function has been hoisted."  
+painting(); // Output: "watercolor!"  
 function painting() {
 	console.log('watercolor!'); 
 };
 ```
+
+### Function expressions
+
+Function expressions, however are not hoisted.
+
+```javascript
+expression(); //Output: "TypeError: expression is not a function
+var expression = function() {   console.log('Will this work?'); };
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4Mjk4NDczXX0=
+eyJoaXN0b3J5IjpbNjg4ODAyODAzXX0=
 -->
