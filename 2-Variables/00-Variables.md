@@ -93,28 +93,31 @@ The differences between the three are based on scope, hoisting, and reassignment
 ## `var` hoisting thing
 
 ```javascript
-var  age;
+var age;
 console.log(age);
 //output: undefined
 ```
 ```javascript
 console.log(age);
-
-var  age; // At this point when we delcared a variable with 'var' its declaraion - hoisted at the top of the scope.
+var age; // At this point when we delcared a variable with 'var' its declaraion - hoisted at the top of the scope.
 
 //output: undefined
-
 ```
 ```javascript
 
 console.log(age);
-
 let  age; // Error: At this point when we delcared a variable with 'let' its declaraion - hoisted at the same place(scope).
 
 //output: undefined
+```
+
+another example
+
+```javascript
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxOTUwMzQ4LDU4OTEyMDE4NiwtMTg3Mj
-c5NTQyOCwtMTAwODI3MTgzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNzQxNjYxNDc4LDk3MTk1MDM0OCw1ODkxMj
+AxODYsLTE4NzI3OTU0MjgsLTEwMDgyNzE4Myw3MzA5OTgxMTZd
+fQ==
 -->
