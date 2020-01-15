@@ -1,6 +1,6 @@
 # Hoisting
 
-variables
+## Variables Hoisting
 
 ```javascript
 console.log(category); //Output: undefined
@@ -16,7 +16,7 @@ category = 'watercolor';
 
 >:warning: The best option would be to **declare** and **initialise** our variable before use.
 
-## Function scoped variables
+### Function scoped variables
 
 ```javascript
 function painting() {
@@ -48,14 +48,14 @@ painting();
 // Ouput: "watercolor!"
 ```
 
-`let` or `const`
+### `let` or `const`
 
 ```javascript
 console.log(category); // Output: ReferenceError: hoist is not defined ... 
 let category = 'watercolor!';
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3NjA0NDM1LC02NjQwOTE5ODAsMTA5Nj
+eyJoaXN0b3J5IjpbLTkzODA1NzcyLC02NjQwOTE5ODAsMTA5Nj
 Y2MDQ5LC0xNDg3MzYzNDcsMjg3MDIyODcxLDE0NzcxNTkwMDZd
 fQ==
 -->
