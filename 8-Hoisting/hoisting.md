@@ -87,14 +87,14 @@ How does `const` alter variable declaration? Let's take a look.
 
 ```javascript
 console.log(PI); 
-// Output: ReferenceError: hoist is not defined 
+// Output: ReferenceError: PI is not defined 
 const PI = 3.142;
 ```
 
 
 The same occurs when using `const` within functions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ2MzU5MTQsMTE1ODkxMTUzOSwtOT
-M4MDU3NzIsLTY2NDA5MTk4MCwxMDk2NjYwNDksLTE0ODczNjM0
-NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
+eyJoaXN0b3J5IjpbMTg4MDY1MjcxMiwxMTU4OTExNTM5LC05Mz
+gwNTc3MiwtNjY0MDkxOTgwLDEwOTY2NjA0OSwtMTQ4NzM2MzQ3
+LDI4NzAyMjg3MSwxNDc3MTU5MDA2XX0=
 -->
