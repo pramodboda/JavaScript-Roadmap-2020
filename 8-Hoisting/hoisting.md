@@ -93,8 +93,12 @@ const PI = 3.142;
 Much like the `let` keyword.
 
 Now, The same occurs when using `const` within functions.
+
+```javascript
+function getCircumference(radius) {   console.log(circumference)   circumference = PI*radius*2;   const PI = 22/7; }  getCircumference(2) // ReferenceError: circumference is not defined
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTU2MjQwNSwxMTU4OTExNTM5LC05Mz
-gwNTc3MiwtNjY0MDkxOTgwLDEwOTY2NjA0OSwtMTQ4NzM2MzQ3
-LDI4NzAyMjg3MSwxNDc3MTU5MDA2XX0=
+eyJoaXN0b3J5IjpbLTEyMjE1MDU3OTUsMTE1ODkxMTUzOSwtOT
+M4MDU3NzIsLTY2NDA5MTk4MCwxMDk2NjYwNDksLTE0ODczNjM0
+NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
 -->
