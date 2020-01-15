@@ -14,7 +14,7 @@ Variables in global scope can be accessed from everywhere in the application.
 let hobby = "dancing";
 
 hobby;
-// "dancing"
+//Output: "dancing"
 ```
 
 ## Local/Function/Block Scope
@@ -29,14 +29,14 @@ Consider the next function that auto-executes, called IIFE.
     let hobby = "painting";
 })();
 hobby;
-// Uncaught ReferenceError: hobby is not defined
+//Output: Uncaught ReferenceError: hobby is not defined
 ```
 ```javascript
 (function autoExecute() {
     let hobby = "painting";
     return hobby;
 })();
-// "painting"
+//Output: "painting"
 ```
 
 > :warning: 
@@ -63,7 +63,7 @@ for (var i = 0; i < 5; i++) {
 4
 
 i
-//5
+//Output: 5
 ```
 `let` and `const` variables are block scope. can not access outside of the block.
 ```javascript
@@ -81,7 +81,7 @@ i
 //Output: Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTA4MzI3OSwxMDgzMjU0MjMyLDEzMD
-c1ODE3OTMsLTExNTE3NDA0NzgsLTUxMDAzMjUzLDE1OTY4NjU0
-MSw0MDEyOTAwODZdfQ==
+eyJoaXN0b3J5IjpbLTE1NzI1OTYwMDEsMTA4MzI1NDIzMiwxMz
+A3NTgxNzkzLC0xMTUxNzQwNDc4LC01MTAwMzI1MywxNTk2ODY1
+NDEsNDAxMjkwMDg2XX0=
 -->
