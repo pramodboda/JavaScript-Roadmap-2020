@@ -43,12 +43,17 @@ function add() {
 }  
   
 // Call add() 3 times  
+add(); 
+//output: 1 
+
 add();  
+//output: 1
+
 add();  
-add();  
+//output: 1
   
 //The counter should now be 3. But it is 1. 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQxMjQ0OTVdfQ==
+eyJoaXN0b3J5IjpbMTk3MzI4NDc5NV19
 -->
