@@ -28,7 +28,7 @@
 
 ## Intermediate
 10. Scope
-11. [Hoisting](https://github.com/pramodboda/JavaScript-Roadmap-2020/blob/master/8-Hoisting/hoisting.md)
+11. [Hoisting](https://github.com/pramodboda/JavaScript-Roadmap-2020/blob/master/11-Hoisting/hoisting.md)
 12. Closures
 13. The DOM
 14. 
@@ -39,7 +39,7 @@ Strict mode
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDc5NTMzNzgsLTE0MzY1NTYzMjEsMT
+eyJoaXN0b3J5IjpbLTEzNjgzNjU1NTQsLTE0MzY1NTYzMjEsMT
 MzNDg4ODEyMCwtMTY0ODgzMzg3NiwtMjEzNzcxOTI1NiwtMTc3
 NzMwMzM2MV19
 -->
