@@ -117,6 +117,20 @@ getCircumference(2);
 ```
 
 ## Hoisting functions
+JavaScript functions can be loosely classified as the following:
+
+1.  Function declarations
+2.  Function expressions
+
+We'll investigate how hoisting is affected by both function types.
+
+### Function declarations
+
+These are of the following form and are hoisted completely to the top. Now, we can understand why JavaScript enable us to invoke a function seemingly before declaring it.
+
+```javascript
+hoisted(); // Output: "This function has been hoisted."  function hoisted() {   console.log('This function has been hoisted.'); };
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4Mjc2MTkxXX0=
+eyJoaXN0b3J5IjpbNjUxMTYzNjEwXX0=
 -->
