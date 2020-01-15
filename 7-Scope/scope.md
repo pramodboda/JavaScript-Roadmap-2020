@@ -78,10 +78,10 @@ for (let i = 0; i < 5; i++) {
 4
 
 i
-//Uncaught ReferenceError: i is not defined
+//Output: Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzI1NDIzMiwxMzA3NTgxNzkzLC0xMT
-UxNzQwNDc4LC01MTAwMzI1MywxNTk2ODY1NDEsNDAxMjkwMDg2
-XX0=
+eyJoaXN0b3J5IjpbLTMwOTA4MzI3OSwxMDgzMjU0MjMyLDEzMD
+c1ODE3OTMsLTExNTE3NDA0NzgsLTUxMDAzMjUzLDE1OTY4NjU0
+MSw0MDEyOTAwODZdfQ==
 -->
