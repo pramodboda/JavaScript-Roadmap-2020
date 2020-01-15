@@ -24,7 +24,7 @@
 	 - Parameter and Arguments
 7. Arrays 
 8. Objects
-9.  Events
+9. Events
 
 ## Intermediate
 10. Scope
@@ -39,7 +39,7 @@ Strict mode
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzY1ODU5NiwtMTQzNjU1NjMyMSwxMz
-M0ODg4MTIwLC0xNjQ4ODMzODc2LC0yMTM3NzE5MjU2LC0xNzc3
-MzAzMzYxXX0=
+eyJoaXN0b3J5IjpbLTEwNDc5NTMzNzgsLTE0MzY1NTYzMjEsMT
+MzNDg4ODEyMCwtMTY0ODgzMzg3NiwtMjEzNzcxOTI1NiwtMTc3
+NzMwMzM2MV19
 -->
