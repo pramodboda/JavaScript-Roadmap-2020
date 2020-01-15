@@ -11,7 +11,9 @@ var category;
 console.log(category); // Output: undefined
 category = 'watercolor';
 ```
+
+The best option would be to declare and initialise our variable before use.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjY2MDQ5LC0xNDg3MzYzNDcsMjg3MD
-IyODcxLDE0NzcxNTkwMDZdfQ==
+eyJoaXN0b3J5IjpbNzUxNzMyMTk4LDEwOTY2NjA0OSwtMTQ4Nz
+M2MzQ3LDI4NzAyMjg3MSwxNDc3MTU5MDA2XX0=
 -->
