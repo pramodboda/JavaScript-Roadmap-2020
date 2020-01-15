@@ -39,12 +39,14 @@ hobby;
 // "painting"
 ```
 
-| WARNING: be careful to baz the quux before initializing the retro encabulator! | | --- |
-
+> :warning: 
 Do NOT create global variables unless you intend to.
-
-Your global variables (or functions) can overwrite window variables (or functions).  
+>Your global variables (or functions) can overwrite window variables (or functions).  
 Any function, including the window object, can overwrite your global variables and functions.
+
+> 
+
+
 </aside>
 
 ## different between `var`,`let` and `const` scope
@@ -79,7 +81,7 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTI1ODY4NTAsMTMwNzU4MTc5MywtMT
-E1MTc0MDQ3OCwtNTEwMDMyNTMsMTU5Njg2NTQxLDQwMTI5MDA4
-Nl19
+eyJoaXN0b3J5IjpbMTA4MzI1NDIzMiwxMzA3NTgxNzkzLC0xMT
+UxNzQwNDc4LC01MTAwMzI1MywxNTk2ODY1NDEsNDAxMjkwMDg2
+XX0=
 -->
