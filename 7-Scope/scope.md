@@ -23,7 +23,6 @@ If a variable is declared inside a code block `{...}`, it’s only visible insid
 
 Function scope means that parameters and variables defined in a function are visible everywhere within the function, but are not visible outside of the function.
 
-
 Consider the next function that auto-executes, called IIFE.
 ```javascript
 (function autoexecute() {
@@ -64,6 +63,6 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTE0MTg5MTUsLTUxMDAzMjUzLDE1OT
-Y4NjU0MSw0MDEyOTAwODZdfQ==
+eyJoaXN0b3J5IjpbMTkwMTc5ODgzMSwtNTEwMDMyNTMsMTU5Nj
+g2NTQxLDQwMTI5MDA4Nl19
 -->
