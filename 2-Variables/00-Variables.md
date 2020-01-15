@@ -7,7 +7,7 @@
 
 ```javascript
 noDeclaringKeyword = "I Will be always global, even if I am created inside a function.";
-//calling/using a variable
+//calling/using a undeclared variable
 noDeclaringKeyword;
 "I Will be always global, even if I am created inside a function."
 ```
@@ -141,7 +141,7 @@ doSomething();
 //Uncaught ReferenceError: x is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA2MzY3NDYsMTgzMDQ5MzE4NCwtMT
-U5MTk3MjgzLDk3MTk1MDM0OCw1ODkxMjAxODYsLTE4NzI3OTU0
-MjgsLTEwMDgyNzE4Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTc5NTAzMTQ1OSwxODMwNDkzMTg0LC0xNT
+kxOTcyODMsOTcxOTUwMzQ4LDU4OTEyMDE4NiwtMTg3Mjc5NTQy
+OCwtMTAwODI3MTgzLDczMDk5ODExNl19
 -->
