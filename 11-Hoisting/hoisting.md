@@ -165,6 +165,20 @@ JavaScript classes too can be loosely classified either as:
 ### `Class` declarations
 
 Much like their function counterparts, JavaScript class declarations are hoisted. However, they remain uninitialised until evaluation. This effectively means that you have to declare a class before you can use it.
+
+```javascript
+var Frodo = new Hobbit();
+Frodo.height = 100;
+Frodo.weight = 300; 
+console.log(Frodo); // Output: ReferenceError: Hobbit is not defined 
+ 
+class Hobbit {
+	constructor(height, weight){
+		this.height = height;
+		this.weight = weight;
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjQwNjM1MywtMjYyNTM4ODc5XX0=
+eyJoaXN0b3J5IjpbNTM3MDc0MzYwLC0yNjI1Mzg4NzldfQ==
 -->
