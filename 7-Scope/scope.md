@@ -41,10 +41,8 @@ hobby;
 
 > :warning: 
 Do NOT create global variables unless you intend to.
->Your global variables (or functions) can overwrite window variables (or functions).  
+Your global variables (or functions) can overwrite window variables (or functions).  
 Any function, including the window object, can overwrite your global variables and functions.
-
-> 
 
 
 </aside>
@@ -81,7 +79,7 @@ i
 //Output: Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzI1OTYwMDEsMTA4MzI1NDIzMiwxMz
-A3NTgxNzkzLC0xMTUxNzQwNDc4LC01MTAwMzI1MywxNTk2ODY1
-NDEsNDAxMjkwMDg2XX0=
+eyJoaXN0b3J5IjpbLTEyMTUyNDc1ODcsLTE1NzI1OTYwMDEsMT
+A4MzI1NDIzMiwxMzA3NTgxNzkzLC0xMTUxNzQwNDc4LC01MTAw
+MzI1MywxNTk2ODY1NDEsNDAxMjkwMDg2XX0=
 -->
