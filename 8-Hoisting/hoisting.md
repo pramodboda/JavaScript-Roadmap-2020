@@ -1,5 +1,7 @@
 # Hoisting
 
+variables
+
 ```javascript
 console.log(category); //Output: undefined
 var category = 'watercolor';
@@ -53,6 +55,7 @@ console.log(category); // Output: ReferenceError: hoist is not defined ...
 let category = 'watercolor!';
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDA5MTk4MCwxMDk2NjYwNDksLTE0OD
-czNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
+eyJoaXN0b3J5IjpbNTQ3NjA0NDM1LC02NjQwOTE5ODAsMTA5Nj
+Y2MDQ5LC0xNDg3MzYzNDcsMjg3MDIyODcxLDE0NzcxNTkwMDZd
+fQ==
 -->
