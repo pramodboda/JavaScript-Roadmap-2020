@@ -28,10 +28,10 @@
 
 ## Intermediate
 10. Scope
-11. [Hoisting(https://github.com/pramodboda/JavaScript-Roadmap-2020/blob/master/8-Hoisting/hoisting.md)
-13.  Closures
-14. The DOM
-15. 
+11. [Hoisting](https://github.com/pramodboda/JavaScript-Roadmap-2020/blob/master/8-Hoisting/hoisting.md)
+12. Closures
+13. The DOM
+14. 
 ##  Advanced
 
 Inheritance and the prototype chain
@@ -39,7 +39,7 @@ Strict mode
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjkyNDY0NiwtMTQzNjU1NjMyMSwxMz
+eyJoaXN0b3J5IjpbMjA2NzY1ODU5NiwtMTQzNjU1NjMyMSwxMz
 M0ODg4MTIwLC0xNjQ4ODMzODc2LC0yMTM3NzE5MjU2LC0xNzc3
 MzAzMzYxXX0=
 -->
