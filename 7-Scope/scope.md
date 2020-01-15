@@ -10,10 +10,15 @@ In the JavaScript language there are two types of scopes:
 
 ```javascript
 // Initialize a global variable
-var hobby = "dancing";
+let hobby = "dancing";
 
 hobby;
 // "dancing"
+```
+
+## Local Scope
+
+```javascript
 
 ```
 
@@ -48,6 +53,6 @@ i
 //Uncaught ReferenceError: i is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDg3MjY1MCwtNTEwMDMyNTMsMTU5Nj
-g2NTQxLDQwMTI5MDA4Nl19
+eyJoaXN0b3J5IjpbNzM1NjY5Nzc0LC01MTAwMzI1MywxNTk2OD
+Y1NDEsNDAxMjkwMDg2XX0=
 -->
