@@ -3,8 +3,14 @@
   
 ### Types of variable declarations (`var`, `let`, `const`)
 
-> `Variables` created **without** a declaration keyword (`var`, `let`, or `const`) are always global, even if they are created inside a function.
+ `Variables` created **without** a declaration keyword (`var`, `let`, or `const`) are always global, even if they are created inside a function.
 
+```javascript
+noDeclaringKeyword = "I Will be always global, even if I am created inside a function.";
+//calling/using a variable
+noDeclaringKeyword;
+"I Will be always global, even if I am created inside a function."
+```
 ## Variable Lifetime
 
 Global variables live until the page is discarded, like when you navigate to another page or close the window.
@@ -135,7 +141,7 @@ doSomething();
 //Uncaught ReferenceError: x is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDQ5MzE4NCwtMTU5MTk3MjgzLDk3MT
-k1MDM0OCw1ODkxMjAxODYsLTE4NzI3OTU0MjgsLTEwMDgyNzE4
-Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1MzA2MzY3NDYsMTgzMDQ5MzE4NCwtMT
+U5MTk3MjgzLDk3MTk1MDM0OCw1ODkxMjAxODYsLTE4NzI3OTU0
+MjgsLTEwMDgyNzE4Myw3MzA5OTgxMTZdfQ==
 -->
