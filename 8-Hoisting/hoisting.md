@@ -37,12 +37,14 @@ painting();
 To avoid this pitfall, we would make sure to **declare** and **initialise** the variable before we use it:
 
 ```javascript
-function hoist() {
-var message='Hoisting is all the rage!'   return (message); }
-hoist();
+function painting() {
+	var category='watercolor';
+	return category;
+}
+painting();
 // Ouput: Hoisting is all the rage!
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDU5Mzk4NSwxMDk2NjYwNDksLTE0OD
+eyJoaXN0b3J5IjpbMTA5MjEzODYwMCwxMDk2NjYwNDksLTE0OD
 czNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
 -->
