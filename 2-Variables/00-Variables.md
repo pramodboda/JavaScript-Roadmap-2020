@@ -1,11 +1,15 @@
 # Variables
 
   
-Variables created **without** a declaration keyword (`var`, `let`, or `const`) are always global, even if they are created inside a function.
-
 ### Types of variable declarations (`var`, `let`, `const`)
 
-  
+> `Variables` created **without** a declaration keyword (`var`, `let`, or `const`) are always global, even if they are created inside a function.
+
+## Variable Lifetime
+
+Global variables live until the page is discarded, like when you navigate to another page or close the window.
+
+Local variables have short lives. They are created when the function is invoked, and deleted when the function is finished.
 
 ### Initialized and Uninitialized Variables in JavaScript
 
@@ -131,7 +135,7 @@ doSomething();
 //Uncaught ReferenceError: x is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4MDMyNjk1LC0xNTkxOTcyODMsOTcxOT
-UwMzQ4LDU4OTEyMDE4NiwtMTg3Mjc5NTQyOCwtMTAwODI3MTgz
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTgzMDQ5MzE4NCwtMTU5MTk3MjgzLDk3MT
+k1MDM0OCw1ODkxMjAxODYsLTE4NzI3OTU0MjgsLTEwMDgyNzE4
+Myw3MzA5OTgxMTZdfQ==
 -->
