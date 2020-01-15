@@ -140,9 +140,10 @@ function hoisted() {
 Function expressions, however are not hoisted.
 ```javascript
 expression(); //Output: "TypeError: expression is not a function
-var expression = function() {   console.log('Will this work?');
+var expression = function() {
+	console.log('Will this work?');
 };
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4MjU1MDddfQ==
+eyJoaXN0b3J5IjpbLTI2MjUzODg3OV19
 -->
