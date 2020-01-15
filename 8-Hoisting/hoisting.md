@@ -95,10 +95,15 @@ Much like the `let` keyword.
 Now, The same occurs when using `const` within functions.
 
 ```javascript
-function getCircumference(radius) {   console.log(circumference)   circumference = PI*radius*2;   const PI = 22/7; }  getCircumference(2) // ReferenceError: circumference is not defined
+function getCircumference(radius) { 
+  console.log(circumference)  
+   circumference = PI*radius*2;   
+   const PI = 22/7; 
+   } 
+    getCircumference(2) // ReferenceError: circumference is not defined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE1MDU3OTUsMTE1ODkxMTUzOSwtOT
-M4MDU3NzIsLTY2NDA5MTk4MCwxMDk2NjYwNDksLTE0ODczNjM0
-NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
+eyJoaXN0b3J5IjpbMTI2ODIxNzk3LDExNTg5MTE1MzksLTkzOD
+A1NzcyLC02NjQwOTE5ODAsMTA5NjY2MDQ5LC0xNDg3MzYzNDcs
+Mjg3MDIyODcxLDE0NzcxNTkwMDZdfQ==
 -->
