@@ -17,27 +17,32 @@ The best option would be to declare and initialise our variable before use.
 ## Function scoped variables
 
 ```javascript
-function hoist() {
-	console.log(message);
-	var message='Hoisting is all the rage!';
+function painting() {
+	console.log(category);
+	var category='watercolor!';
 }
-hoist();
+painting();
 ```
 This is how the interpreter views the above code:
 ```javascript
-function hoist() {
-	var message;
-	console.log(message);
-	message='Hoisting is all the rage!';
+function painting() {
+	var category;
+	console.log(category);
+	category='watercolor!';
 }
-hoist();
+painting();
 // Ouput: undefined
 ```
 
 To avoid this pitfall, we would make sure to **declare** and **initialise** the variable before we use it:
 
-
+```javascript
+function hoist() {
+var message='Hoisting is all the rage!'   return (message); }
+hoist();
+// Ouput: Hoisting is all the rage!
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTI3NDUzMSwxMDk2NjYwNDksLTE0OD
+eyJoaXN0b3J5IjpbLTU5NDU5Mzk4NSwxMDk2NjYwNDksLTE0OD
 czNjM0NywyODcwMjI4NzEsMTQ3NzE1OTAwNl19
 -->
