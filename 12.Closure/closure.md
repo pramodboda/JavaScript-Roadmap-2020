@@ -2,7 +2,9 @@
 
 Global variables can be made local (private) with **closures**. 
 
+https://www.youtube.com/watch?v=71AtaJpJHw0
 
+https://www.youtube.com/watch?v=-xqJo5VRP4A&t=13s
 
 Suppose you want to use a variable for counting something, and you want this counter to be available to all functions.
 
@@ -89,5 +91,6 @@ add();
 // the counter is now 3
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTg1MjMzMSwtMTA0ODI0NzA2Nl19
+eyJoaXN0b3J5IjpbMTk4OTczMDM5LDE3Nzk4NTIzMzEsLTEwND
+gyNDcwNjZdfQ==
 -->
