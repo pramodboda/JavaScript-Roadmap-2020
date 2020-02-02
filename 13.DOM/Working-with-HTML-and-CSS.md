@@ -74,12 +74,13 @@ cardEl.appendChild(para);
 
 para.remove();
 
+
 console.log(para);
 // <p>​I will be removed!​</p>​
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzM2ODMwMywtMTE0NzA4OTc3LDE2Mj
-Y0OTI2ODksLTc1Njg4MTkzOSwtMTc2MDk4MjQ4NiwtMTQ0OTQx
-NDQwNF19
+eyJoaXN0b3J5IjpbMjEzODE0MjM3LC0xMTQ3MDg5NzcsMTYyNj
+Q5MjY4OSwtNzU2ODgxOTM5LC0xNzYwOTgyNDg2LC0xNDQ5NDE0
+NDA0XX0=
 -->
