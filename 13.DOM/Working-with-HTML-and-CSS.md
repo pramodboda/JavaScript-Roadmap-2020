@@ -34,9 +34,13 @@ console.log(cardEl.children);
 console.log(cardEl.firstElementChild);
 // <img class=​"ItemImg" src=​"data:​image/​jpeg;​base64,/​9j…oDtcoooDtcoooArtcooDtFFFAf/​Z" alt>​
 
-cons
+console.log(cardEl.lastElementChild);
+// <p>​More description​</p>​
+
+
+
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzkxNzE0OCwtNzU2ODgxOTM5LC0xNz
+eyJoaXN0b3J5IjpbLTkzMjc4MDczMiwtNzU2ODgxOTM5LC0xNz
 YwOTgyNDg2LC0xNDQ5NDE0NDA0XX0=
 -->
