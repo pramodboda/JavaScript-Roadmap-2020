@@ -47,10 +47,15 @@ console.log(cardEl.parentElement);
 
 
 // This are all for Nodes
-cardEl.childNodes
+console.log(cardEl.childNodes);
 // NodeList(9) [text, img.ItemImg, text, h2, text, h3, text, p, text]
+
+console.log(cardEl.firstChild);
+VM974:1 #text
+
+
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTQ5Mzc5MiwxNjI2NDkyNjg5LC03NT
+eyJoaXN0b3J5IjpbMTQ5MjA1MjE0OSwxNjI2NDkyNjg5LC03NT
 Y4ODE5MzksLTE3NjA5ODI0ODYsLTE0NDk0MTQ0MDRdfQ==
 -->
