@@ -26,10 +26,9 @@
 ```
 ```javascript
 const cardEl = document.querySelector('.myCard');
-
 console.log(cardEl);
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDE0NTkzMywtNzU2ODgxOTM5LC0xNz
-YwOTgyNDg2LC0xNDQ5NDE0NDA0XX0=
+eyJoaXN0b3J5IjpbOTYzMzg2NTI3LC03NTY4ODE5MzksLTE3Nj
+A5ODI0ODYsLTE0NDk0MTQ0MDRdfQ==
 -->
