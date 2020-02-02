@@ -51,11 +51,12 @@ console.log(cardEl.childNodes);
 // NodeList(9) [text, img.ItemImg, text, h2, text, h3, text, p, text]
 
 console.log(cardEl.firstChild);
-VM974:1 #text
+// #text
 
-
+console.log(cardEl.lastChild);
+// #text
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjA1MjE0OSwxNjI2NDkyNjg5LC03NT
-Y4ODE5MzksLTE3NjA5ODI0ODYsLTE0NDk0MTQ0MDRdfQ==
+eyJoaXN0b3J5IjpbMzgzMDA1MDIzLDE2MjY0OTI2ODksLTc1Nj
+g4MTkzOSwtMTc2MDk4MjQ4NiwtMTQ0OTQxNDQwNF19
 -->
