@@ -55,8 +55,14 @@ console.log(cardEl.firstChild);
 
 console.log(cardEl.lastChild);
 // #text
+
+console.log(cardEl.previousSibling);
+VM1112:1 #textwholeText: "↵    "assignedSlot: nulldata: "↵    "length: 5previousElementSibling: nullnextElementSibling: div.myCardnodeType: 3nodeName: "#text"baseURI: "file:///Users/pramodboda/Desktop/test.html"isConnected: trueownerDocument: documentparentNode: bodyparentElement: bodychildNodes: NodeList []firstChild: nulllastChild: nullpreviousSibling: nullnextSibling: div.myCardnodeValue: "↵    "textContent: "↵    "__proto__: Text
+undefined
+console.log(cardEl.nextElementSibling);
+VM1164:1 null
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzMDA1MDIzLDE2MjY0OTI2ODksLTc1Nj
-g4MTkzOSwtMTc2MDk4MjQ4NiwtMTQ0OTQxNDQwNF19
+eyJoaXN0b3J5IjpbLTEwNjg0MTAxNzksMTYyNjQ5MjY4OSwtNz
+U2ODgxOTM5LC0xNzYwOTgyNDg2LC0xNDQ5NDE0NDA0XX0=
 -->
