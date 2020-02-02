@@ -60,9 +60,9 @@ console.log(cardEl.previousSibling);
 // #text
 
 console.log(cardEl.nextElementSibling);
-VM1164:1 null
+// null
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE2NTM3NDIsMTYyNjQ5MjY4OSwtNz
-U2ODgxOTM5LC0xNzYwOTgyNDg2LC0xNDQ5NDE0NDA0XX0=
+eyJoaXN0b3J5IjpbMzM1Nzc4MjE0LDE2MjY0OTI2ODksLTc1Nj
+g4MTkzOSwtMTc2MDk4MjQ4NiwtMTQ0OTQxNDQwNF19
 -->
