@@ -37,10 +37,11 @@ console.log(cardEl.firstElementChild);
 console.log(cardEl.lastElementChild);
 // <p>​More description​</p>​
 
-
+console.log(cardEl.previousElementSibling);
+// null
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjc4MDczMiwtNzU2ODgxOTM5LC0xNz
+eyJoaXN0b3J5IjpbLTUzNzIzMTc4MiwtNzU2ODgxOTM5LC0xNz
 YwOTgyNDg2LC0xNDQ5NDE0NDA0XX0=
 -->
