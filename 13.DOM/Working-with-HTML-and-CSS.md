@@ -1,7 +1,12 @@
+# DOM - Working with HTML and CSS
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
+### The DOM - Traversing and Removing Nodes
+
+```javascript
+
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTM0NDE5OTM2XX0=
 -->
