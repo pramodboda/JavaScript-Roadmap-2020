@@ -13,9 +13,11 @@
 </div>
 ```
 ```javascript
-const cardEl = document.querySelector()
+const cardEl = document.querySelector('.myCard');
+
+console.log(cardEl);
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ1MDU2MzAsLTE3NjA5ODI0ODYsLT
-E0NDk0MTQ0MDRdfQ==
+eyJoaXN0b3J5IjpbLTc1Njg4MTkzOSwtMTc2MDk4MjQ4NiwtMT
+Q0OTQxNDQwNF19
 -->
