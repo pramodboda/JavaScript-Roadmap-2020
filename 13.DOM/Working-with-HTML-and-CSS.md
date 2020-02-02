@@ -4,9 +4,16 @@
 
 ### The DOM - Traversing and Removing Nodes
 
+```html
+<div class="myCard">
+	<
+	<h3>Card Title</h3>
+	
+</div>
+```
 ```javascript
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0NDE5OTM2XX0=
+eyJoaXN0b3J5IjpbLTE0NDk0MTQ0MDRdfQ==
 -->
