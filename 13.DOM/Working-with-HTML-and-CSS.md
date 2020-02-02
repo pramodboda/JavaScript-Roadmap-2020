@@ -61,8 +61,12 @@ console.log(cardEl.previousSibling);
 
 console.log(cardEl.nextElementSibling);
 // null
+
+console.log(cardEl.parentNode);
+// <body>​<div class=​"myCard">​…​</div>​</body>​
+
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1Nzc4MjE0LDE2MjY0OTI2ODksLTc1Nj
-g4MTkzOSwtMTc2MDk4MjQ4NiwtMTQ0OTQxNDQwNF19
+eyJoaXN0b3J5IjpbLTExNDcwODk3NywxNjI2NDkyNjg5LC03NT
+Y4ODE5MzksLTE3NjA5ODI0ODYsLTE0NDk0MTQ0MDRdfQ==
 -->
