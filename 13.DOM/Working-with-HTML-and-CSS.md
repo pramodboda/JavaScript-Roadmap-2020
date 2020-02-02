@@ -74,13 +74,16 @@ cardEl.appendChild(para);
 
 para.remove();
 
-// removed, but it still exist in javascript memory.
+// Removed, but it still exist in javascript memory.
 console.log(para);
 // <p>​I will be removed!​</p>​
 
 ```
+
+## DOM Excerise
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE0MTI2OSwtMTE0NzA4OTc3LDE2Mj
+eyJoaXN0b3J5IjpbMTc5NDk3NTgwNywtMTE0NzA4OTc3LDE2Mj
 Y0OTI2ODksLTc1Njg4MTkzOSwtMTc2MDk4MjQ4NiwtMTQ0OTQx
 NDQwNF19
 -->
