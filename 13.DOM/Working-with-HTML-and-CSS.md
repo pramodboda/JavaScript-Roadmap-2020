@@ -28,9 +28,15 @@
 const cardEl = document.querySelector('.myCard');
 console.log(cardEl);
 
+console.log(cardEl.children);
+// HTMLCollection(4) [img.ItemImg, h2, h3, p]
 
+console.log(cardEl.firstElementChild);
+// <img class=​"ItemImg" src=​"data:​image/​jpeg;​base64,/​9j…oDtcoooDtcoooArtcooDtFFFAf/​Z" alt>​
+
+cons
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTAyMTk0NywtNzU2ODgxOTM5LC0xNz
+eyJoaXN0b3J5IjpbLTk3MzkxNzE0OCwtNzU2ODgxOTM5LC0xNz
 YwOTgyNDg2LC0xNDQ5NDE0NDA0XX0=
 -->
