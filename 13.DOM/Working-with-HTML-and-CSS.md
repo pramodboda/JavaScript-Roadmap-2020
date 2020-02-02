@@ -28,6 +28,8 @@
 const cardEl = document.querySelector('.myCard');
 console.log(cardEl);
 
+
+// This are all for Elements
 console.log(cardEl.children);
 // HTMLCollection(4) [img.ItemImg, h2, h3, p]
 
@@ -44,8 +46,11 @@ console.log(cardEl.parentElement);
 // <body>​<div class=​"myCard">​…​</div>​</body>​
 
 
+// This are all for Nodes
+cardEl.childNodes
+// NodeList(9) [text, img.ItemImg, text, h2, text, h3, text, p, text]
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjQ5MjY4OSwtNzU2ODgxOTM5LC0xNz
-YwOTgyNDg2LC0xNDQ5NDE0NDA0XX0=
+eyJoaXN0b3J5IjpbLTM2OTQ5Mzc5MiwxNjI2NDkyNjg5LC03NT
+Y4ODE5MzksLTE3NjA5ODI0ODYsLTE0NDk0MTQ0MDRdfQ==
 -->
