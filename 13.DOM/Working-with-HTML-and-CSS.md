@@ -13,9 +13,9 @@
 </div>
 ```
 ```javascript
-
+const cardEl = document.querySelector()
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA5ODI0ODYsLTE0NDk0MTQ0MDRdfQ
-==
+eyJoaXN0b3J5IjpbLTE4NzQ1MDU2MzAsLTE3NjA5ODI0ODYsLT
+E0NDk0MTQ0MDRdfQ==
 -->
