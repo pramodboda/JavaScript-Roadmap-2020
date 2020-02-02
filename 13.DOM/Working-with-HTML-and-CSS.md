@@ -71,10 +71,15 @@ Removing Elements
 const para = document.createElement('p');
 para.textContent = 'I will be removed!';
 cardEl.appendChild(para);
-<p>​I will be removed!​</p>​
+
+para.remove();
+
+console.log(para);
+// <p>​I will be removed!​</p>​
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTg3MzcwOCwtMTE0NzA4OTc3LDE2Mj
+eyJoaXN0b3J5IjpbMTY5MzM2ODMwMywtMTE0NzA4OTc3LDE2Mj
 Y0OTI2ODksLTc1Njg4MTkzOSwtMTc2MDk4MjQ4NiwtMTQ0OTQx
 NDQwNF19
 -->
