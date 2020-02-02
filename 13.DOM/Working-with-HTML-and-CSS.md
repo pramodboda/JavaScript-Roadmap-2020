@@ -64,9 +64,17 @@ console.log(cardEl.nextElementSibling);
 
 console.log(cardEl.parentNode);
 // <body>​<div class=​"myCard">​…​</div>​</body>​
-
 ``` 
+
+Removing Elements
+```javascript
+const para = document.createElement('p');
+para.textContent = 'I will be removed!';
+cardEl.appendChild(para);
+<p>​I will be removed!​</p>​
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDcwODk3NywxNjI2NDkyNjg5LC03NT
-Y4ODE5MzksLTE3NjA5ODI0ODYsLTE0NDk0MTQ0MDRdfQ==
+eyJoaXN0b3J5IjpbMTE5NTg3MzcwOCwtMTE0NzA4OTc3LDE2Mj
+Y0OTI2ODksLTc1Njg4MTkzOSwtMTc2MDk4MjQ4NiwtMTQ0OTQx
+NDQwNF19
 -->
