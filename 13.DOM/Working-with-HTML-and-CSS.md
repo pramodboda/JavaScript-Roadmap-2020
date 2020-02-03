@@ -83,61 +83,39 @@ console.log(para);
 ## DOM Excerise
 ```javascript
 // Make a div
-
 const  divEl  =  document.createElement('div');
 
 // add a class of wrapper to it
-
 divEl.classList  =  "wrapper"
 
 // put it into the body
-
 document.body.appendChild(divEl);
 
-  
-
 // make an unordered list
-
 // add three list items with the words "one, two three" in them
 
 const  ul  =  `
-
 <ul>
-
 <li>one</li>
-
 <li>two</li>
-
 <li>three</li>
-
 <li>four</li>
-
 </ul>
-
 `
 
-  
-
 // put that list into the above wrapper
-
 divEl.innerHTML  =  ul;
 
-  
-
 // create an image
-
 const  imgEl  =  document.createElement('IMG');
 
 // set the source to an image
-
 imgEl.src=  "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 
 // set the width to 250
-
 imgEl.width  =  250;
 
 // add a class of imgEl
-
 imgEl.classList  =  imgEl;
 
 // add an alt of Technology
@@ -269,7 +247,7 @@ let  delBtnEl;
 delBtn.forEach( function(delBtnEl){delBtnEl.addEventListener("click",  delCardFunc)});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY0NTgyMzQsMTc5NDk3NTgwNywtMT
-E0NzA4OTc3LDE2MjY0OTI2ODksLTc1Njg4MTkzOSwtMTc2MDk4
-MjQ4NiwtMTQ0OTQxNDQwNF19
+eyJoaXN0b3J5IjpbMTcxMTIwMzA0MiwxNzk0OTc1ODA3LC0xMT
+Q3MDg5NzcsMTYyNjQ5MjY4OSwtNzU2ODgxOTM5LC0xNzYwOTgy
+NDg2LC0xNDQ5NDE0NDA0XX0=
 -->
