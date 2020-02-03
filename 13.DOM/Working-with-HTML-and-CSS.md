@@ -119,88 +119,50 @@ imgEl.width  =  250;
 imgEl.classList  =  imgEl;
 
 // add an alt of Technology
-
 imgEl.alt  =  "Technology";
 
 // Append that image to the wrapper
-
 divEl.appendChild(imgEl);
 
 // with HTML string, make a div, with two paragraphs inside of it
-
 const  content  =  `
-
 <div class="content">
-
 <p>Para one</p>
-
 <p>Para two</p>
-
 </div>
-
 `;
 
-  
-
 // put this div before the unordered list from above
-
 const  ulEl  =  divEl.querySelector('ul');
-
 console.log(ulEl);
-
-  
 
 ulEl.insertAdjacentHTML("beforebegin", content);
 
-  
-
 // add a class to the second paragraph called warning
-
 const  conetentBlock  =  divEl.querySelector('.content');
 
 conetentBlock.children[1].classList.add('warning');
 
-  
-
 // remove the first paragraph
-
 conetentBlock.firstElementChild.remove();
 
-  
-
 // create a function called generatePlayerCard that takes in three arguments: name, age, and height
-
 const  generatePlayerCard  =  function(name,  age,  height){
-
 const  html  =  `
-
 <div class="playerCard">
-
 <h2>${name} — ${age}</h2>
-
 <button class="delete" type="button">&times; Delete</button>
-
 </p>
-
 </div>
-
 `
-
 return html;
-
 }
 
 // have that function return html that looks like this:
-
 // <div class="playerCard">
-
 // <h2>NAME — AGE</h2>
-
 // <p>They are HEIGHT and AGE years old. In Dog years this person would be AGEINDOGYEARS. That would be a tall dog!</p>
-
 // </div>
-
-  
 
 // make a new div with a class of cards
 const  cardBlock=  document.createElement('div');
@@ -247,7 +209,7 @@ let  delBtnEl;
 delBtn.forEach( function(delBtnEl){delBtnEl.addEventListener("click",  delCardFunc)});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTIwMzA0MiwxNzk0OTc1ODA3LC0xMT
-Q3MDg5NzcsMTYyNjQ5MjY4OSwtNzU2ODgxOTM5LC0xNzYwOTgy
-NDg2LC0xNDQ5NDE0NDA0XX0=
+eyJoaXN0b3J5IjpbNTgxMTI5OTk4LDE3OTQ5NzU4MDcsLTExND
+cwODk3NywxNjI2NDkyNjg5LC03NTY4ODE5MzksLTE3NjA5ODI0
+ODYsLTE0NDk0MTQ0MDRdfQ==
 -->
