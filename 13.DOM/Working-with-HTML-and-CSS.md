@@ -81,9 +81,195 @@ console.log(para);
 ```
 
 ## DOM Excerise
+```javascript
+// Make a div
 
+const  divEl  =  document.createElement('div');
+
+// add a class of wrapper to it
+
+divEl.classList  =  "wrapper"
+
+// put it into the body
+
+document.body.appendChild(divEl);
+
+  
+
+// make an unordered list
+
+// add three list items with the words "one, two three" in them
+
+const  ul  =  `
+
+<ul>
+
+<li>one</li>
+
+<li>two</li>
+
+<li>three</li>
+
+<li>four</li>
+
+</ul>
+
+`
+
+  
+
+// put that list into the above wrapper
+
+divEl.innerHTML  =  ul;
+
+  
+
+// create an image
+
+const  imgEl  =  document.createElement('IMG');
+
+// set the source to an image
+
+imgEl.src=  "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+
+// set the width to 250
+
+imgEl.width  =  250;
+
+// add a class of imgEl
+
+imgEl.classList  =  imgEl;
+
+// add an alt of Technology
+
+imgEl.alt  =  "Technology";
+
+// Append that image to the wrapper
+
+divEl.appendChild(imgEl);
+
+// with HTML string, make a div, with two paragraphs inside of it
+
+const  content  =  `
+
+<div class="content">
+
+<p>Para one</p>
+
+<p>Para two</p>
+
+</div>
+
+`;
+
+  
+
+// put this div before the unordered list from above
+
+const  ulEl  =  divEl.querySelector('ul');
+
+console.log(ulEl);
+
+  
+
+ulEl.insertAdjacentHTML("beforebegin", content);
+
+  
+
+// add a class to the second paragraph called warning
+
+const  conetentBlock  =  divEl.querySelector('.content');
+
+conetentBlock.children[1].classList.add('warning');
+
+  
+
+// remove the first paragraph
+
+conetentBlock.firstElementChild.remove();
+
+  
+
+// create a function called generatePlayerCard that takes in three arguments: name, age, and height
+
+const  generatePlayerCard  =  function(name,  age,  height){
+
+const  html  =  `
+
+<div class="playerCard">
+
+<h2>${name} — ${age}</h2>
+
+<button class="delete" type="button">&times; Delete</button>
+
+</p>
+
+</div>
+
+`
+
+return html;
+
+}
+
+// have that function return html that looks like this:
+
+// <div class="playerCard">
+
+// <h2>NAME — AGE</h2>
+
+// <p>They are HEIGHT and AGE years old. In Dog years this person would be AGEINDOGYEARS. That would be a tall dog!</p>
+
+// </div>
+
+  
+
+// make a new div with a class of cards
+const  cardBlock=  document.createElement('div');
+
+cardBlock.classList.add('cards');
+
+// Have that function make 4 cards
+let  cardBlockHTML  =  generatePlayerCard("Pramod",  30,  128);
+cardBlockHTML  +=  generatePlayerCard("Pradeep", 31, 127);
+cardBlockHTML  +=  generatePlayerCard("A. R. Rahman", 53, 125);
+cardBlockHTML  +=  generatePlayerCard("Pawan Kalyan", 48, 160);
+
+// append those cards to the div
+cardBlock.innerHTML  =  cardBlockHTML;
+
+// put the div into the DOM just before the wrapper element
+
+divEl.insertAdjacentElement("beforebegin", cardBlock);
+
+  
+
+// Bonus, put a delete Button on each card so when you click it, the whole card is removed
+
+// select all the buttons!
+
+const  delBtn  =  document.querySelectorAll('.delete');
+
+  
+
+// make out delete function
+
+const  delCardFunc  =  function(e){
+
+const  btnThatGotClicked  =  e.currentTarget;
+
+btnThatGotClicked.closest('.playerCard').remove();
+
+}
+
+// loop over them and attach a listener
+
+let  delBtnEl;
+
+delBtn.forEach( function(delBtnEl){delBtnEl.addEventListener("click",  delCardFunc)});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDk3NTgwNywtMTE0NzA4OTc3LDE2Mj
-Y0OTI2ODksLTc1Njg4MTkzOSwtMTc2MDk4MjQ4NiwtMTQ0OTQx
-NDQwNF19
+eyJoaXN0b3J5IjpbLTExMTY0NTgyMzQsMTc5NDk3NTgwNywtMT
+E0NzA4OTc3LDE2MjY0OTI2ODksLTc1Njg4MTkzOSwtMTc2MDk4
+MjQ4NiwtMTQ0OTQxNDQwNF19
 -->
