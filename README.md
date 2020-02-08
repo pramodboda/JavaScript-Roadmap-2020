@@ -31,7 +31,7 @@
 11. [Hoisting](https://github.com/pramodboda/JavaScript-Roadmap-2020/blob/master/11-Hoisting/hoisting.md)
 12. Closures
 13. The DOM
-14. 
+14. Events
 ##  Advanced
 
 Inheritance and the prototype chain
@@ -39,7 +39,7 @@ Strict mode
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjgzNjU1NTQsLTE0MzY1NTYzMjEsMT
-MzNDg4ODEyMCwtMTY0ODgzMzg3NiwtMjEzNzcxOTI1NiwtMTc3
-NzMwMzM2MV19
+eyJoaXN0b3J5IjpbLTE0ODA0MjM1LC0xMzY4MzY1NTU0LC0xND
+M2NTU2MzIxLDEzMzQ4ODgxMjAsLTE2NDg4MzM4NzYsLTIxMzc3
+MTkyNTYsLTE3NzczMDMzNjFdfQ==
 -->
