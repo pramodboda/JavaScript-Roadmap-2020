@@ -16,9 +16,7 @@
 ```javascript
 // Listen on multiple items
 const buyBtns = document.querySelectorAll('.buy');
-
 console.log(buyBtns);
-
 
 function buyItem(){
   console.log('Buying Item');
@@ -26,7 +24,6 @@ function buyItem(){
 
 function handleBuyBtnClick(anythingWeWant){
   console.log('Binding the buy button');
-  
   anythingWeWant.addEventListener('click', buyItem);
 }
 
@@ -36,6 +33,6 @@ console.log(buyBtns);
 buyBtns.forEach(handleBuyBtnClick);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg4MDA4MTQsLTY2OTU0NTkxOCwtND
-Q1MTE3NDBdfQ==
+eyJoaXN0b3J5IjpbMTA3MDM2NzM2MCwtNjY5NTQ1OTE4LC00ND
+UxMTc0MF19
 -->
