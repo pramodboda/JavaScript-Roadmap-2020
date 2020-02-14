@@ -36,7 +36,9 @@ console.log(buyBtns);
 
 buyBtns.forEach(handleBuyBtnClick);
 ```
+
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzgwNDQxMCwtNjY5NTQ1OTE4LC00ND
-UxMTc0MF19
+eyJoaXN0b3J5IjpbODg5MDExODMwLDIwODc4MDQ0MTAsLTY2OT
+U0NTkxOCwtNDQ1MTE3NDBdfQ==
 -->
