@@ -14,8 +14,28 @@
 <button class="buy">Buy Item 10</button>
 ```
 ```javascript
+// Listen on multiple items
+const buyBtns = document.querySelectorAll('.buy');
 
+console.log(buyBtns);
+
+
+function buyItem(){
+  console.log('Buying Item');
+}
+
+function handleBuyBtnClick(anythingWeWant){
+  console.log('Binding the buy button');
+  
+  anythingWeWant.addEventListener('click', buyItem);
+}
+
+console.log(buyBtns);
+// console.dir(btns);
+
+buyBtns.forEach(handleBuyBtnClick);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTU0NTkxOCwtNDQ1MTE3NDBdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzg4MDA4MTQsLTY2OTU0NTkxOCwtND
+Q1MTE3NDBdfQ==
 -->
