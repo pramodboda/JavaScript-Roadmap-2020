@@ -1,6 +1,8 @@
 # Events
 
 ## Event Listener
+
+html:
 ```html
 <button class="buy">Buy Item 1</button>
 <button class="buy">Buy Item 2</button>
@@ -13,6 +15,8 @@
 <button class="buy">Buy Item 9</button>
 <button class="buy">Buy Item 10</button>
 ```
+
+js:
 ```javascript
 // Listen on multiple items
 const buyBtns = document.querySelectorAll('.buy');
@@ -33,6 +37,6 @@ console.log(buyBtns);
 buyBtns.forEach(handleBuyBtnClick);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDM2NzM2MCwtNjY5NTQ1OTE4LC00ND
+eyJoaXN0b3J5IjpbMjA4NzgwNDQxMCwtNjY5NTQ1OTE4LC00ND
 UxMTc0MF19
 -->
