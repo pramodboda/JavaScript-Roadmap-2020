@@ -16,6 +16,10 @@ JavaScript offer three ways to register an event handler:
 
 This style of event handlers is very rarely used today, due to its constraints, but it was the only way in the JavaScript early days:
 
+```html
+<a href="pramodboda.com" onclick="dosomething();">Pramod Boda Art</a>
+```
+
 
 ## Event Listener
 
@@ -57,7 +61,7 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTcwNDEzNSwyMzkyMTg0MzQsODg5MD
+eyJoaXN0b3J5IjpbLTIyOTAxODkxNiwyMzkyMTg0MzQsODg5MD
 ExODMwLDIwODc4MDQ0MTAsLTY2OTU0NTkxOCwtNDQ1MTE3NDBd
 fQ==
 -->
