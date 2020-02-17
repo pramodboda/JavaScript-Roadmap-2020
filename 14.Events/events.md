@@ -37,9 +37,6 @@ xhr.onreadystatechange = () => {
 }
 ```
 
-
-> Note that IE8 and below did not support this, and instead used its own  `attachEvent()`  API. Keep it in mind if you need to support older browsers.
-
 ### Using  `addEventListener()`
 
 This is the  _modern way_. This method allows to register as many handlers as we need, and it’s the most popular you will find:
@@ -49,6 +46,16 @@ window.addEventListener('load', () => {
   //window loaded
 })
 ```
+
+> Note that IE8 and below did not support this, and instead used its own  `attachEvent()`  API. Keep it in mind if you need to support older browsers.
+
+
+## Listening on different elements
+
+You can listen on  `window`  to intercept “global” events, like the usage of the keyboard, and you can listen on specific elements to check events happening on them, like a mouse click on a button.
+
+This is why  `addEventListener`  is sometimes called on  `window`, sometimes on a DOM element.
+
 ## Event Listener
 
 html:
@@ -89,7 +96,7 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Mzc4ODM4LC0yMDQ1MTk2OTEzLDEzMD
-UxNTA4MDksMjM5MjE4NDM0LDg4OTAxMTgzMCwyMDg3ODA0NDEw
-LC02Njk1NDU5MTgsLTQ0NTExNzQwXX0=
+eyJoaXN0b3J5IjpbMTE5MTQ3NDgxOSwtMjA0NTE5NjkxMywxMz
+A1MTUwODA5LDIzOTIxODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQx
+MCwtNjY5NTQ1OTE4LC00NDUxMTc0MF19
 -->
