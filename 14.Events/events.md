@@ -52,6 +52,35 @@ window.addEventListener('load', () => {
 
 ## Listening on different elements
 
+Here’s a list of the most useful DOM events, just to take a look at:
+
+**Mouse events:**
+
+-   `click`  – when the mouse clicks on an element (touchscreen devices generate it on a tap).
+-   `contextmenu`  – when the mouse right-clicks on an element.
+-   `mouseover`  /  `mouseout`  – when the mouse cursor comes over / leaves an element.
+-   `mousedown`  /  `mouseup`  – when the mouse button is pressed / released over an element.
+-   `mousemove`  – when the mouse is moved.
+
+**Form element events:**
+
+-   `submit`  – when the visitor submits a  `<form>`.
+-   `focus`  – when the visitor focuses on an element, e.g. on an  `<input>`.
+
+**Keyboard events:**
+
+-   `keydown`  and  `keyup`  – when the visitor presses and then releases the button.
+
+**Document events:**
+
+-   `DOMContentLoaded`  – when the HTML is loaded and processed, DOM is fully built.
+
+**CSS events:**
+
+-   `transitionend`  – when a CSS-animation finishes.
+
+There are many other events. ([see the full list](https://developer.mozilla.org/en-US/docs/Web/API/Event)).
+
 You can listen on  `window`  to intercept “global” events, like the usage of the keyboard, and you can listen on specific elements to check events happening on them, like a mouse click on a button.
 
 This is why  `addEventListener`  is sometimes called on  `window`, sometimes on a DOM element.
@@ -62,7 +91,7 @@ This object contains a lot of useful properties and methods, like:
 -   `type`, the type of event
 -   `stopPropagation()`, called to stop propagating the event in the DOM
 
-([see the full list](https://developer.mozilla.org/en-US/docs/Web/API/Event)).
+
 
 Other properties are provided by specific kind of events, as  `Event`  is an interface for different specific events:
 
@@ -134,7 +163,8 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzY3NDE5NDcsMTE5MTQ3NDgxOSwtMj
-A0NTE5NjkxMywxMzA1MTUwODA5LDIzOTIxODQzNCw4ODkwMTE4
-MzAsMjA4NzgwNDQxMCwtNjY5NTQ1OTE4LC00NDUxMTc0MF19
+eyJoaXN0b3J5IjpbLTExNDY1ODM3MjAsLTExNzY3NDE5NDcsMT
+E5MTQ3NDgxOSwtMjA0NTE5NjkxMywxMzA1MTUwODA5LDIzOTIx
+ODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQxMCwtNjY5NTQ1OTE4LC
+00NDUxMTc0MF19
 -->
