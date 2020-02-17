@@ -36,6 +36,15 @@ xhr.onreadystatechange = () => {
   //.. do something
 }
 ```
+### Using  `addEventListener()`
+
+This is the  _modern way_. This method allows to register as many handlers as we need, and it’s the most popular you will find:
+
+```js
+window.addEventListener('load', () => {
+  //window loaded
+})
+```
 ## Event Listener
 
 html:
@@ -76,7 +85,7 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDUxMjI3NjAsMTMwNTE1MDgwOSwyMz
-kyMTg0MzQsODg5MDExODMwLDIwODc4MDQ0MTAsLTY2OTU0NTkx
-OCwtNDQ1MTE3NDBdfQ==
+eyJoaXN0b3J5IjpbLTUxMDU1MTE1NiwxMzA1MTUwODA5LDIzOT
+IxODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQxMCwtNjY5NTQ1OTE4
+LC00NDUxMTc0MF19
 -->
