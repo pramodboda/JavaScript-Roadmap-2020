@@ -37,8 +37,9 @@ console.log(buyBtns);
 buyBtns.forEach(handleBuyBtnClick);
 ```
 
-##
+## Event - Target
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5MDExODMwLDIwODc4MDQ0MTAsLTY2OT
-U0NTkxOCwtNDQ1MTE3NDBdfQ==
+eyJoaXN0b3J5IjpbMjM5MjE4NDM0LDg4OTAxMTgzMCwyMDg3OD
+A0NDEwLC02Njk1NDU5MTgsLTQ0NTExNzQwXX0=
 -->
