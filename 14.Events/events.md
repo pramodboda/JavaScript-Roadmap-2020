@@ -89,6 +89,17 @@ You can listen on  `window`  to intercept “global” events, like the usage of
 
 This is why  `addEventListener`  is sometimes called on  `window`, sometimes on a DOM element.
 
+## The Event object
+
+An event handler gets an  `Event`  object as the first parameter:
+
+```js
+const link = document.getElementById('my-link')
+link.addEventListener('click', event => {
+  // link clicked
+})
+```
+
 This object contains a lot of useful properties and methods, like:
 
 -   `target`, the DOM element that originated the event
@@ -167,8 +178,8 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODIyNzQ4MSwtMTE0NjU4MzcyMCwtMT
-E3Njc0MTk0NywxMTkxNDc0ODE5LC0yMDQ1MTk2OTEzLDEzMDUx
-NTA4MDksMjM5MjE4NDM0LDg4OTAxMTgzMCwyMDg3ODA0NDEwLC
-02Njk1NDU5MTgsLTQ0NTExNzQwXX0=
+eyJoaXN0b3J5IjpbMTMxMzI1NDA2MSwxNDk4MjI3NDgxLC0xMT
+Q2NTgzNzIwLC0xMTc2NzQxOTQ3LDExOTE0NzQ4MTksLTIwNDUx
+OTY5MTMsMTMwNTE1MDgwOSwyMzkyMTg0MzQsODg5MDExODMwLD
+IwODc4MDQ0MTAsLTY2OTU0NTkxOCwtNDQ1MTE3NDBdfQ==
 -->
