@@ -10,6 +10,12 @@ You can respond to any event using an  **Event Handler**, which is a function th
 
 You can register multiple handlers for the same event, and they will all be called when that event happens.
 
+To react on events we can assign a  _handler_  – a function that runs in case of an event.
+
+Handlers are a way to run JavaScript code in case of user actions.
+
+There are several ways to assign a handler. Let’s see them, starting from the simplest one.
+
 JavaScript offer three ways to register an event handler:
 
 ### Inline event handlers
@@ -163,8 +169,8 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY1ODM3MjAsLTExNzY3NDE5NDcsMT
-E5MTQ3NDgxOSwtMjA0NTE5NjkxMywxMzA1MTUwODA5LDIzOTIx
-ODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQxMCwtNjY5NTQ1OTE4LC
-00NDUxMTc0MF19
+eyJoaXN0b3J5IjpbLTM5MTc0NDc3MiwtMTE0NjU4MzcyMCwtMT
+E3Njc0MTk0NywxMTkxNDc0ODE5LC0yMDQ1MTk2OTEzLDEzMDUx
+NTA4MDksMjM5MjE4NDM0LDg4OTAxMTgzMCwyMDg3ODA0NDEwLC
+02Njk1NDU5MTgsLTQ0NTExNzQwXX0=
 -->
