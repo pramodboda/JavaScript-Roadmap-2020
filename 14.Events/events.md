@@ -20,6 +20,14 @@ This style of event handlers is very rarely used today, due to its constraints, 
 <a href="pramodboda.com" onclick="dosomething();">Pramod Boda Art</a>
 ```
 
+### DOM on-event handlers
+
+This is common when an object has at most one event handler, as there is no way to add multiple handlers in this case:
+```js
+window.onload = () => {
+  //window loaded
+}
+```
 
 ## Event Listener
 
@@ -38,7 +46,7 @@ html:
 ```
 
 js:
-```javascript
+```js
 // Listen on multiple items
 const buyBtns = document.querySelectorAll('.buy');
 console.log(buyBtns);
@@ -61,7 +69,7 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTAxODkxNiwyMzkyMTg0MzQsODg5MD
+eyJoaXN0b3J5IjpbMTMwNTE1MDgwOSwyMzkyMTg0MzQsODg5MD
 ExODMwLDIwODc4MDQ0MTAsLTY2OTU0NTkxOCwtNDQ1MTE3NDBd
 fQ==
 -->
