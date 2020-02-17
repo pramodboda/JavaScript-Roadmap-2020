@@ -56,6 +56,44 @@ You can listen on  `window`  to intercept “global” events, like the usage of
 
 This is why  `addEventListener`  is sometimes called on  `window`, sometimes on a DOM element.
 
+This object contains a lot of useful properties and methods, like:
+
+-   `target`, the DOM element that originated the event
+-   `type`, the type of event
+-   `stopPropagation()`, called to stop propagating the event in the DOM
+
+([see the full list](https://developer.mozilla.org/en-US/docs/Web/API/Event)).
+
+Other properties are provided by specific kind of events, as  `Event`  is an interface for different specific events:
+
+-   [MouseEvent](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent)
+-   [KeyboardEvent](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
+-   [DragEvent](https://developer.mozilla.org/en-US/docs/Web/API/DragEvent)
+-   [FetchEvent](https://developer.mozilla.org/en-US/docs/Web/API/FetchEvent)
+-   … and others
+
+Each of those has a MDN page linked, so you can inspect all their properties.
+
+For example when a KeyboardEvent happens, you can check which key was pressed, in a readable format (`Escape`,  `Enter`  and so on) by checking the  `key`  property:
+
+```js
+window.addEventListener('keydown', event => {
+  // key pressed
+  console.log(event.key)
+})
+
+```
+
+On a mouse event we can check which mouse button was pressed:
+
+```js
+const link = document.getElementById('my-link')
+link.addEventListener('mousedown', event => {
+  // mouse button pressed
+  console.log(event.button) //0=left, 2=right
+})
+```
+
 ## Event Listener
 
 html:
@@ -96,7 +134,7 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTQ3NDgxOSwtMjA0NTE5NjkxMywxMz
-A1MTUwODA5LDIzOTIxODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQx
-MCwtNjY5NTQ1OTE4LC00NDUxMTc0MF19
+eyJoaXN0b3J5IjpbLTExNzY3NDE5NDcsMTE5MTQ3NDgxOSwtMj
+A0NTE5NjkxMywxMzA1MTUwODA5LDIzOTIxODQzNCw4ODkwMTE4
+MzAsMjA4NzgwNDQxMCwtNjY5NTQ1OTE4LC00NDUxMTc0MF19
 -->
