@@ -2,7 +2,11 @@
 
 The event could be the DOM is loaded, or an asynchronous request that finishes fetching, or a user clicking an element or scrolling the page, or the user types on the keyboard.
 
-There are a lot of different kind of events.
+There are 3 ways to assign event handlers:
+
+1.  HTML attribute:  `onclick="..."`.
+2.  DOM property:  `elem.onclick = function`.
+3.  Methods:  `elem.addEventListener(event, handler[, phase])`  to add,  `removeEventListener`  to remove.
 
 ## Event handlers
 
@@ -286,9 +290,9 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDMxMTI5NiwtMTg1MDMzNzc4NiwxND
-k4MjI3NDgxLC0xMTQ2NTgzNzIwLC0xMTc2NzQxOTQ3LDExOTE0
-NzQ4MTksLTIwNDUxOTY5MTMsMTMwNTE1MDgwOSwyMzkyMTg0Mz
-QsODg5MDExODMwLDIwODc4MDQ0MTAsLTY2OTU0NTkxOCwtNDQ1
-MTE3NDBdfQ==
+eyJoaXN0b3J5IjpbMjA2ODAwMzU2MCwtNjQwMzExMjk2LC0xOD
+UwMzM3Nzg2LDE0OTgyMjc0ODEsLTExNDY1ODM3MjAsLTExNzY3
+NDE5NDcsMTE5MTQ3NDgxOSwtMjA0NTE5NjkxMywxMzA1MTUwOD
+A5LDIzOTIxODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQxMCwtNjY5
+NTQ1OTE4LC00NDUxMTc0MF19
 -->
