@@ -169,6 +169,83 @@ link.addEventListener('mousedown', event => {
 })
 ```
 
+## [Object handlers: handleEvent](https://javascript.info/introduction-browser-events#object-handlers-handleevent)
+
+We can assign not just a function, but an object as an event handler using  `addEventListener`. When an event occurs, its  `handleEvent`  method is called.
+
+For instance:
+
+```markup
+<button id="elem">Click me</button>
+
+<script>
+  elem.addEventListener('click', {
+    handleEvent(event) {
+      alert(event.type + " at " + event.currentTarget);
+    }
+  });
+</script>
+```
+
+As we can see, when  `addEventListener`  receives an object as the handler, it calls  `object.handleEvent(event)`  in case of an event.
+
+We could also use a class for that:
+
+```markup
+<button id="elem">Click me</button>
+
+<script>
+  class Menu {
+    handleEvent(event) {
+      switch(event.type) {
+        case 'mousedown':
+          elem.innerHTML = "Mouse button pressed";
+          break;
+        case 'mouseup':
+          elem.innerHTML += "...and released.";
+          break;
+      }
+    }
+  }
+
+  let menu = new Menu();
+  elem.addEventListener('mousedown', menu);
+  elem.addEventListener('mouseup', menu);
+</script>
+```
+
+Here the same object handles both events. Please note that we need to explicitly setup the events to listen using  `addEventListener`. The  `menu`  object only gets  `mousedown`  and  `mouseup`  here, not any other types of events.
+
+The method  `handleEvent`  does not have to do all the job by itself. It can call other event-specific methods instead, like this:
+
+```markup
+<button id="elem">Click me</button>
+
+<script>
+  class Menu {
+    handleEvent(event) {
+      // mousedown -> onMousedown
+      let method = 'on' + event.type[0].toUpperCase() + event.type.slice(1);
+      this[method](event);
+    }
+
+    onMousedown() {
+      elem.innerHTML = "Mouse button pressed";
+    }
+
+    onMouseup() {
+      elem.innerHTML += "...and released.";
+    }
+  }
+
+  let menu = new Menu();
+  elem.addEventListener('mousedown', menu);
+  elem.addEventListener('mouseup', menu);
+</script>
+```
+
+Now event handlers are clearly separated, that may be easier to support.
+
 ## Event Listener
 
 html:
@@ -209,8 +286,9 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTAzMzc3ODYsMTQ5ODIyNzQ4MSwtMT
-E0NjU4MzcyMCwtMTE3Njc0MTk0NywxMTkxNDc0ODE5LC0yMDQ1
-MTk2OTEzLDEzMDUxNTA4MDksMjM5MjE4NDM0LDg4OTAxMTgzMC
-wyMDg3ODA0NDEwLC02Njk1NDU5MTgsLTQ0NTExNzQwXX0=
+eyJoaXN0b3J5IjpbLTY0MDMxMTI5NiwtMTg1MDMzNzc4NiwxND
+k4MjI3NDgxLC0xMTQ2NTgzNzIwLC0xMTc2NzQxOTQ3LDExOTE0
+NzQ4MTksLTIwNDUxOTY5MTMsMTMwNTE1MDgwOSwyMzkyMTg0Mz
+QsODg5MDExODMwLDIwODc4MDQ0MTAsLTY2OTU0NTkxOCwtNDQ1
+MTE3NDBdfQ==
 -->
