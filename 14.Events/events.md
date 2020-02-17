@@ -1,5 +1,22 @@
 # Events
+
 The event could be the DOM is loaded, or an asynchronous request that finishes fetching, or a user clicking an element or scrolling the page, or the user types on the keyboard.
+
+There are a lot of different kind of events.
+
+## Event handlers
+
+You can respond to any event using an  **Event Handler**, which is a function that’s called when an event occurs.
+
+You can register multiple handlers for the same event, and they will all be called when that event happens.
+
+JavaScript offer three ways to register an event handler:
+
+### Inline event handlers
+
+This style of event handlers is very rarely used today, due to its constraints, but it was the only way in the JavaScript early days:
+
+
 ## Event Listener
 
 html:
@@ -40,7 +57,7 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYyNzA0MDMsMjM5MjE4NDM0LDg4OT
-AxMTgzMCwyMDg3ODA0NDEwLC02Njk1NDU5MTgsLTQ0NTExNzQw
-XX0=
+eyJoaXN0b3J5IjpbMjAzMTcwNDEzNSwyMzkyMTg0MzQsODg5MD
+ExODMwLDIwODc4MDQ0MTAsLTY2OTU0NTkxOCwtNDQ1MTE3NDBd
+fQ==
 -->
