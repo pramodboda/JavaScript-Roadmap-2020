@@ -36,6 +36,10 @@ xhr.onreadystatechange = () => {
   //.. do something
 }
 ```
+
+
+> Note that IE8 and below did not support this, and instead used its own  `attachEvent()`  API. Keep it in mind if you need to support older browsers.
+
 ### Using  `addEventListener()`
 
 This is the  _modern way_. This method allows to register as many handlers as we need, and it’s the most popular you will find:
@@ -85,7 +89,7 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDU1MTE1NiwxMzA1MTUwODA5LDIzOT
-IxODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQxMCwtNjY5NTQ1OTE4
-LC00NDUxMTc0MF19
+eyJoaXN0b3J5IjpbMTk2Mzc4ODM4LDEzMDUxNTA4MDksMjM5Mj
+E4NDM0LDg4OTAxMTgzMCwyMDg3ODA0NDEwLC02Njk1NDU5MTgs
+LTQ0NTExNzQwXX0=
 -->
