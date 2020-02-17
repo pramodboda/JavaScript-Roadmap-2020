@@ -99,6 +99,37 @@ link.addEventListener('click', event => {
   // link clicked
 })
 ```
+To properly handle an event we’d want to know more about what’s happened. Not just a “click” or a “keypress”, but what were the pointer coordinates? Which key was pressed? And so on.
+
+When an event happens, the browser creates an  _event object_, puts details into it and passes it as an argument to the handler.
+
+Here’s an example of getting mouse coordinates from the event object:
+
+```js
+```markup
+<input type="button" value="Click me" id="elem">
+
+<script>
+  elem.onclick = function(event) {
+    // show event type, element and coordinates of the click
+    alert(event.type + " at " + event.currentTarget);
+    alert("Coordinates: " + event.clientX + ":" + event.clientY);
+  };
+</script>
+```
+Some properties of  `event`  object:
+
+`event.type`
+
+Event type, here it’s  `"click"`.
+
+`event.currentTarget`
+
+Element that handled the event. That’s exactly the same as  `this`, unless the handler is an arrow function, or its  `this`  is bound to something else, then we can get the element from  `event.currentTarget`.
+
+`event.clientX / event.clientY`
+
+Window-relative coordinates of the cursor, for mouse events.
 
 This object contains a lot of useful properties and methods, like:
 
@@ -178,8 +209,8 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzI1NDA2MSwxNDk4MjI3NDgxLC0xMT
-Q2NTgzNzIwLC0xMTc2NzQxOTQ3LDExOTE0NzQ4MTksLTIwNDUx
-OTY5MTMsMTMwNTE1MDgwOSwyMzkyMTg0MzQsODg5MDExODMwLD
-IwODc4MDQ0MTAsLTY2OTU0NTkxOCwtNDQ1MTE3NDBdfQ==
+eyJoaXN0b3J5IjpbLTE4NjI2Nzc1MDUsMTQ5ODIyNzQ4MSwtMT
+E0NjU4MzcyMCwtMTE3Njc0MTk0NywxMTkxNDc0ODE5LC0yMDQ1
+MTk2OTEzLDEzMDUxNTA4MDksMjM5MjE4NDM0LDg4OTAxMTgzMC
+wyMDg3ODA0NDEwLC02Njk1NDU5MTgsLTQ0NTExNzQwXX0=
 -->
