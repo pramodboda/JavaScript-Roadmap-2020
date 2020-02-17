@@ -28,7 +28,14 @@ window.onload = () => {
   //window loaded
 }
 ```
+It’s most commonly used when handling  [XHR](https://flaviocopes.com/xhr/)  requests:
 
+```js
+const xhr = new XMLHttpRequest()
+xhr.onreadystatechange = () => {
+  //.. do something
+}
+```
 ## Event Listener
 
 html:
@@ -69,7 +76,7 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTE1MDgwOSwyMzkyMTg0MzQsODg5MD
-ExODMwLDIwODc4MDQ0MTAsLTY2OTU0NTkxOCwtNDQ1MTE3NDBd
-fQ==
+eyJoaXN0b3J5IjpbLTIxNDUxMjI3NjAsMTMwNTE1MDgwOSwyMz
+kyMTg0MzQsODg5MDExODMwLDIwODc4MDQ0MTAsLTY2OTU0NTkx
+OCwtNDQ1MTE3NDBdfQ==
 -->
