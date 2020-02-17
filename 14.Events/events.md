@@ -97,7 +97,7 @@ An event handler gets an  `Event`  object as the first parameter:
 const link = document.getElementById('my-link')
 link.addEventListener('click', event => {
   // link clicked
-})
+});
 ```
 To properly handle an event we’d want to know more about what’s happened. Not just a “click” or a “keypress”, but what were the pointer coordinates? Which key was pressed? And so on.
 
@@ -209,7 +209,7 @@ buyBtns.forEach(handleBuyBtnClick);
 ## Event - Target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjI2Nzc1MDUsMTQ5ODIyNzQ4MSwtMT
+eyJoaXN0b3J5IjpbLTE4NTAzMzc3ODYsMTQ5ODIyNzQ4MSwtMT
 E0NjU4MzcyMCwtMTE3Njc0MTk0NywxMTkxNDc0ODE5LC0yMDQ1
 MTk2OTEzLDEzMDUxNTA4MDksMjM5MjE4NDM0LDg4OTAxMTgzMC
 wyMDg3ODA0NDEwLC02Njk1NDU5MTgsLTQ0NTExNzQwXX0=
