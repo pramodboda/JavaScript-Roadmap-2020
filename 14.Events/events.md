@@ -248,6 +248,12 @@ The method  `handleEvent`  does not have to do all the job by itself. It can cal
 
 Now event handlers are clearly separated, that may be easier to support.
 
+
+
+
+
+
+
 ## Event Listener
 
 html:
@@ -287,10 +293,13 @@ buyBtns.forEach(handleBuyBtnClick);
 
 ## Event - Target
 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTMyMTgxNjQsLTY0MDMxMTI5NiwtMT
-g1MDMzNzc4NiwxNDk4MjI3NDgxLC0xMTQ2NTgzNzIwLC0xMTc2
-NzQxOTQ3LDExOTE0NzQ4MTksLTIwNDUxOTY5MTMsMTMwNTE1MD
-gwOSwyMzkyMTg0MzQsODg5MDExODMwLDIwODc4MDQ0MTAsLTY2
-OTU0NTkxOCwtNDQ1MTE3NDBdfQ==
+eyJoaXN0b3J5IjpbLTE5MDUyNjc4MzgsLTE4OTMyMTgxNjQsLT
+Y0MDMxMTI5NiwtMTg1MDMzNzc4NiwxNDk4MjI3NDgxLC0xMTQ2
+NTgzNzIwLC0xMTc2NzQxOTQ3LDExOTE0NzQ4MTksLTIwNDUxOT
+Y5MTMsMTMwNTE1MDgwOSwyMzkyMTg0MzQsODg5MDExODMwLDIw
+ODc4MDQ0MTAsLTY2OTU0NTkxOCwtNDQ1MTE3NDBdfQ==
 -->
