@@ -265,7 +265,10 @@ tEl1.addEventListener("click", function(){
 Isn’t it a bit strange? Why does the handler on `<div>` run if the actual click was on `<em>`?
 
 ## Bubbling
-The bubbing princible 
+The bubbling principle is simple.
+
+**When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.**
+Let’s say we have 3 nested elements `FORM > DIV > P` with a handler on each of them:
 
 
 ## Example 1:
@@ -312,7 +315,7 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTQ0Mzg0MywzMjY0NDM1NDYsLTE5MD
+eyJoaXN0b3J5IjpbLTI0ODAzNjE5MCwzMjY0NDM1NDYsLTE5MD
 UyNjc4MzgsLTE4OTMyMTgxNjQsLTY0MDMxMTI5NiwtMTg1MDMz
 Nzc4NiwxNDk4MjI3NDgxLC0xMTQ2NTgzNzIwLC0xMTc2NzQxOT
 Q3LDExOTE0NzQ4MTksLTIwNDUxOTY5MTMsMTMwNTE1MDgwOSwy
