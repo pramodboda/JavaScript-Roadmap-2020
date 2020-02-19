@@ -345,9 +345,9 @@ p {
 
 body {
   line-height: 25px;
-  font-size: 16px;
-  
-}</style>
+  font-size: 16px;  
+}
+</style>
 
 
  A click shows both <code>event.target</code> and <code>this</code> to compare:
@@ -416,11 +416,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTY0MTE0OCw1NTA3NzE0ODcsMTEwNj
-kyOTEyMSwxMTA2OTI5MTIxLC05MTUwMzQ1OTksLTEyNDExMjkw
-NTYsNDg2NjAxNTk5LDMyNjQ0MzU0NiwtMTkwNTI2NzgzOCwtMT
-g5MzIxODE2NCwtNjQwMzExMjk2LC0xODUwMzM3Nzg2LDE0OTgy
-Mjc0ODEsLTExNDY1ODM3MjAsLTExNzY3NDE5NDcsMTE5MTQ3ND
-gxOSwtMjA0NTE5NjkxMywxMzA1MTUwODA5LDIzOTIxODQzNCw4
-ODkwMTE4MzBdfQ==
+eyJoaXN0b3J5IjpbLTg4MzY4MjcyMCwxOTU1NjQxMTQ4LDU1MD
+c3MTQ4NywxMTA2OTI5MTIxLDExMDY5MjkxMjEsLTkxNTAzNDU5
+OSwtMTI0MTEyOTA1Niw0ODY2MDE1OTksMzI2NDQzNTQ2LC0xOT
+A1MjY3ODM4LC0xODkzMjE4MTY0LC02NDAzMTEyOTYsLTE4NTAz
+Mzc3ODYsMTQ5ODIyNzQ4MSwtMTE0NjU4MzcyMCwtMTE3Njc0MT
+k0NywxMTkxNDc0ODE5LC0yMDQ1MTk2OTEzLDEzMDUxNTA4MDks
+MjM5MjE4NDM0XX0=
 -->
