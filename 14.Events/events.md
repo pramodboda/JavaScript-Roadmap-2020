@@ -255,14 +255,21 @@ Now event handlers are clearly separated, that may be easier to support.
 </div>
 
 <script>
+let tEl1 = document.getElementById("tEl1");
+
+tEl1.addEventListener("click", function(){
+  alert("The handler!");
+});
 </script>
 ```
+Isn’t it a bit strange? Why does the handler on `<div>` run if the actual click was on `<em>`?
+
+## Bubbling
+The bubbing princible 
 
 
-
-
-
-## Event Listener
+## Example 1:
+### Event Listener
 
 html:
 ```html
@@ -305,10 +312,10 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODA2NTU4LDMyNjQ0MzU0NiwtMTkwNT
-I2NzgzOCwtMTg5MzIxODE2NCwtNjQwMzExMjk2LC0xODUwMzM3
-Nzg2LDE0OTgyMjc0ODEsLTExNDY1ODM3MjAsLTExNzY3NDE5ND
-csMTE5MTQ3NDgxOSwtMjA0NTE5NjkxMywxMzA1MTUwODA5LDIz
-OTIxODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQxMCwtNjY5NTQ1OT
-E4LC00NDUxMTc0MF19
+eyJoaXN0b3J5IjpbLTk3NTQ0Mzg0MywzMjY0NDM1NDYsLTE5MD
+UyNjc4MzgsLTE4OTMyMTgxNjQsLTY0MDMxMTI5NiwtMTg1MDMz
+Nzc4NiwxNDk4MjI3NDgxLC0xMTQ2NTgzNzIwLC0xMTc2NzQxOT
+Q3LDExOTE0NzQ4MTksLTIwNDUxOTY5MTMsMTMwNTE1MDgwOSwy
+MzkyMTg0MzQsODg5MDExODMwLDIwODc4MDQ0MTAsLTY2OTU0NT
+kxOCwtNDQ1MTE3NDBdfQ==
 -->
