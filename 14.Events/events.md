@@ -314,9 +314,6 @@ In  `form.onclick`  handler:
 
 ```markup
 <style>
-form,div,p{
-  color:#ffffff;
-}
 form {
   background-color: green;
   position: relative;
@@ -419,11 +416,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4ODQwNDUsMTEwNjkyOTEyMSwxMTA2OT
-I5MTIxLC05MTUwMzQ1OTksLTEyNDExMjkwNTYsNDg2NjAxNTk5
-LDMyNjQ0MzU0NiwtMTkwNTI2NzgzOCwtMTg5MzIxODE2NCwtNj
-QwMzExMjk2LC0xODUwMzM3Nzg2LDE0OTgyMjc0ODEsLTExNDY1
-ODM3MjAsLTExNzY3NDE5NDcsMTE5MTQ3NDgxOSwtMjA0NTE5Nj
-kxMywxMzA1MTUwODA5LDIzOTIxODQzNCw4ODkwMTE4MzAsMjA4
-NzgwNDQxMF19
+eyJoaXN0b3J5IjpbNTUwNzcxNDg3LDExMDY5MjkxMjEsMTEwNj
+kyOTEyMSwtOTE1MDM0NTk5LC0xMjQxMTI5MDU2LDQ4NjYwMTU5
+OSwzMjY0NDM1NDYsLTE5MDUyNjc4MzgsLTE4OTMyMTgxNjQsLT
+Y0MDMxMTI5NiwtMTg1MDMzNzc4NiwxNDk4MjI3NDgxLC0xMTQ2
+NTgzNzIwLC0xMTc2NzQxOTQ3LDExOTE0NzQ4MTksLTIwNDUxOT
+Y5MTMsMTMwNTE1MDgwOSwyMzkyMTg0MzQsODg5MDExODMwLDIw
+ODc4MDQ0MTBdfQ==
 -->
