@@ -294,7 +294,7 @@ So if we click on `<p>`, then we’ll see 3 alerts: `p` → `div` → `form`.
 
 The process is called “bubbling”, because events “bubble” from the inner element up through parents like a bubble in the water.
 
-> :warning: _Almost_  all events bubble.
+> :information_source: _Almost_  all events bubble.
 > The key word in this phrase is “almost”.
 > For instance, a  `focus`  event does not bubble. There are other examples too, we’ll meet them. But still it’s an exception, rather than a rule, most events do bubble.
 
@@ -356,7 +356,7 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTA2NzM0NywtMTI0MTEyOTA1Niw0OD
+eyJoaXN0b3J5IjpbLTkxNTAzNDU5OSwtMTI0MTEyOTA1Niw0OD
 Y2MDE1OTksMzI2NDQzNTQ2LC0xOTA1MjY3ODM4LC0xODkzMjE4
 MTY0LC02NDAzMTEyOTYsLTE4NTAzMzc3ODYsMTQ5ODIyNzQ4MS
 wtMTE0NjU4MzcyMCwtMTE3Njc0MTk0NywxMTkxNDc0ODE5LC0y
