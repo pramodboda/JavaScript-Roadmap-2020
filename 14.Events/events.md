@@ -298,17 +298,19 @@ The process is called “bubbling”, because events “bubble” from the inner
 > The key word in this phrase is “almost”.
 > For instance, a  `focus`  event does not bubble. There are other examples too, we’ll meet them. But still it’s an exception, rather than a rule, most events do bubble.
 
+
+
+##  event.target
+A handler on a parent element can always get the details about where it actually happened.
+
+**The most deeply nested element that caused the event is called a  _target_  element, accessible as  `event.target`.**
+
 For instance, if we have a single handler  `form.onclick`, then it can “catch” all clicks inside the form. No matter where the click happened, it bubbles up to  `<form>`  and runs the handler.
 
 In  `form.onclick`  handler:
 
 -   `this`  (=`event.currentTarget`) is the  `<form>`  element, because the handler runs on it.
 -   `event.target`  is the actual element inside the form that was clicked.
-
-##  event.target
-A handler on a parent element can always get the details about where it actually happened.
-
-**The most deeply nested element that caused the event is called a  _target_  element, accessible as  `event.target`.**
 
 ## Example 1:
 ### Event Listener
@@ -354,11 +356,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDAyNzQ4NjUsLTEyNDExMjkwNTYsND
-g2NjAxNTk5LDMyNjQ0MzU0NiwtMTkwNTI2NzgzOCwtMTg5MzIx
-ODE2NCwtNjQwMzExMjk2LC0xODUwMzM3Nzg2LDE0OTgyMjc0OD
-EsLTExNDY1ODM3MjAsLTExNzY3NDE5NDcsMTE5MTQ3NDgxOSwt
-MjA0NTE5NjkxMywxMzA1MTUwODA5LDIzOTIxODQzNCw4ODkwMT
-E4MzAsMjA4NzgwNDQxMCwtNjY5NTQ1OTE4LC00NDUxMTc0MF19
+eyJoaXN0b3J5IjpbLTEwOTA2NzM0NywtMTI0MTEyOTA1Niw0OD
+Y2MDE1OTksMzI2NDQzNTQ2LC0xOTA1MjY3ODM4LC0xODkzMjE4
+MTY0LC02NDAzMTEyOTYsLTE4NTAzMzc3ODYsMTQ5ODIyNzQ4MS
+wtMTE0NjU4MzcyMCwtMTE3Njc0MTk0NywxMTkxNDc0ODE5LC0y
+MDQ1MTk2OTEzLDEzMDUxNTA4MDksMjM5MjE4NDM0LDg4OTAxMT
+gzMCwyMDg3ODA0NDEwLC02Njk1NDU5MTgsLTQ0NTExNzQwXX0=
 
 -->
