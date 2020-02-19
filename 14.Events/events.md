@@ -312,6 +312,59 @@ In  `form.onclick`  handler:
 -   `this`  (=`event.currentTarget`) is the  `<form>`  element, because the handler runs on it.
 -   `event.target`  is the actual element inside the form that was clicked.
 
+```markup
+<style>
+form,div,p{
+  color:#ffffff;
+}
+form {
+  background-color: green;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+div {
+  background-color: blue;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 100px;
+  height: 100px;
+}
+
+p {
+  background-color: red;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+}
+
+body {
+  line-height: 25px;
+  font-size: 16px;
+  
+}</style>
+
+
+ A click shows both <code>event.target</code> and <code>this</code> to compare:
+
+  <form id="form">FORM
+    <div>DIV
+      <p>P</p>
+    </div>
+  </form>
+
+
+
+```
+
 ## Example 1:
 ### Event Listener
 
@@ -356,11 +409,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjkyOTEyMSwxMTA2OTI5MTIxLC05MT
-UwMzQ1OTksLTEyNDExMjkwNTYsNDg2NjAxNTk5LDMyNjQ0MzU0
-NiwtMTkwNTI2NzgzOCwtMTg5MzIxODE2NCwtNjQwMzExMjk2LC
-0xODUwMzM3Nzg2LDE0OTgyMjc0ODEsLTExNDY1ODM3MjAsLTEx
-NzY3NDE5NDcsMTE5MTQ3NDgxOSwtMjA0NTE5NjkxMywxMzA1MT
-UwODA5LDIzOTIxODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQxMCwt
-NjY5NTQ1OTE4XX0=
+eyJoaXN0b3J5IjpbLTEwMTg5MDA1OTgsMTEwNjkyOTEyMSwxMT
+A2OTI5MTIxLC05MTUwMzQ1OTksLTEyNDExMjkwNTYsNDg2NjAx
+NTk5LDMyNjQ0MzU0NiwtMTkwNTI2NzgzOCwtMTg5MzIxODE2NC
+wtNjQwMzExMjk2LC0xODUwMzM3Nzg2LDE0OTgyMjc0ODEsLTEx
+NDY1ODM3MjAsLTExNzY3NDE5NDcsMTE5MTQ3NDgxOSwtMjA0NT
+E5NjkxMywxMzA1MTUwODA5LDIzOTIxODQzNCw4ODkwMTE4MzAs
+MjA4NzgwNDQxMF19
 -->
