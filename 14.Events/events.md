@@ -269,7 +269,22 @@ The bubbling principle is simple.
 
 **When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.**
 Let’s say we have 3 nested elements `FORM > DIV > P` with a handler on each of them:
+```markup
+<style>
+  body * {
+    margin: 10px;
+    border: 1px solid blue;
+  }
+</style>
 
+<form onclick="alert('form')">FORM
+  <div onclick="alert('div')">DIV
+    <p onclick="alert('p')">P</p>
+  </div>
+</form>
+
+
+```
 
 ## Example 1:
 ### Event Listener
@@ -315,7 +330,7 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODAzNjE5MCwzMjY0NDM1NDYsLTE5MD
+eyJoaXN0b3J5IjpbLTExNzEzMDE5NiwzMjY0NDM1NDYsLTE5MD
 UyNjc4MzgsLTE4OTMyMTgxNjQsLTY0MDMxMTI5NiwtMTg1MDMz
 Nzc4NiwxNDk4MjI3NDgxLC0xMTQ2NTgzNzIwLC0xMTc2NzQxOT
 Q3LDExOTE0NzQ4MTksLTIwNDUxOTY5MTMsMTMwNTE1MDgwOSwy
