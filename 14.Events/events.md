@@ -18,6 +18,9 @@ JavaScript offer three ways to register an event handler:
 2.  DOM property:  `elem.onclick = function`.
 3.  Methods:  `elem.addEventListener(event, handler[, phase])`  to add,  `removeEventListener`  to remove.
 
+## What mechanism should I use?
+Of the three mechanisms, you definitely shouldn't use the HTML event handler attributes — these are outdated, and bad practice, as mentioned above.
+
 ### Inline event handlers
 
 This style of event handlers is very rarely used today, due to its constraints, but it was the only way in the JavaScript early days:
@@ -419,11 +422,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTY5NDgxLC04ODM2ODI3MjAsMTk1NT
-Y0MTE0OCw1NTA3NzE0ODcsMTEwNjkyOTEyMSwxMTA2OTI5MTIx
-LC05MTUwMzQ1OTksLTEyNDExMjkwNTYsNDg2NjAxNTk5LDMyNj
-Q0MzU0NiwtMTkwNTI2NzgzOCwtMTg5MzIxODE2NCwtNjQwMzEx
-Mjk2LC0xODUwMzM3Nzg2LDE0OTgyMjc0ODEsLTExNDY1ODM3Mj
-AsLTExNzY3NDE5NDcsMTE5MTQ3NDgxOSwtMjA0NTE5NjkxMywx
-MzA1MTUwODA5XX0=
+eyJoaXN0b3J5IjpbLTE2ODMxMDQwODAsMTM5NTY5NDgxLC04OD
+M2ODI3MjAsMTk1NTY0MTE0OCw1NTA3NzE0ODcsMTEwNjkyOTEy
+MSwxMTA2OTI5MTIxLC05MTUwMzQ1OTksLTEyNDExMjkwNTYsND
+g2NjAxNTk5LDMyNjQ0MzU0NiwtMTkwNTI2NzgzOCwtMTg5MzIx
+ODE2NCwtNjQwMzExMjk2LC0xODUwMzM3Nzg2LDE0OTgyMjc0OD
+EsLTExNDY1ODM3MjAsLTExNzY3NDE5NDcsMTE5MTQ3NDgxOSwt
+MjA0NTE5NjkxM119
 -->
