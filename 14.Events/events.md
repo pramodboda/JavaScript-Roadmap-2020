@@ -294,11 +294,9 @@ So if we click on `<p>`, then we’ll see 3 alerts: `p` → `div` → `form`.
 
 The process is called “bubbling”, because events “bubble” from the inner element up through parents like a bubble in the water.
 
-~~~~ 
-:information_source: _Almost_  all events bubble.
-The key word in this phrase is “almost”. 
-For instance, a  `focus`  event does not bubble. There are other examples too, we’ll meet them. But still it’s an exception, rather than a rule, most events do bubble.
-~~~~
+> :information_source: _Almost_  all events bubble.
+> The key word in this phrase is “almost”. 
+> For instance, a  `focus`  event does not bubble. There are other examples too, we’ll meet them. But still it’s an exception, rather than a rule, most events do bubble.
 
 
 
@@ -358,11 +356,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzcyMzQ2MzksMTEwNjkyOTEyMSwtOT
-E1MDM0NTk5LC0xMjQxMTI5MDU2LDQ4NjYwMTU5OSwzMjY0NDM1
-NDYsLTE5MDUyNjc4MzgsLTE4OTMyMTgxNjQsLTY0MDMxMTI5Ni
-wtMTg1MDMzNzc4NiwxNDk4MjI3NDgxLC0xMTQ2NTgzNzIwLC0x
-MTc2NzQxOTQ3LDExOTE0NzQ4MTksLTIwNDUxOTY5MTMsMTMwNT
-E1MDgwOSwyMzkyMTg0MzQsODg5MDExODMwLDIwODc4MDQ0MTAs
-LTY2OTU0NTkxOF19
+eyJoaXN0b3J5IjpbMTEwNjkyOTEyMSwxMTA2OTI5MTIxLC05MT
+UwMzQ1OTksLTEyNDExMjkwNTYsNDg2NjAxNTk5LDMyNjQ0MzU0
+NiwtMTkwNTI2NzgzOCwtMTg5MzIxODE2NCwtNjQwMzExMjk2LC
+0xODUwMzM3Nzg2LDE0OTgyMjc0ODEsLTExNDY1ODM3MjAsLTEx
+NzY3NDE5NDcsMTE5MTQ3NDgxOSwtMjA0NTE5NjkxMywxMzA1MT
+UwODA5LDIzOTIxODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQxMCwt
+NjY5NTQ1OTE4XX0=
 -->
