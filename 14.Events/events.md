@@ -294,13 +294,16 @@ So if we click on `<p>`, then we’ll see 3 alerts: `p` → `div` → `form`.
 
 The process is called “bubbling”, because events “bubble” from the inner element up through parents like a bubble in the water.
 
-
-> :warning: **If you are using mobile browser**: Be very careful here!
-> :information_source: **If you are using mobile browser**: Be very careful here!
-
-> :information_source: _Almost_  all events bubble.
+> :warning: _Almost_  all events bubble.
 > The key word in this phrase is “almost”.
 > For instance, a  `focus`  event does not bubble. There are other examples too, we’ll meet them. But still it’s an exception, rather than a rule, most events do bubble.
+
+
+
+##  event.target
+A handler on a parent element can always get the details about where it actually happened.
+
+**The most deeply nested element that caused the event is called a  _target_  element, accessible as  `event.target`.**
 
 ## Example 1:
 ### Event Listener
@@ -340,16 +343,16 @@ console.log(buyBtns);
 buyBtns.forEach(handleBuyBtnClick);
 ```
 
-## Event - Target
+### Event - Target
 A handler on a parent element can always get the details about where it actually happened.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTM2MzM4Myw0ODY2MDE1OTksMzI2ND
-QzNTQ2LC0xOTA1MjY3ODM4LC0xODkzMjE4MTY0LC02NDAzMTEy
-OTYsLTE4NTAzMzc3ODYsMTQ5ODIyNzQ4MSwtMTE0NjU4MzcyMC
-wtMTE3Njc0MTk0NywxMTkxNDc0ODE5LC0yMDQ1MTk2OTEzLDEz
-MDUxNTA4MDksMjM5MjE4NDM0LDg4OTAxMTgzMCwyMDg3ODA0ND
-EwLC02Njk1NDU5MTgsLTQ0NTExNzQwXX0=
+eyJoaXN0b3J5IjpbLTEyNDExMjkwNTYsNDg2NjAxNTk5LDMyNj
+Q0MzU0NiwtMTkwNTI2NzgzOCwtMTg5MzIxODE2NCwtNjQwMzEx
+Mjk2LC0xODUwMzM3Nzg2LDE0OTgyMjc0ODEsLTExNDY1ODM3Mj
+AsLTExNzY3NDE5NDcsMTE5MTQ3NDgxOSwtMjA0NTE5NjkxMywx
+MzA1MTUwODA5LDIzOTIxODQzNCw4ODkwMTE4MzAsMjA4NzgwND
+QxMCwtNjY5NTQ1OTE4LC00NDUxMTc0MF19
 -->
