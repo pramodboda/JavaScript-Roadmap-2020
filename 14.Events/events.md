@@ -21,6 +21,13 @@ JavaScript offer three ways to register an event handler:
 ## What mechanism should I use?
 Of the three mechanisms, you definitely shouldn't use the HTML event handler attributes — these are outdated, and bad practice, as mentioned above.
 
+The other two are relatively interchangeable, at least for simple uses:
+
+-   Event handler properties have less power and options, but better cross-browser compatibility (being supported as far back as Internet Explorer 8). You should probably start with these as you are learning.
+-   DOM Level 2 Events (`addEventListener()`, etc.) are more powerful, but can also become more complex and are less well supported (supported as far back as Internet Explorer 9). You should also experiment with these, and aim to use them where possible.
+
+
+
 ### Inline event handlers
 
 This style of event handlers is very rarely used today, due to its constraints, but it was the only way in the JavaScript early days:
@@ -422,11 +429,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODMxMDQwODAsMTM5NTY5NDgxLC04OD
-M2ODI3MjAsMTk1NTY0MTE0OCw1NTA3NzE0ODcsMTEwNjkyOTEy
-MSwxMTA2OTI5MTIxLC05MTUwMzQ1OTksLTEyNDExMjkwNTYsND
-g2NjAxNTk5LDMyNjQ0MzU0NiwtMTkwNTI2NzgzOCwtMTg5MzIx
-ODE2NCwtNjQwMzExMjk2LC0xODUwMzM3Nzg2LDE0OTgyMjc0OD
-EsLTExNDY1ODM3MjAsLTExNzY3NDE5NDcsMTE5MTQ3NDgxOSwt
-MjA0NTE5NjkxM119
+eyJoaXN0b3J5IjpbMTM2MTQ2MTIyNiwxMzk1Njk0ODEsLTg4Mz
+Y4MjcyMCwxOTU1NjQxMTQ4LDU1MDc3MTQ4NywxMTA2OTI5MTIx
+LDExMDY5MjkxMjEsLTkxNTAzNDU5OSwtMTI0MTEyOTA1Niw0OD
+Y2MDE1OTksMzI2NDQzNTQ2LC0xOTA1MjY3ODM4LC0xODkzMjE4
+MTY0LC02NDAzMTEyOTYsLTE4NTAzMzc3ODYsMTQ5ODIyNzQ4MS
+wtMTE0NjU4MzcyMCwtMTE3Njc0MTk0NywxMTkxNDc0ODE5LC0y
+MDQ1MTk2OTEzXX0=
 -->
