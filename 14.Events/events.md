@@ -312,7 +312,7 @@ In  `form.onclick`  handler:
 -   `this`  (=`event.currentTarget`) is the  `<form>`  element, because the handler runs on it.
 -   `event.target`  is the actual element inside the form that was clicked.
 
-```markup
+```html
 <style>
 form {
   background-color: green;
@@ -416,11 +416,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwNzcxNDg3LDExMDY5MjkxMjEsMTEwNj
-kyOTEyMSwtOTE1MDM0NTk5LC0xMjQxMTI5MDU2LDQ4NjYwMTU5
-OSwzMjY0NDM1NDYsLTE5MDUyNjc4MzgsLTE4OTMyMTgxNjQsLT
-Y0MDMxMTI5NiwtMTg1MDMzNzc4NiwxNDk4MjI3NDgxLC0xMTQ2
-NTgzNzIwLC0xMTc2NzQxOTQ3LDExOTE0NzQ4MTksLTIwNDUxOT
-Y5MTMsMTMwNTE1MDgwOSwyMzkyMTg0MzQsODg5MDExODMwLDIw
-ODc4MDQ0MTBdfQ==
+eyJoaXN0b3J5IjpbMTk1NTY0MTE0OCw1NTA3NzE0ODcsMTEwNj
+kyOTEyMSwxMTA2OTI5MTIxLC05MTUwMzQ1OTksLTEyNDExMjkw
+NTYsNDg2NjAxNTk5LDMyNjQ0MzU0NiwtMTkwNTI2NzgzOCwtMT
+g5MzIxODE2NCwtNjQwMzExMjk2LC0xODUwMzM3Nzg2LDE0OTgy
+Mjc0ODEsLTExNDY1ODM3MjAsLTExNzY3NDE5NDcsMTE5MTQ3ND
+gxOSwtMjA0NTE5NjkxMywxMzA1MTUwODA5LDIzOTIxODQzNCw4
+ODkwMTE4MzBdfQ==
 -->
