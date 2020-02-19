@@ -248,7 +248,15 @@ The method  `handleEvent`  does not have to do all the job by itself. It can cal
 
 Now event handlers are clearly separated, that may be easier to support.
 
+## Bubbling and Capturing
+```markup
+<div id="tEl1">
+  <em>If you click on <code>EM</code>, the handler on <code>DIV</code> runs.</em> but why?
+</div>
 
+<script>
+</script>
+```
 
 
 
@@ -297,10 +305,10 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2NDQzNTQ2LC0xOTA1MjY3ODM4LC0xOD
-kzMjE4MTY0LC02NDAzMTEyOTYsLTE4NTAzMzc3ODYsMTQ5ODIy
-NzQ4MSwtMTE0NjU4MzcyMCwtMTE3Njc0MTk0NywxMTkxNDc0OD
-E5LC0yMDQ1MTk2OTEzLDEzMDUxNTA4MDksMjM5MjE4NDM0LDg4
-OTAxMTgzMCwyMDg3ODA0NDEwLC02Njk1NDU5MTgsLTQ0NTExNz
-QwXX0=
+eyJoaXN0b3J5IjpbMTQ3ODA2NTU4LDMyNjQ0MzU0NiwtMTkwNT
+I2NzgzOCwtMTg5MzIxODE2NCwtNjQwMzExMjk2LC0xODUwMzM3
+Nzg2LDE0OTgyMjc0ODEsLTExNDY1ODM3MjAsLTExNzY3NDE5ND
+csMTE5MTQ3NDgxOSwtMjA0NTE5NjkxMywxMzA1MTUwODA5LDIz
+OTIxODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQxMCwtNjY5NTQ1OT
+E4LC00NDUxMTc0MF19
 -->
