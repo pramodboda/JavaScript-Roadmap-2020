@@ -361,7 +361,17 @@ body {
     </div>
   </form>
 
+<script>
+form.onclick = function(event) {
+  event.target.style.backgroundColor = 'yellow';
 
+  // chrome needs some time to paint yellow
+  setTimeout(() => {
+    alert("target = " + event.target.tagName + ", this=" + this.tagName);
+    event.target.style.backgroundColor = ''
+  }, 0);
+};
+</script>
 
 ```
 
@@ -409,11 +419,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTg5MDA1OTgsMTEwNjkyOTEyMSwxMT
-A2OTI5MTIxLC05MTUwMzQ1OTksLTEyNDExMjkwNTYsNDg2NjAx
-NTk5LDMyNjQ0MzU0NiwtMTkwNTI2NzgzOCwtMTg5MzIxODE2NC
-wtNjQwMzExMjk2LC0xODUwMzM3Nzg2LDE0OTgyMjc0ODEsLTEx
-NDY1ODM3MjAsLTExNzY3NDE5NDcsMTE5MTQ3NDgxOSwtMjA0NT
-E5NjkxMywxMzA1MTUwODA5LDIzOTIxODQzNCw4ODkwMTE4MzAs
-MjA4NzgwNDQxMF19
+eyJoaXN0b3J5IjpbMzM4ODQwNDUsMTEwNjkyOTEyMSwxMTA2OT
+I5MTIxLC05MTUwMzQ1OTksLTEyNDExMjkwNTYsNDg2NjAxNTk5
+LDMyNjQ0MzU0NiwtMTkwNTI2NzgzOCwtMTg5MzIxODE2NCwtNj
+QwMzExMjk2LC0xODUwMzM3Nzg2LDE0OTgyMjc0ODEsLTExNDY1
+ODM3MjAsLTExNzY3NDE5NDcsMTE5MTQ3NDgxOSwtMjA0NTE5Nj
+kxMywxMzA1MTUwODA5LDIzOTIxODQzNCw4ODkwMTE4MzAsMjA4
+NzgwNDQxMF19
 -->
