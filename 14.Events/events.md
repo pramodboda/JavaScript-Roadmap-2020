@@ -282,9 +282,21 @@ Let’s say we have 3 nested elements `FORM > DIV > P` with a handler on each of
     <p onclick="alert('p')">P</p>
   </div>
 </form>
-
-
 ```
+A click on the inner  `<p>`  first runs  `onclick`:
+
+1.  On that  `<p>`.
+2.  Then on the outer  `<div>`.
+3.  Then on the outer  `<form>`.
+4.  And so on upwards till the  `document`  object.
+
+So if we click on `<p>`, then we’ll see 3 alerts: `p` → `div` → `form`.
+
+The process is called “bubbling”, because events “bubble” from the inner element up through parents like a bubble in the water.
+
+> _Almost_  all events bubble.
+> The key word in this phrase is “almost”.
+> For instance, a  `focus`  event does not bubble. There are other examples too, we’ll meet them. But still it’s an exception, rather than a rule, most events do bubble.
 
 ## Example 1:
 ### Event Listener
@@ -330,10 +342,10 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzEzMDE5NiwzMjY0NDM1NDYsLTE5MD
-UyNjc4MzgsLTE4OTMyMTgxNjQsLTY0MDMxMTI5NiwtMTg1MDMz
-Nzc4NiwxNDk4MjI3NDgxLC0xMTQ2NTgzNzIwLC0xMTc2NzQxOT
-Q3LDExOTE0NzQ4MTksLTIwNDUxOTY5MTMsMTMwNTE1MDgwOSwy
-MzkyMTg0MzQsODg5MDExODMwLDIwODc4MDQ0MTAsLTY2OTU0NT
-kxOCwtNDQ1MTE3NDBdfQ==
+eyJoaXN0b3J5IjpbNDg2NjAxNTk5LDMyNjQ0MzU0NiwtMTkwNT
+I2NzgzOCwtMTg5MzIxODE2NCwtNjQwMzExMjk2LC0xODUwMzM3
+Nzg2LDE0OTgyMjc0ODEsLTExNDY1ODM3MjAsLTExNzY3NDE5ND
+csMTE5MTQ3NDgxOSwtMjA0NTE5NjkxMywxMzA1MTUwODA5LDIz
+OTIxODQzNCw4ODkwMTE4MzAsMjA4NzgwNDQxMCwtNjY5NTQ1OT
+E4LC00NDUxMTc0MF19
 -->
