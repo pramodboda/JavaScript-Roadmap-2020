@@ -328,6 +328,8 @@ The process is called “bubbling”, because events “bubble” from the inner
 
 
 ## Stop Event Bubbling :
+If you want to stop the **event bubbling**, this can be achieved by the use of the `event.stopPropagation()` method. If you want to stop the event flow from event target to top element in DOM, `event.stopPropagation()` method stops the event to travel to the bottom to top.
+
 
 ```html
 <h1>Event - Bubbling</h1>
@@ -484,11 +486,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU1NjEzNDcsNDE3NDc2MTkzLDEzNj
-E0NjEyMjYsMTM5NTY5NDgxLC04ODM2ODI3MjAsMTk1NTY0MTE0
-OCw1NTA3NzE0ODcsMTEwNjkyOTEyMSwxMTA2OTI5MTIxLC05MT
-UwMzQ1OTksLTEyNDExMjkwNTYsNDg2NjAxNTk5LDMyNjQ0MzU0
-NiwtMTkwNTI2NzgzOCwtMTg5MzIxODE2NCwtNjQwMzExMjk2LC
-0xODUwMzM3Nzg2LDE0OTgyMjc0ODEsLTExNDY1ODM3MjAsLTEx
-NzY3NDE5NDddfQ==
+eyJoaXN0b3J5IjpbMzQ0NjAxNTA5LDQxNzQ3NjE5MywxMzYxND
+YxMjI2LDEzOTU2OTQ4MSwtODgzNjgyNzIwLDE5NTU2NDExNDgs
+NTUwNzcxNDg3LDExMDY5MjkxMjEsMTEwNjkyOTEyMSwtOTE1MD
+M0NTk5LC0xMjQxMTI5MDU2LDQ4NjYwMTU5OSwzMjY0NDM1NDYs
+LTE5MDUyNjc4MzgsLTE4OTMyMTgxNjQsLTY0MDMxMTI5NiwtMT
+g1MDMzNzc4NiwxNDk4MjI3NDgxLC0xMTQ2NTgzNzIwLC0xMTc2
+NzQxOTQ3XX0=
 -->
