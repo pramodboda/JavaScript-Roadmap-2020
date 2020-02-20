@@ -279,19 +279,38 @@ The bubbling principle is simple.
 
 **When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.**
 Let’s say we have 3 nested elements `FORM > DIV > P` with a handler on each of them:
-```markup
-<style>
+```html
+<h1>Event - Bubbling</h1>
+<form id="formEl">FORM
+  <div id="divEl">DIV
+    <p id="pEl">P</p>
+  </div>
+</form>
+```
+```css
   body * {
     margin: 10px;
     border: 1px solid blue;
   }
-</style>
+```
+```js
+let formEl = document.getElementById('formEl');
+let divEl = document.getElementById('divEl');
+let pEl = document.getElementById('pEl');
 
-<form onclick="alert('form')">FORM
-  <div onclick="alert('div')">DIV
-    <p onclick="alert('p')">P</p>
-  </div>
-</form>
+
+formEl.addEventListener("click", function(){
+  alert("FORM");
+});
+
+divEl.addEventListener("click", function(){
+  alert("DIV");
+});
+
+pEl.addEventListener("click", function(){
+  alert("P");
+});
+
 ```
 A click on the inner  `<p>`  first runs  `onclick`:
 
@@ -431,11 +450,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3NDc2MTkzLDEzNjE0NjEyMjYsMTM5NT
-Y5NDgxLC04ODM2ODI3MjAsMTk1NTY0MTE0OCw1NTA3NzE0ODcs
-MTEwNjkyOTEyMSwxMTA2OTI5MTIxLC05MTUwMzQ1OTksLTEyND
-ExMjkwNTYsNDg2NjAxNTk5LDMyNjQ0MzU0NiwtMTkwNTI2Nzgz
-OCwtMTg5MzIxODE2NCwtNjQwMzExMjk2LC0xODUwMzM3Nzg2LD
-E0OTgyMjc0ODEsLTExNDY1ODM3MjAsLTExNzY3NDE5NDcsMTE5
-MTQ3NDgxOV19
+eyJoaXN0b3J5IjpbMTEyNjMwNTAwMiw0MTc0NzYxOTMsMTM2MT
+Q2MTIyNiwxMzk1Njk0ODEsLTg4MzY4MjcyMCwxOTU1NjQxMTQ4
+LDU1MDc3MTQ4NywxMTA2OTI5MTIxLDExMDY5MjkxMjEsLTkxNT
+AzNDU5OSwtMTI0MTEyOTA1Niw0ODY2MDE1OTksMzI2NDQzNTQ2
+LC0xOTA1MjY3ODM4LC0xODkzMjE4MTY0LC02NDAzMTEyOTYsLT
+E4NTAzMzc3ODYsMTQ5ODIyNzQ4MSwtMTE0NjU4MzcyMCwtMTE3
+Njc0MTk0N119
 -->
