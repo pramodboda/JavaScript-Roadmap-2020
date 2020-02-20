@@ -384,7 +384,8 @@ pEl.addEventListener("click", function(){
 
 
 ## Top to Bottom(Event Capturing)
-
+**Event Capturing** is the event starts from top element to target element. Modern browser doesn’t support event capturing by default but we can achieve that by code in JavaScript.
+We can use third optional argument of addEventListner to set true to enable event capturing in the parent div.
 ```html
 <h1>Event Capturing</h1>
 <form id="formEl">FORM
@@ -535,7 +536,7 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjk4OTc5NSwtMjkwOTc1NTUzLC0yMT
+eyJoaXN0b3J5IjpbMjA2ODEzMjU4NCwtMjkwOTc1NTUzLC0yMT
 A3NTcxNDYyLDIxMTA0NDE2MjMsNzk0OTE1MTMxLDM0NDYwMTUw
 OSw0MTc0NzYxOTMsMTM2MTQ2MTIyNiwxMzk1Njk0ODEsLTg4Mz
 Y4MjcyMCwxOTU1NjQxMTQ4LDU1MDc3MTQ4NywxMTA2OTI5MTIx
