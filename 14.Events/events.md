@@ -363,8 +363,24 @@ pEl.addEventListener("click", function(e){
   alert("P");
   e.stopPropagation();
 });
-
 ```
+
+later try this and see output:
+```js
+formEl.addEventListener("click", function(){
+  alert("FORM");
+});
+
+divEl.addEventListener("click", function(e){
+  alert("DIV");
+  e.stopPropagation();  
+});
+
+pEl.addEventListener("click", function(){
+  alert("P");
+});
+```
+
 
 ## Top to Bottom(Event Capturing)
 
@@ -486,11 +502,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0NjAxNTA5LDQxNzQ3NjE5MywxMzYxND
-YxMjI2LDEzOTU2OTQ4MSwtODgzNjgyNzIwLDE5NTU2NDExNDgs
-NTUwNzcxNDg3LDExMDY5MjkxMjEsMTEwNjkyOTEyMSwtOTE1MD
-M0NTk5LC0xMjQxMTI5MDU2LDQ4NjYwMTU5OSwzMjY0NDM1NDYs
-LTE5MDUyNjc4MzgsLTE4OTMyMTgxNjQsLTY0MDMxMTI5NiwtMT
-g1MDMzNzc4NiwxNDk4MjI3NDgxLC0xMTQ2NTgzNzIwLC0xMTc2
-NzQxOTQ3XX0=
+eyJoaXN0b3J5IjpbNzk0OTE1MTMxLDM0NDYwMTUwOSw0MTc0Nz
+YxOTMsMTM2MTQ2MTIyNiwxMzk1Njk0ODEsLTg4MzY4MjcyMCwx
+OTU1NjQxMTQ4LDU1MDc3MTQ4NywxMTA2OTI5MTIxLDExMDY5Mj
+kxMjEsLTkxNTAzNDU5OSwtMTI0MTEyOTA1Niw0ODY2MDE1OTks
+MzI2NDQzNTQ2LC0xOTA1MjY3ODM4LC0xODkzMjE4MTY0LC02ND
+AzMTEyOTYsLTE4NTAzMzc3ODYsMTQ5ODIyNzQ4MSwtMTE0NjU4
+MzcyMF19
 -->
