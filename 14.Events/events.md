@@ -348,6 +348,7 @@ let formEl = document.getElementById('formEl');
 let divEl = document.getElementById('divEl');
 let pEl = document.getElementById('pEl');
 
+
 formEl.addEventListener("click", function(){
   alert("FORM");
 });
@@ -356,12 +357,12 @@ divEl.addEventListener("click", function(){
   alert("DIV");
 });
 
-pEl.addEventListener("click", function(){
+pEl.addEventListener("click", function(e){
   alert("P");
+  e.stopPropagation();
 });
+
 ```
-
-
 
 ## Top to Bottom(Event Capturing)
 
@@ -483,11 +484,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyMDU2NjExLDQxNzQ3NjE5MywxMzYxND
-YxMjI2LDEzOTU2OTQ4MSwtODgzNjgyNzIwLDE5NTU2NDExNDgs
-NTUwNzcxNDg3LDExMDY5MjkxMjEsMTEwNjkyOTEyMSwtOTE1MD
-M0NTk5LC0xMjQxMTI5MDU2LDQ4NjYwMTU5OSwzMjY0NDM1NDYs
-LTE5MDUyNjc4MzgsLTE4OTMyMTgxNjQsLTY0MDMxMTI5NiwtMT
-g1MDMzNzc4NiwxNDk4MjI3NDgxLC0xMTQ2NTgzNzIwLC0xMTc2
-NzQxOTQ3XX0=
+eyJoaXN0b3J5IjpbLTExNjU1NjEzNDcsNDE3NDc2MTkzLDEzNj
+E0NjEyMjYsMTM5NTY5NDgxLC04ODM2ODI3MjAsMTk1NTY0MTE0
+OCw1NTA3NzE0ODcsMTEwNjkyOTEyMSwxMTA2OTI5MTIxLC05MT
+UwMzQ1OTksLTEyNDExMjkwNTYsNDg2NjAxNTk5LDMyNjQ0MzU0
+NiwtMTkwNTI2NzgzOCwtMTg5MzIxODE2NCwtNjQwMzExMjk2LC
+0xODUwMzM3Nzg2LDE0OTgyMjc0ODEsLTExNDY1ODM3MjAsLTEx
+NzY3NDE5NDddfQ==
 -->
