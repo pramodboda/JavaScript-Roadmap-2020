@@ -274,7 +274,7 @@ tEl1.addEventListener("click", function(){
 ```
 Isn’t it a bit strange? Why does the handler on `<div>` run if the actual click was on `<em>`?
 
-## Bubbling
+## Top to Bottom(Event Bubbling)
 The bubbling principle is simple.
 
 **When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.**
@@ -384,6 +384,8 @@ form.onclick = function(event) {
 
 ## Stopping bubbing
 
+## Top to Bottom(Event Capturing)
+
 
 ## Example 1:
 ### Event Listener
@@ -429,11 +431,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTQ2MTIyNiwxMzk1Njk0ODEsLTg4Mz
-Y4MjcyMCwxOTU1NjQxMTQ4LDU1MDc3MTQ4NywxMTA2OTI5MTIx
-LDExMDY5MjkxMjEsLTkxNTAzNDU5OSwtMTI0MTEyOTA1Niw0OD
-Y2MDE1OTksMzI2NDQzNTQ2LC0xOTA1MjY3ODM4LC0xODkzMjE4
-MTY0LC02NDAzMTEyOTYsLTE4NTAzMzc3ODYsMTQ5ODIyNzQ4MS
-wtMTE0NjU4MzcyMCwtMTE3Njc0MTk0NywxMTkxNDc0ODE5LC0y
-MDQ1MTk2OTEzXX0=
+eyJoaXN0b3J5IjpbNDE3NDc2MTkzLDEzNjE0NjEyMjYsMTM5NT
+Y5NDgxLC04ODM2ODI3MjAsMTk1NTY0MTE0OCw1NTA3NzE0ODcs
+MTEwNjkyOTEyMSwxMTA2OTI5MTIxLC05MTUwMzQ1OTksLTEyND
+ExMjkwNTYsNDg2NjAxNTk5LDMyNjQ0MzU0NiwtMTkwNTI2Nzgz
+OCwtMTg5MzIxODE2NCwtNjQwMzExMjk2LC0xODUwMzM3Nzg2LD
+E0OTgyMjc0ODEsLTExNDY1ODM3MjAsLTExNzY3NDE5NDcsMTE5
+MTQ3NDgxOV19
 -->
