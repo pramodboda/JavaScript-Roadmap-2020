@@ -298,7 +298,6 @@ let formEl = document.getElementById('formEl');
 let divEl = document.getElementById('divEl');
 let pEl = document.getElementById('pEl');
 
-
 formEl.addEventListener("click", function(){
   alert("FORM");
 });
@@ -310,7 +309,6 @@ divEl.addEventListener("click", function(){
 pEl.addEventListener("click", function(){
   alert("P");
 });
-
 ```
 A click on the inner  `<p>`  first runs  `onclick`:
 
@@ -329,7 +327,41 @@ The process is called “bubbling”, because events “bubble” from the inner
 
 
 
-## Stopping bubbing
+## Stop Event Bubbling :
+
+```html
+<h1>Event - Bubbling</h1>
+<form id="formEl">FORM
+  <div id="divEl">DIV
+    <p id="pEl">P</p>
+  </div>
+</form>
+```
+```css
+  body * {
+    margin: 10px;
+    border: 1px solid blue;
+  }
+```
+```js
+let formEl = document.getElementById('formEl');
+let divEl = document.getElementById('divEl');
+let pEl = document.getElementById('pEl');
+
+formEl.addEventListener("click", function(){
+  alert("FORM");
+});
+
+divEl.addEventListener("click", function(){
+  alert("DIV");
+});
+
+pEl.addEventListener("click", function(){
+  alert("P");
+});
+```
+
+
 
 ## Top to Bottom(Event Capturing)
 
@@ -451,11 +483,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTIyNzM1Miw0MTc0NzYxOTMsMTM2MT
-Q2MTIyNiwxMzk1Njk0ODEsLTg4MzY4MjcyMCwxOTU1NjQxMTQ4
-LDU1MDc3MTQ4NywxMTA2OTI5MTIxLDExMDY5MjkxMjEsLTkxNT
-AzNDU5OSwtMTI0MTEyOTA1Niw0ODY2MDE1OTksMzI2NDQzNTQ2
-LC0xOTA1MjY3ODM4LC0xODkzMjE4MTY0LC02NDAzMTEyOTYsLT
-E4NTAzMzc3ODYsMTQ5ODIyNzQ4MSwtMTE0NjU4MzcyMCwtMTE3
-Njc0MTk0N119
+eyJoaXN0b3J5IjpbOTAyMDU2NjExLDQxNzQ3NjE5MywxMzYxND
+YxMjI2LDEzOTU2OTQ4MSwtODgzNjgyNzIwLDE5NTU2NDExNDgs
+NTUwNzcxNDg3LDExMDY5MjkxMjEsMTEwNjkyOTEyMSwtOTE1MD
+M0NTk5LC0xMjQxMTI5MDU2LDQ4NjYwMTU5OSwzMjY0NDM1NDYs
+LTE5MDUyNjc4MzgsLTE4OTMyMTgxNjQsLTY0MDMxMTI5NiwtMT
+g1MDMzNzc4NiwxNDk4MjI3NDgxLC0xMTQ2NTgzNzIwLC0xMTc2
+NzQxOTQ3XX0=
 -->
