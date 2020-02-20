@@ -329,6 +329,12 @@ The process is called “bubbling”, because events “bubble” from the inner
 
 
 
+## Stopping bubbing
+
+## Top to Bottom(Event Capturing)
+
+
+
 ##  event.target
 A handler on a parent element can always get the details about where it actually happened.
 
@@ -401,11 +407,6 @@ form.onclick = function(event) {
 
 ```
 
-## Stopping bubbing
-
-## Top to Bottom(Event Capturing)
-
-
 ## Example 1:
 ### Event Listener
 
@@ -450,7 +451,7 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjMwNTAwMiw0MTc0NzYxOTMsMTM2MT
+eyJoaXN0b3J5IjpbMjE0MTIyNzM1Miw0MTc0NzYxOTMsMTM2MT
 Q2MTIyNiwxMzk1Njk0ODEsLTg4MzY4MjcyMCwxOTU1NjQxMTQ4
 LDU1MDc3MTQ4NywxMTA2OTI5MTIxLDExMDY5MjkxMjEsLTkxNT
 AzNDU5OSwtMTI0MTEyOTA1Niw0ODY2MDE1OTksMzI2NDQzNTQ2
