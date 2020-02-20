@@ -277,7 +277,7 @@ Isn’t it a bit strange? Why does the handler on `<div>` run if the actual clic
 ## Bottom to Top(Event Bubbling)
 The bubbling principle is simple.
 
-Event Bubbling is the event starts from the **deepest element or target element to its parents, then all its ancestors which are on the way to bottom to top**. At present, all the modern browsers have event bubbling as the default way of event flow.
+Event Bubbling is the event starts from the **it first runs the handlers on deepest element or target element to its parents, then all its ancestors which are on the way to bottom to top**. At present, all the modern browsers have event bubbling as the default way of event flow.
 
 Let’s say we have 3 nested elements `FORM > DIV > P` with a handler on each of them:
 ```html
@@ -503,11 +503,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NjE5MTE1LDc5NDkxNTEzMSwzNDQ2MD
-E1MDksNDE3NDc2MTkzLDEzNjE0NjEyMjYsMTM5NTY5NDgxLC04
-ODM2ODI3MjAsMTk1NTY0MTE0OCw1NTA3NzE0ODcsMTEwNjkyOT
-EyMSwxMTA2OTI5MTIxLC05MTUwMzQ1OTksLTEyNDExMjkwNTYs
-NDg2NjAxNTk5LDMyNjQ0MzU0NiwtMTkwNTI2NzgzOCwtMTg5Mz
-IxODE2NCwtNjQwMzExMjk2LC0xODUwMzM3Nzg2LDE0OTgyMjc0
-ODFdfQ==
+eyJoaXN0b3J5IjpbMjExMDQ0MTYyMyw3OTQ5MTUxMzEsMzQ0Nj
+AxNTA5LDQxNzQ3NjE5MywxMzYxNDYxMjI2LDEzOTU2OTQ4MSwt
+ODgzNjgyNzIwLDE5NTU2NDExNDgsNTUwNzcxNDg3LDExMDY5Mj
+kxMjEsMTEwNjkyOTEyMSwtOTE1MDM0NTk5LC0xMjQxMTI5MDU2
+LDQ4NjYwMTU5OSwzMjY0NDM1NDYsLTE5MDUyNjc4MzgsLTE4OT
+MyMTgxNjQsLTY0MDMxMTI5NiwtMTg1MDMzNzc4NiwxNDk4MjI3
+NDgxXX0=
 -->
