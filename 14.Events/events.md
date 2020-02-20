@@ -496,6 +496,14 @@ form.onclick = function(event) {
 # **Conclusion :**
 Event Bubbling and Event Capturing is the foundation of event handler and event delegation in JavaScript
 
+Some of the popular properties from the  Event  type that we will use are:
+
+1.  currentTarget
+2.  target
+3.  preventDefault
+4.  stopPropagation
+5.  type
+
 ## Example 1:
 ### Event Listener
 
@@ -540,11 +548,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODU2NDc4NSwtMTI1OTk0MjE5NiwtMj
-kwOTc1NTUzLC0yMTA3NTcxNDYyLDIxMTA0NDE2MjMsNzk0OTE1
-MTMxLDM0NDYwMTUwOSw0MTc0NzYxOTMsMTM2MTQ2MTIyNiwxMz
-k1Njk0ODEsLTg4MzY4MjcyMCwxOTU1NjQxMTQ4LDU1MDc3MTQ4
-NywxMTA2OTI5MTIxLDExMDY5MjkxMjEsLTkxNTAzNDU5OSwtMT
-I0MTEyOTA1Niw0ODY2MDE1OTksMzI2NDQzNTQ2LC0xOTA1MjY3
-ODM4XX0=
+eyJoaXN0b3J5IjpbMTMxOTQzNDU0NywtOTM4NTY0Nzg1LC0xMj
+U5OTQyMTk2LC0yOTA5NzU1NTMsLTIxMDc1NzE0NjIsMjExMDQ0
+MTYyMyw3OTQ5MTUxMzEsMzQ0NjAxNTA5LDQxNzQ3NjE5MywxMz
+YxNDYxMjI2LDEzOTU2OTQ4MSwtODgzNjgyNzIwLDE5NTU2NDEx
+NDgsNTUwNzcxNDg3LDExMDY5MjkxMjEsMTEwNjkyOTEyMSwtOT
+E1MDM0NTk5LC0xMjQxMTI5MDU2LDQ4NjYwMTU5OSwzMjY0NDM1
+NDZdfQ==
 -->
