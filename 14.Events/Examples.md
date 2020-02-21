@@ -79,7 +79,7 @@ console.log(btns);
 
 function handleBtnClickLike(e){
   console.log('you liked it!');
-  console.log(e.target.dataset.price);
+  console.log(e.target);
 }
 
 btns.forEach(function(btnItemLike){
@@ -109,5 +109,5 @@ btns.forEach(function(btnItemLike){
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjMxOTI2MiwtMTE1NzQ5NDI3OV19
+eyJoaXN0b3J5IjpbMjEzMDQyNTM3OSwtMTE1NzQ5NDI3OV19
 -->
