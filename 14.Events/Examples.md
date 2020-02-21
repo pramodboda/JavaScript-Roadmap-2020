@@ -61,6 +61,22 @@ A handler on a parent element can always get the details about where it actually
 const btns = document.querySelectorAll('.btnLike');
 console.log(btns);
 
+function handleBtnClickLike(){
+  console.log('you liked it!');
+}
+
+btns.forEach(function(btnItemLike){
+  btnItemLike.addEventListener('click', handleBtnClickLike);
+});
+```
+
+## **`event.target`**
+```js
+const btns = document.querySelectorAll('.btnLike');
+
+console.log(btns);
+
+
 function handleBtnClickLike(e){
   console.log('you liked it!');
   console.log(e.target.dataset.price);
@@ -73,6 +89,7 @@ btns.forEach(function(btnItemLike){
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxOTAyMTQxLC0xMTU3NDk0Mjc5XX0=
+eyJoaXN0b3J5IjpbLTc1NzU3ODkwNSwtMTE1NzQ5NDI3OV19
 -->
