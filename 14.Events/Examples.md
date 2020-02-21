@@ -126,11 +126,16 @@ function handleBtnClickLike(e){
 ```
 update:
 
-
+```js
+function handleBtnClickLike(e){
+  console.log('you liked it!');
+  console.log( typeof e.target.dataset.price);
+}
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE3MDc1NzUsLTc4ODUxMTM0NywtMT
-E1NzQ5NDI3OV19
+eyJoaXN0b3J5IjpbNTUzNDA3NTI1LC03ODg1MTEzNDcsLTExNT
+c0OTQyNzldfQ==
 -->
