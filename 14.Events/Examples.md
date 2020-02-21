@@ -86,7 +86,7 @@ btns.forEach(function(btnItemLike){
   btnItemLike.addEventListener('click', handleBtnClickLike);
 });
 ```
-## **`event.target`**  with data
+## **`event.target`**  with data- attribute
 ```html
 <button data-price="100" class="btnLike">Like1</button>
 <button data-price="200" class="btnLike">Like2</button>
@@ -109,5 +109,5 @@ btns.forEach(function(btnItemLike){
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjY5NDc3MSwtMTE1NzQ5NDI3OV19
+eyJoaXN0b3J5IjpbMTM5NjMxOTI2MiwtMTE1NzQ5NDI3OV19
 -->
