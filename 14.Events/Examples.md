@@ -110,6 +110,19 @@ console.log(btns);
 
 function handleBtnClickLike(e){
   console.log('you liked it!');
+  console.log(e.target.dataset);
+}
+
+btns.forEach(function(btnItemLike){
+  btnItemLike.addEventListener('click', handleBtnClickLike);
+});
+```
+```js
+const btns = document.querySelectorAll('.btnLike');
+console.log(btns);
+
+function handleBtnClickLike(e){
+  console.log('you liked it!');
   console.log(e.target.dataset.price);
 }
 
@@ -120,5 +133,6 @@ btns.forEach(function(btnItemLike){
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODUxMTM0NywtMTE1NzQ5NDI3OV19
+eyJoaXN0b3J5IjpbLTk5NzI4MzQ5MCwtNzg4NTExMzQ3LC0xMT
+U3NDk0Mjc5XX0=
 -->
