@@ -73,9 +73,7 @@ btns.forEach(function(btnItemLike){
 ## **`event.target`**
 ```js
 const btns = document.querySelectorAll('.btnLike');
-
 console.log(btns);
-
 
 function handleBtnClickLike(e){
   console.log('you liked it!');
@@ -86,7 +84,7 @@ btns.forEach(function(btnItemLike){
   btnItemLike.addEventListener('click', handleBtnClickLike);
 });
 ```
-## **`event.target`**  with data- attribute
+## **`event.target`**  with `data-` attributes
 ```html
 <button data-price="100" class="btnLike">Like1</button>
 <button data-price="200" class="btnLike">Like2</button>
@@ -105,9 +103,22 @@ btns.forEach(function(btnItemLike){
 <button data-price="1500" class="btnLike">Like15</button>
 ```
 
+## **`event.target`**
+```js
+const btns = document.querySelectorAll('.btnLike');
+console.log(btns);
 
+function handleBtnClickLike(e){
+  console.log('you liked it!');
+  console.log(e.target.dataset.price);
+}
+
+btns.forEach(function(btnItemLike){
+  btnItemLike.addEventListener('click', handleBtnClickLike);
+});
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDQyNTM3OSwtMTE1NzQ5NDI3OV19
+eyJoaXN0b3J5IjpbLTc4ODUxMTM0NywtMTE1NzQ5NDI3OV19
 -->
