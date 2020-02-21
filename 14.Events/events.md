@@ -419,7 +419,6 @@ pEl.addEventListener("click", function(){
 ```
 
 
-
 ##  event.target
 A handler on a parent element can always get the details about where it actually happened.
 
@@ -548,11 +547,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE2MTcyNTUsMTMxOTQzNDU0NywtOT
-M4NTY0Nzg1LC0xMjU5OTQyMTk2LC0yOTA5NzU1NTMsLTIxMDc1
-NzE0NjIsMjExMDQ0MTYyMyw3OTQ5MTUxMzEsMzQ0NjAxNTA5LD
-QxNzQ3NjE5MywxMzYxNDYxMjI2LDEzOTU2OTQ4MSwtODgzNjgy
-NzIwLDE5NTU2NDExNDgsNTUwNzcxNDg3LDExMDY5MjkxMjEsMT
-EwNjkyOTEyMSwtOTE1MDM0NTk5LC0xMjQxMTI5MDU2LDQ4NjYw
-MTU5OV19
+eyJoaXN0b3J5IjpbLTI4Nzc1ODkzMywtMTE2MTYxNzI1NSwxMz
+E5NDM0NTQ3LC05Mzg1NjQ3ODUsLTEyNTk5NDIxOTYsLTI5MDk3
+NTU1MywtMjEwNzU3MTQ2MiwyMTEwNDQxNjIzLDc5NDkxNTEzMS
+wzNDQ2MDE1MDksNDE3NDc2MTkzLDEzNjE0NjEyMjYsMTM5NTY5
+NDgxLC04ODM2ODI3MjAsMTk1NTY0MTE0OCw1NTA3NzE0ODcsMT
+EwNjkyOTEyMSwxMTA2OTI5MTIxLC05MTUwMzQ1OTksLTEyNDEx
+MjkwNTZdfQ==
 -->
