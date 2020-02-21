@@ -158,13 +158,18 @@ const btns = document.querySelectorAll('.btnLike');
 console.log(btns);
 
 function handleBtnClickLike(e){
-  console.log('you liked it!');
+  // console.log('you liked it!');
+  // console.log( parseFloat(e.target.dataset.price));
   console.log(e.target);
-    console.log(e.currentTarget);
+  console.log(e.currentTarget);
 }
+
+btns.forEach(function(btnItemLike){
+  btnItemLike.addEventListener('click', handleBtnClickLike);
+});
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTYyNzkwOCwtNzMwMzU2MDg3LDU1Mz
-QwNzUyNSwtNzg4NTExMzQ3LC0xMTU3NDk0Mjc5XX0=
+eyJoaXN0b3J5IjpbLTE2NTY5MTM1NDgsLTczMDM1NjA4Nyw1NT
+M0MDc1MjUsLTc4ODUxMTM0NywtMTE1NzQ5NDI3OV19
 -->
