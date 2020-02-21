@@ -146,16 +146,25 @@ console.log(btns);
 function handleBtnClickLike(e){
   console.log('you liked it!');
   console.log(e.target);
-    console.log(e.currentTarget);
+  console.log(e.currentTarget);
 }
 ```
 
 ## Different btw **`event.target`** and **`event.currentTarget`**
 
 
+```js
+const btns = document.querySelectorAll('.btnLike');
+console.log(btns);
 
+function handleBtnClickLike(e){
+  console.log('you liked it!');
+  console.log(e.target);
+    console.log(e.currentTarget);
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3ODc0ODE3LC03MzAzNTYwODcsNTUzND
-A3NTI1LC03ODg1MTEzNDcsLTExNTc0OTQyNzldfQ==
+eyJoaXN0b3J5IjpbMTA0NTYyNzkwOCwtNzMwMzU2MDg3LDU1Mz
+QwNzUyNSwtNzg4NTExMzQ3LC0xMTU3NDk0Mjc5XX0=
 -->
