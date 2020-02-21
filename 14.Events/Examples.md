@@ -150,10 +150,12 @@ function handleBtnClickLike(e){
 }
 ```
 
+## Different btw **`event.currentTarget`****`event.currentTarget`**
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDM1NjA4Nyw1NTM0MDc1MjUsLTc4OD
-UxMTM0NywtMTE1NzQ5NDI3OV19
+eyJoaXN0b3J5IjpbMzA2MDg0ODYxLC03MzAzNTYwODcsNTUzND
+A3NTI1LC03ODg1MTEzNDcsLTExNTc0OTQyNzldfQ==
 -->
