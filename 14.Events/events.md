@@ -274,7 +274,7 @@ tEl1.addEventListener("click", function(){
 ```
 Isn’t it a bit strange? Why does the handler on `<div>` run if the actual click was on `<em>`?
 
-## Bottom to Top(Event Bubbling)
+## Event Bubbling(Bottom to Top)
 The bubbling principle is simple.
 
 Event Bubbling is the event starts from the **it first runs the handlers on deepest element or target element, then on its parent, then all its ancestors which are on the way to bottom to top**. At present, all the modern browsers have event bubbling as the default way of event flow.
@@ -383,7 +383,7 @@ pEl.addEventListener("click", function(){
 ```
 
 
-## Top to Bottom(Event Capturing)
+## Event Capturing(Top to Bottom)
 **Event Capturing** is the event starts from top element to target element. Modern browser doesn’t support event capturing by default but we can achieve that by code in JavaScript.
 We can use third optional argument of addEventListner to set `true` to enable event capturing in the parent div.
 ```html
@@ -548,11 +548,11 @@ A handler on a parent element can always get the details about where it actually
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTQzNDU0NywtOTM4NTY0Nzg1LC0xMj
-U5OTQyMTk2LC0yOTA5NzU1NTMsLTIxMDc1NzE0NjIsMjExMDQ0
-MTYyMyw3OTQ5MTUxMzEsMzQ0NjAxNTA5LDQxNzQ3NjE5MywxMz
-YxNDYxMjI2LDEzOTU2OTQ4MSwtODgzNjgyNzIwLDE5NTU2NDEx
-NDgsNTUwNzcxNDg3LDExMDY5MjkxMjEsMTEwNjkyOTEyMSwtOT
-E1MDM0NTk5LC0xMjQxMTI5MDU2LDQ4NjYwMTU5OSwzMjY0NDM1
-NDZdfQ==
+eyJoaXN0b3J5IjpbLTExNjE2MTcyNTUsMTMxOTQzNDU0NywtOT
+M4NTY0Nzg1LC0xMjU5OTQyMTk2LC0yOTA5NzU1NTMsLTIxMDc1
+NzE0NjIsMjExMDQ0MTYyMyw3OTQ5MTUxMzEsMzQ0NjAxNTA5LD
+QxNzQ3NjE5MywxMzYxNDYxMjI2LDEzOTU2OTQ4MSwtODgzNjgy
+NzIwLDE5NTU2NDExNDgsNTUwNzcxNDg3LDExMDY5MjkxMjEsMT
+EwNjkyOTEyMSwtOTE1MDM0NTk5LC0xMjQxMTI5MDU2LDQ4NjYw
+MTU5OV19
 -->
