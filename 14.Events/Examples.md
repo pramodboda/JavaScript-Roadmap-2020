@@ -146,12 +146,14 @@ console.log(btns);
 function handleBtnClickLike(e){
   console.log('you liked it!');
   console.log(e.target);
+    console.log(e.currentTarget);
 }
+```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjczOTU2MDksNTUzNDA3NTI1LC03OD
-g1MTEzNDcsLTExNTc0OTQyNzldfQ==
+eyJoaXN0b3J5IjpbLTczMDM1NjA4Nyw1NTM0MDc1MjUsLTc4OD
+UxMTM0NywtMTE1NzQ5NDI3OV19
 -->
