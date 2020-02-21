@@ -138,7 +138,7 @@ function handleBtnClickLike(e){
   console.log( parseFloat(e.target.dataset.price));
 }
 ```
-## **`event.currerntTarget`**
+## **`event.currentTarget`**
 ```js
 const btns = document.querySelectorAll('.btnLike');
 console.log(btns);
@@ -152,6 +152,6 @@ function handleBtnClickLike(e){
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzkzMzgwNzMsNTUzNDA3NTI1LC03OD
+eyJoaXN0b3J5IjpbLTE0MjczOTU2MDksNTUzNDA3NTI1LC03OD
 g1MTEzNDcsLTExNTc0OTQyNzldfQ==
 -->
