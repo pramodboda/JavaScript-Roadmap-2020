@@ -117,22 +117,16 @@ btns.forEach(function(btnItemLike){
   btnItemLike.addEventListener('click', handleBtnClickLike);
 });
 ```
+update:
 ```js
-const btns = document.querySelectorAll('.btnLike');
-console.log(btns);
-
 function handleBtnClickLike(e){
   console.log('you liked it!');
   console.log(e.target.dataset.price);
 }
-
-btns.forEach(function(btnItemLike){
-  btnItemLike.addEventListener('click', handleBtnClickLike);
-});
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzI4MzQ5MCwtNzg4NTExMzQ3LC0xMT
+eyJoaXN0b3J5IjpbLTU0MDAzODI5MCwtNzg4NTExMzQ3LC0xMT
 U3NDk0Mjc5XX0=
 -->
