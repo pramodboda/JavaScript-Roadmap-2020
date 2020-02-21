@@ -103,7 +103,6 @@ btns.forEach(function(btnItemLike){
 <button data-price="1500" class="btnLike">Like15</button>
 ```
 
-## **`event.target`**
 ```js
 const btns = document.querySelectorAll('.btnLike');
 console.log(btns);
@@ -139,12 +138,20 @@ function handleBtnClickLike(e){
   console.log( parseFloat(e.target.dataset.price));
 }
 ```
+## **`event.currerntTarget`**
+```js
+const btns = document.querySelectorAll('.btnLike');
+console.log(btns);
 
+function handleBtnClickLike(e){
+  console.log('you liked it!');
+  console.log(e.target);
+}
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjQ0NDg0MSw1NTM0MDc1MjUsLTc4OD
-UxMTM0NywtMTE1NzQ5NDI3OV19
+eyJoaXN0b3J5IjpbLTE1NzkzMzgwNzMsNTUzNDA3NTI1LC03OD
+g1MTEzNDcsLTExNTc0OTQyNzldfQ==
 -->
