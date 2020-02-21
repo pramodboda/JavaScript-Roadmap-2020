@@ -43,11 +43,12 @@ Strict mode
 
 
 ## Remember
-Closures
-Events - Bubbling, stopPropagation, capture, target
+
+- Closures
+- Events - Bubbling, stopPropagation, capture, target, preventDefault and Form Events
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzU2NjY3NCwtMTQ4MDQyMzUsLTEzNj
-gzNjU1NTQsLTE0MzY1NTYzMjEsMTMzNDg4ODEyMCwtMTY0ODgz
-Mzg3NiwtMjEzNzcxOTI1NiwtMTc3NzMwMzM2MV19
+eyJoaXN0b3J5IjpbLTEzNTA1NDYzMDcsLTE0ODA0MjM1LC0xMz
+Y4MzY1NTU0LC0xNDM2NTU2MzIxLDEzMzQ4ODgxMjAsLTE2NDg4
+MzM4NzYsLTIxMzc3MTkyNTYsLTE3NzczMDMzNjFdfQ==
 -->
