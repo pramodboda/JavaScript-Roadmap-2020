@@ -124,9 +124,11 @@ function handleBtnClickLike(e){
   console.log(e.target.dataset.price);
 }
 ```
+update:
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDAzODI5MCwtNzg4NTExMzQ3LC0xMT
-U3NDk0Mjc5XX0=
+eyJoaXN0b3J5IjpbLTE5NjU5NTcyNjcsLTc4ODUxMTM0NywtMT
+E1NzQ5NDI3OV19
 -->
