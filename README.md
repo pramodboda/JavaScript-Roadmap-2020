@@ -38,8 +38,16 @@ Inheritance and the prototype chain
 Strict mode
 
 
+
+
+
+
+## Remember
+Closures
+Events - Bubbling, stopPropagation, capture, target
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA0MjM1LC0xMzY4MzY1NTU0LC0xND
-M2NTU2MzIxLDEzMzQ4ODgxMjAsLTE2NDg4MzM4NzYsLTIxMzc3
-MTkyNTYsLTE3NzczMDMzNjFdfQ==
+eyJoaXN0b3J5IjpbLTMxNzU2NjY3NCwtMTQ4MDQyMzUsLTEzNj
+gzNjU1NTQsLTE0MzY1NTYzMjEsMTMzNDg4ODEyMCwtMTY0ODgz
+Mzg3NiwtMjEzNzcxOTI1NiwtMTc3NzMwMzM2MV19
 -->
