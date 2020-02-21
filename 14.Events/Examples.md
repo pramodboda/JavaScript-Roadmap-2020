@@ -124,7 +124,7 @@ function handleBtnClickLike(e){
   console.log(e.target.dataset.price);
 }
 ```
-update:
+update `typeof`:
 
 ```js
 function handleBtnClickLike(e){
@@ -132,7 +132,7 @@ function handleBtnClickLike(e){
   console.log( typeof e.target.dataset.price);
 }
 ```
-update:
+update `parseFloat` :
 ```js
 function handleBtnClickLike(e){
   console.log('you liked it!');
@@ -143,6 +143,6 @@ function handleBtnClickLike(e){
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzY3Nzk5Myw1NTM0MDc1MjUsLTc4OD
+eyJoaXN0b3J5IjpbMTU5MjE3Mjc5NSw1NTM0MDc1MjUsLTc4OD
 UxMTM0NywtMTE1NzQ5NDI3OV19
 -->
