@@ -262,11 +262,18 @@ function handleBtnClickLike(e){
 
 ```
 
-## When you want know where you 
+## When you want know where you exactly clicking
+
+```js
+window.addEventListener("click", function(e){
+  console.log("You clicked the window!");
+  console.log(e.target);
+});
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzMTA4MzUwLC0yMjE0MzE4NTAsLTExNj
-U1Mjc3MjMsOTI4ODUxNzYxLDE0MDgxMjI2MzUsLTU2ODYyNjcz
-NSwyMDk0MTA1ODkxLC03MzAzNTYwODcsNTUzNDA3NTI1LC03OD
-g1MTEzNDcsLTExNTc0OTQyNzldfQ==
+eyJoaXN0b3J5IjpbMjAyMTAzMjg4OCwtMjIxNDMxODUwLC0xMT
+Y1NTI3NzIzLDkyODg1MTc2MSwxNDA4MTIyNjM1LC01Njg2MjY3
+MzUsMjA5NDEwNTg5MSwtNzMwMzU2MDg3LDU1MzQwNzUyNSwtNz
+g4NTExMzQ3LC0xMTU3NDk0Mjc5XX0=
 -->
