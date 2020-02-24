@@ -1,4 +1,4 @@
-![https://www.w3.org/TR/2006/WD-DOM-Level-3-Events-20060413/images/eventflow.png]
+![](https://www.w3.org/TR/2006/WD-DOM-Level-3-Events-20060413/images/eventflow.png)
 
 ## Bubbling and Capturing
 ```markup
@@ -244,6 +244,6 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDc3NTk3NiwxODE2ODgxOTYxLC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE3NDc0NTkwMTcsMTgxNjg4MTk2MSwtMj
+A4ODc0NjYxMl19
 -->
