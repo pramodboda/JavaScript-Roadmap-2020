@@ -196,9 +196,29 @@ Now update:
 <button data-price="1400" class="btnLike">Like<strong>14</strong></button>
 <button data-price="1500" class="btnLike">Like<strong>15</strong></button>
 ```
+```js
+const btns = document.querySelectorAll('.btnLike');
+console.log(btns);
+
+function handleBtnClickLike(e){
+  // console.log('you liked it!');
+  // console.log( parseFloat(e.target.dataset.price));
+  console.log(e.target);
+  console.log(e.currentTarget);
+  console.log(e.target === e.currentTarget);
+}
+
+btns.forEach(function(btnItemLike){
+  btnItemLike.addEventListener('click', handleBtnClickLike);
+});
+
+//on clicking button and strong tag number in button.
+iframeConsoleRunner-…0b17617061ce0f.js:1 <button data-price=​"500" class=​"btnLike">​…​</button>​
+iframeConsoleRunner-…0b17617061ce0f.js:1 false
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyNzQ5MzM1LDE0MDgxMjI2MzUsLTU2OD
+eyJoaXN0b3J5IjpbODAxNDE1NDA3LDE0MDgxMjI2MzUsLTU2OD
 YyNjczNSwyMDk0MTA1ODkxLC03MzAzNTYwODcsNTUzNDA3NTI1
 LC03ODg1MTEzNDcsLTExNTc0OTQyNzldfQ==
 -->
