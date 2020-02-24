@@ -151,6 +151,7 @@ function handleBtnClickLike(e){
 
 -   `target`  is the element that triggered the event (e.g., the user clicked on)
 -   `currentTarget`  is the element that the event listener is attached to.
+
 ```js
 const btns = document.querySelectorAll('.btnLike');
 console.log(btns);
@@ -168,6 +169,7 @@ btns.forEach(function(btnItemLike){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDEwNTg5MSwtNzMwMzU2MDg3LDU1Mz
-QwNzUyNSwtNzg4NTExMzQ3LC0xMTU3NDk0Mjc5XX0=
+eyJoaXN0b3J5IjpbLTU2ODYyNjczNSwyMDk0MTA1ODkxLC03Mz
+AzNTYwODcsNTUzNDA3NTI1LC03ODg1MTEzNDcsLTExNTc0OTQy
+NzldfQ==
 -->
