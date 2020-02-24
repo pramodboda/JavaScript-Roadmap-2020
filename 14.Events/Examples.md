@@ -241,16 +241,16 @@ btns.forEach(function(btnItemLike){
 
 
 //You clicked the window!
-//<button data-price=​"800" class=​"btnLike">​…​</button>​
-//<button data-price=​"800" class=​"btnLike">​…​</button>​
+//<button data-price="800" class="btnLike">Like<strong>8</strong></button>
+//<button data-price="800" class="btnLike">Like<strong>8</strong></button>
 //true
 //You clicked the window!
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTc5OTQxOSwtMTE2NTUyNzcyMyw5Mj
-g4NTE3NjEsMTQwODEyMjYzNSwtNTY4NjI2NzM1LDIwOTQxMDU4
-OTEsLTczMDM1NjA4Nyw1NTM0MDc1MjUsLTc4ODUxMTM0NywtMT
-E1NzQ5NDI3OV19
+eyJoaXN0b3J5IjpbMjE5NDk2NjM3LC0xMTY1NTI3NzIzLDkyOD
+g1MTc2MSwxNDA4MTIyNjM1LC01Njg2MjY3MzUsMjA5NDEwNTg5
+MSwtNzMwMzU2MDg3LDU1MzQwNzUyNSwtNzg4NTExMzQ3LC0xMT
+U3NDk0Mjc5XX0=
 -->
