@@ -1,4 +1,6 @@
-## Example 1:
+![](https://www.w3.org/TR/2006/WD-DOM-Level-3-Events-20060413/images/eventflow.png)
+
+## Examples :
 ### Event Listener
 
 html:
@@ -272,8 +274,8 @@ window.addEventListener("click", function(e){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTAzMjg4OCwtMjIxNDMxODUwLC0xMT
-Y1NTI3NzIzLDkyODg1MTc2MSwxNDA4MTIyNjM1LC01Njg2MjY3
-MzUsMjA5NDEwNTg5MSwtNzMwMzU2MDg3LDU1MzQwNzUyNSwtNz
-g4NTExMzQ3LC0xMTU3NDk0Mjc5XX0=
+eyJoaXN0b3J5IjpbMTMwOTM0NTEyNiwyMDIxMDMyODg4LC0yMj
+E0MzE4NTAsLTExNjU1Mjc3MjMsOTI4ODUxNzYxLDE0MDgxMjI2
+MzUsLTU2ODYyNjczNSwyMDk0MTA1ODkxLC03MzAzNTYwODcsNT
+UzNDA3NTI1LC03ODg1MTEzNDcsLTExNTc0OTQyNzldfQ==
 -->
