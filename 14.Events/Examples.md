@@ -235,11 +235,6 @@ btns.forEach(function(btnItemLike){
   btnItemLike.addEventListener('click', handleBtnClickLike);
 });
 
-
-
-
-
-
 //You clicked the window!
 //<button data-price="800" class="btnLike">Like<strong>8</strong></button>
 //<button data-price="800" class="btnLike">Like<strong>8</strong></button>
@@ -247,10 +242,21 @@ btns.forEach(function(btnItemLike){
 //You clicked the window!
 ```
 
+```js
+function handleBtnClickLike(e){
+  // console.log('you liked it!');
+  // console.log( parseFloat(e.target.dataset.price));
+  console.log(e.target);
+  console.log(e.currentTarget);
+  console.log(e.target === e.currentTarget);
+  e.stopPropagation();
+}
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5NDk2NjM3LC0xMTY1NTI3NzIzLDkyOD
-g1MTc2MSwxNDA4MTIyNjM1LC01Njg2MjY3MzUsMjA5NDEwNTg5
-MSwtNzMwMzU2MDg3LDU1MzQwNzUyNSwtNzg4NTExMzQ3LC0xMT
-U3NDk0Mjc5XX0=
+eyJoaXN0b3J5IjpbMjEwMzE4NTI5MSwtMTE2NTUyNzcyMyw5Mj
+g4NTE3NjEsMTQwODEyMjYzNSwtNTY4NjI2NzM1LDIwOTQxMDU4
+OTEsLTczMDM1NjA4Nyw1NTM0MDc1MjUsLTc4ODUxMTM0NywtMT
+E1NzQ5NDI3OV19
 -->
