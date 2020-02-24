@@ -249,7 +249,7 @@ function handleBtnClickLike(e){
   console.log(e.target);
   console.log(e.currentTarget);
   console.log(e.target === e.currentTarget);
-  // stop this event from bubbling
+  // stop this event from bubbling up
   e.stopPropagation();
 }
 
@@ -264,8 +264,8 @@ function handleBtnClickLike(e){
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3OTk0Mzc5LC0xMTY1NTI3NzIzLDkyOD
-g1MTc2MSwxNDA4MTIyNjM1LC01Njg2MjY3MzUsMjA5NDEwNTg5
-MSwtNzMwMzU2MDg3LDU1MzQwNzUyNSwtNzg4NTExMzQ3LC0xMT
-U3NDk0Mjc5XX0=
+eyJoaXN0b3J5IjpbLTIyMTQzMTg1MCwtMTE2NTUyNzcyMyw5Mj
+g4NTE3NjEsMTQwODEyMjYzNSwtNTY4NjI2NzM1LDIwOTQxMDU4
+OTEsLTczMDM1NjA4Nyw1NTM0MDc1MjUsLTc4ODUxMTM0NywtMT
+E1NzQ5NDI3OV19
 -->
