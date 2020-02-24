@@ -167,9 +167,19 @@ btns.forEach(function(btnItemLike){
   btnItemLike.addEventListener('click', handleBtnClickLike);
 });
 ```
+update:
+```js
+function handleBtnClickLike(e){
+  // console.log('you liked it!');
+  // console.log( parseFloat(e.target.dataset.price));
+  console.log(e.target);
+  console.log(e.currentTarget);
+  console.log(e.target === e.currentTarget);
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODYyNjczNSwyMDk0MTA1ODkxLC03Mz
-AzNTYwODcsNTUzNDA3NTI1LC03ODg1MTEzNDcsLTExNTc0OTQy
-NzldfQ==
+eyJoaXN0b3J5IjpbMTQwODEyMjYzNSwtNTY4NjI2NzM1LDIwOT
+QxMDU4OTEsLTczMDM1NjA4Nyw1NTM0MDc1MjUsLTc4ODUxMTM0
+NywtMTE1NzQ5NDI3OV19
 -->
