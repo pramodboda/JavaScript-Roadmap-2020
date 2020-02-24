@@ -252,11 +252,19 @@ function handleBtnClickLike(e){
   // stop this event from bubbling
   e.stopPropagation();
 }
+
+
+
+You clicked the window!
+iframeConsoleRunner-dc0d50e60903d6825042d06159a8d5ac69a6c0e9bcef91e3380b17617061ce0f.js:1 <strong>​8​</strong>​
+iframeConsoleRunner-dc0d50e60903d6825042d06159a8d5ac69a6c0e9bcef91e3380b17617061ce0f.js:1 <button data-price=​"800" class=​"btnLike">​…​</button>​
+iframeConsoleRunner-dc0d50e60903d6825042d06159a8d5ac69a6c0e9bcef91e3380b17617061ce0f.js:1 false
+
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTM4MDY0MCwtMTE2NTUyNzcyMyw5Mj
+eyJoaXN0b3J5IjpbMTYzNDc5OTI2OCwtMTE2NTUyNzcyMyw5Mj
 g4NTE3NjEsMTQwODEyMjYzNSwtNTY4NjI2NzM1LDIwOTQxMDU4
 OTEsLTczMDM1NjA4Nyw1NTM0MDc1MjUsLTc4ODUxMTM0NywtMT
 E1NzQ5NDI3OV19
