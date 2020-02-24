@@ -213,12 +213,13 @@ btns.forEach(function(btnItemLike){
 });
 
 //on clicking button and strong tag number in button.
-iframeConsoleRunner-…0b17617061ce0f.js:1 <button data-price=​"500" class=​"btnLike">​…​</button>​
-iframeConsoleRunner-…0b17617061ce0f.js:1 false
+// <button data-price=​"500" class=​"btnLike">​…​</button>​
+// <strong>5</strong>
+// false
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxNDE1NDA3LDE0MDgxMjI2MzUsLTU2OD
-YyNjczNSwyMDk0MTA1ODkxLC03MzAzNTYwODcsNTUzNDA3NTI1
-LC03ODg1MTEzNDcsLTExNTc0OTQyNzldfQ==
+eyJoaXN0b3J5IjpbLTE2NjAwNTU1NDUsMTQwODEyMjYzNSwtNT
+Y4NjI2NzM1LDIwOTQxMDU4OTEsLTczMDM1NjA4Nyw1NTM0MDc1
+MjUsLTc4ODUxMTM0NywtMTE1NzQ5NDI3OV19
 -->
