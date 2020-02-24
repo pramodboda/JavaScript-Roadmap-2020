@@ -236,12 +236,21 @@ btns.forEach(function(btnItemLike){
 });
 
 
+
+
+
+
+//You clicked the window!
+//<button data-price=​"800" class=​"btnLike">​…​</button>​
+//<button data-price=​"800" class=​"btnLike">​…​</button>​
+//true
+//You clicked the window!
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU1Mjc3MjMsOTI4ODUxNzYxLDE0MD
-gxMjI2MzUsLTU2ODYyNjczNSwyMDk0MTA1ODkxLC03MzAzNTYw
-ODcsNTUzNDA3NTI1LC03ODg1MTEzNDcsLTExNTc0OTQyNzldfQ
-==
+eyJoaXN0b3J5IjpbMTY3OTc5OTQxOSwtMTE2NTUyNzcyMyw5Mj
+g4NTE3NjEsMTQwODEyMjYzNSwtNTY4NjI2NzM1LDIwOTQxMDU4
+OTEsLTczMDM1NjA4Nyw1NTM0MDc1MjUsLTc4ODUxMTM0NywtMT
+E1NzQ5NDI3OV19
 -->
