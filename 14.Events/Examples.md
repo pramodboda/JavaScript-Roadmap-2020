@@ -218,10 +218,8 @@ btns.forEach(function(btnItemLike){
 // false
 ```
 
-iframeConsoleRunner-…0b17617061ce0f.js:1 false
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2ODI3MzgzLDE0MDgxMjI2MzUsLTU2OD
+eyJoaXN0b3J5IjpbOTI4ODUxNzYxLDE0MDgxMjI2MzUsLTU2OD
 YyNjczNSwyMDk0MTA1ODkxLC03MzAzNTYwODcsNTUzNDA3NTI1
 LC03ODg1MTEzNDcsLTExNTc0OTQyNzldfQ==
 -->
