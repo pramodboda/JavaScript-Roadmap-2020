@@ -141,6 +141,12 @@ b) even target
 c) both event type and even target  
 d) interface
 
+Q) Which property specifies the property of the event?  
+a) Type  
+b) Target  
+c) Manner  
+d) Program
+
 
 ### `event.currentTarget`
 
@@ -275,6 +281,6 @@ Now event handlers are clearly separated, that may be easier to support.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzMzE5MTQ0LDE3MDkyMDMzMjcsMjAyMT
-gyNTk4MV19
+eyJoaXN0b3J5IjpbLTEyODMxMjMzNjAsMTcwOTIwMzMyNywyMD
+IxODI1OTgxXX0=
 -->
