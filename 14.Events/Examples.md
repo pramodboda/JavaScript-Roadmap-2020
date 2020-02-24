@@ -178,8 +178,27 @@ function handleBtnClickLike(e){
 }
 ```
 
+Now update:
+```html
+<button data-price="100" class="btnLike">Like<strong>1</strong></button>
+<button data-price="200" class="btnLike">Like<strong>2</strong></button>
+<button data-price="300" class="btnLike">Like<strong>3</strong></button>
+<button data-price="400" class="btnLike">Like<strong>4</strong></button>
+<button data-price="500" class="btnLike">Like<strong>5</strong></button>
+<button data-price="600" class="btnLike">Like<strong>6</strong></button>
+<button data-price="700" class="btnLike">Like<strong>7</strong></button>
+<button data-price="800" class="btnLike">Like<strong>8</strong></button>
+<button data-price="900" class="btnLike">Like<strong>9</strong></button>
+<button data-price="1000" class="btnLike">Like<strong>10</strong></button>
+<button data-price="1100" class="btnLike">Like<strong>11</strong></button>
+<button data-price="1200" class="btnLike">Like<strong>12</strong></button>
+<button data-price="1300" class="btnLike">Like<strong>13</strong></button>
+<button data-price="1400" class="btnLike">Like<strong>14</strong></button>
+<button data-price="1500" class="btnLike">Like<strong>15</strong></button>
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODEyMjYzNSwtNTY4NjI2NzM1LDIwOT
-QxMDU4OTEsLTczMDM1NjA4Nyw1NTM0MDc1MjUsLTc4ODUxMTM0
-NywtMTE1NzQ5NDI3OV19
+eyJoaXN0b3J5IjpbNTkyNzQ5MzM1LDE0MDgxMjI2MzUsLTU2OD
+YyNjczNSwyMDk0MTA1ODkxLC03MzAzNTYwODcsNTUzNDA3NTI1
+LC03ODg1MTEzNDcsLTExNTc0OTQyNzldfQ==
 -->
