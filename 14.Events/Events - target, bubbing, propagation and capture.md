@@ -1,5 +1,7 @@
 
-# 
+# Phases
+- capture phase
+- bubbling phase()
 ![](https://www.w3.org/TR/2006/WD-DOM-Level-3-Events-20060413/images/eventflow.png)
 
 ## Bubbling and Capturing
@@ -246,6 +248,6 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjU2NjcxNDQsMTgxNjg4MTk2MSwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTEyNTg1NTgwLC0xNTY1NjY3MTQ0LDE4MT
+Y4ODE5NjEsLTIwODg3NDY2MTJdfQ==
 -->
