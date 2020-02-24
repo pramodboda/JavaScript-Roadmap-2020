@@ -167,6 +167,16 @@ pEl.addEventListener("click", function(){
 });
 ```
 
+Q) Which form of event propagation handles the registered container elements?  
+a) Event Propagation  
+b) Event Registration  
+c) Event Capturing  
+d) Default Actions  
+View Answer
+
+Answer: c  
+Explanation: Event bubbling and capturing are two ways of event propagation in the HTML DOM API. With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements. With capturing, the event is first captured by the outermost element and propagated to the inner elements.
+
 
 ##  event.target
 A handler on a parent element can always get the details about where it actually happened.
@@ -251,6 +261,6 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3NzcwMzg0LC0xNTY1NjY3MTQ0LDE4MT
-Y4ODE5NjEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE1NjExMTQ2MjgsNzA3NzcwMzg0LC0xNT
+Y1NjY3MTQ0LDE4MTY4ODE5NjEsLTIwODg3NDY2MTJdfQ==
 -->
