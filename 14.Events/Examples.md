@@ -72,7 +72,7 @@ btns.forEach(function(btnItemLike){
 });
 ```
 
-## **`event.target`**
+### **`event.target`**
 ```js
 const btns = document.querySelectorAll('.btnLike');
 console.log(btns);
@@ -86,7 +86,7 @@ btns.forEach(function(btnItemLike){
   btnItemLike.addEventListener('click', handleBtnClickLike);
 });
 ```
-## **`event.target`**  with `data-` attributes
+### **`event.target`**  with `data-` attributes
 ```html
 <button data-price="100" class="btnLike">Like1</button>
 <button data-price="200" class="btnLike">Like2</button>
@@ -140,7 +140,7 @@ function handleBtnClickLike(e){
   console.log( parseFloat(e.target.dataset.price));
 }
 ```
-## **`event.currentTarget`**
+### **`event.currentTarget`**
 ```js
 function handleBtnClickLike(e){
   console.log('you liked it!');
@@ -149,7 +149,7 @@ function handleBtnClickLike(e){
 }
 ```
 
-## Different btw **`event.target`** and **`event.currentTarget`**
+### Different btw **`event.target`** and **`event.currentTarget`**
 
 -   `target`  is the element that triggered the event (e.g., the user clicked on)
 -   `currentTarget`  is the element that the event listener is attached to.
@@ -219,7 +219,7 @@ btns.forEach(function(btnItemLike){
 // <strong>5</strong>
 // false
 ```
-## Now stopping the event from bubbling using `stopPropagation`
+### Now stopping the event from bubbling using `stopPropagation`
 
 ```js
 const btns = document.querySelectorAll('.btnLike');
@@ -255,8 +255,6 @@ function handleBtnClickLike(e){
   e.stopPropagation();
 }
 
-
-
 //You clicked the window!
 //<strong>​8​</strong>​
 //<button data-price="800" class="btnLike">Like<strong>8</strong></button>
@@ -264,7 +262,7 @@ function handleBtnClickLike(e){
 
 ```
 
-## When you want know where you exactly clicking
+### When you want know where you exactly clicking on DOM use below syntax
 
 ```js
 window.addEventListener("click", function(e){
@@ -274,8 +272,8 @@ window.addEventListener("click", function(e){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTM0NTEyNiwyMDIxMDMyODg4LC0yMj
-E0MzE4NTAsLTExNjU1Mjc3MjMsOTI4ODUxNzYxLDE0MDgxMjI2
-MzUsLTU2ODYyNjczNSwyMDk0MTA1ODkxLC03MzAzNTYwODcsNT
-UzNDA3NTI1LC03ODg1MTEzNDcsLTExNTc0OTQyNzldfQ==
+eyJoaXN0b3J5IjpbLTEyNDM5MjIyOTIsMjAyMTAzMjg4OCwtMj
+IxNDMxODUwLC0xMTY1NTI3NzIzLDkyODg1MTc2MSwxNDA4MTIy
+NjM1LC01Njg2MjY3MzUsMjA5NDEwNTg5MSwtNzMwMzU2MDg3LD
+U1MzQwNzUyNSwtNzg4NTExMzQ3LC0xMTU3NDk0Mjc5XX0=
 -->
