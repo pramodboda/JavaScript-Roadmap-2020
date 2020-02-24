@@ -131,7 +131,7 @@ Here’s an example of getting mouse coordinates from the event object:
 ```
 Some properties of  `event`  object:
 
-`event.type`
+### `event.type`
 
 Event type, here it’s  `"click"`.
 
@@ -142,11 +142,11 @@ c) both event type and even target
 d) interface
 
 
-`event.currentTarget`
+### `event.currentTarget`
 
 Element that handled the event. That’s exactly the same as  `this`, unless the handler is an arrow function, or its  `this`  is bound to something else, then we can get the element from  `event.currentTarget`.
 
-`event.clientX / event.clientY`
+### `event.clientX / event.clientY`
 
 Window-relative coordinates of the cursor, for mouse events.
 
@@ -275,5 +275,6 @@ Now event handlers are clearly separated, that may be easier to support.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTIwMzMyNywyMDIxODI1OTgxXX0=
+eyJoaXN0b3J5IjpbMjQzMzE5MTQ0LDE3MDkyMDMzMjcsMjAyMT
+gyNTk4MV19
 -->
