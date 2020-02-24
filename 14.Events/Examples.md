@@ -217,7 +217,7 @@ btns.forEach(function(btnItemLike){
 // <strong>5</strong>
 // false
 ```
-## Now stopping the bubbling using `stopPropagation`
+## Now stopping the event from bubbling using `stopPropagation`
 
 ```js
 const btns = document.querySelectorAll('.btnLike');
@@ -249,13 +249,14 @@ function handleBtnClickLike(e){
   console.log(e.target);
   console.log(e.currentTarget);
   console.log(e.target === e.currentTarget);
+  // stop this event from bubbling
   e.stopPropagation();
 }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzE4NTI5MSwtMTE2NTUyNzcyMyw5Mj
+eyJoaXN0b3J5IjpbMTExOTM4MDY0MCwtMTE2NTUyNzcyMyw5Mj
 g4NTE3NjEsMTQwODEyMjYzNSwtNTY4NjI2NzM1LDIwOTQxMDU4
 OTEsLTczMDM1NjA4Nyw1NTM0MDc1MjUsLTc4ODUxMTM0NywtMT
 E1NzQ5NDI3OV19
