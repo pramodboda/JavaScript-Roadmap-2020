@@ -135,6 +135,13 @@ Some properties of  `event`  object:
 
 Event type, here it’s  `"click"`.
 
+Q) The type that specifies what kind of event occurred is ____________  
+a) event type  
+b) even target  
+c) both event type and even target  
+d) interface
+
+
 `event.currentTarget`
 
 Element that handled the event. That’s exactly the same as  `this`, unless the handler is an arrow function, or its  `this`  is bound to something else, then we can get the element from  `event.currentTarget`.
@@ -268,5 +275,5 @@ Now event handlers are clearly separated, that may be easier to support.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTgyNTk4MV19
+eyJoaXN0b3J5IjpbMTcwOTIwMzMyNywyMDIxODI1OTgxXX0=
 -->
