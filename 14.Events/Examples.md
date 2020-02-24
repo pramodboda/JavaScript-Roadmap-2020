@@ -217,9 +217,31 @@ btns.forEach(function(btnItemLike){
 // <strong>5</strong>
 // false
 ```
+## Now stopping the bubbling using `stopPropagation`
+
+```js
+const btns = document.querySelectorAll('.btnLike');
+console.log(btns);
+
+function handleBtnClickLike(e){
+  // console.log('you liked it!');
+  // console.log( parseFloat(e.target.dataset.price));
+  console.log(e.target);
+  console.log(e.currentTarget);
+  console.log(e.target === e.currentTarget);
+}
+
+btns.forEach(function(btnItemLike){
+  btnItemLike.addEventListener('click', handleBtnClickLike);
+});
+
+
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4ODUxNzYxLDE0MDgxMjI2MzUsLTU2OD
-YyNjczNSwyMDk0MTA1ODkxLC03MzAzNTYwODcsNTUzNDA3NTI1
-LC03ODg1MTEzNDcsLTExNTc0OTQyNzldfQ==
+eyJoaXN0b3J5IjpbLTExNjU1Mjc3MjMsOTI4ODUxNzYxLDE0MD
+gxMjI2MzUsLTU2ODYyNjczNSwyMDk0MTA1ODkxLC03MzAzNTYw
+ODcsNTUzNDA3NTI1LC03ODg1MTEzNDcsLTExNTc0OTQyNzldfQ
+==
 -->
