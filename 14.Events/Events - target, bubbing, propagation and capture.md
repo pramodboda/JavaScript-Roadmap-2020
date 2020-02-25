@@ -253,7 +253,7 @@ form.onclick = function(event) {
 
 If you’ve ever doubted how much power JavaScript gives you, try using `event.preventDefault()`! This method actually gives you the ability to _prevent a browser’s default behavior for events_.
 
-Normally, when you click on a checkbox it’ll toggle the check. However if you use `preventDefault` it will actually stop the broswer from doing that.
+Normally, when you click on a checkbox it’ll toggle the check. However if you use `preventDefault` it will actually stop the browser from doing that.
 
 
 
@@ -268,7 +268,7 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTk4OTA5MDcsLTk1MjAxNDM1LC0xNT
+eyJoaXN0b3J5IjpbLTE4NDcwOTI1NzksLTk1MjAxNDM1LC0xNT
 YxMTE0NjI4LDcwNzc3MDM4NCwtMTU2NTY2NzE0NCwxODE2ODgx
 OTYxLC0yMDg4NzQ2NjEyXX0=
 -->
