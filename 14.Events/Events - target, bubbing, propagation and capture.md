@@ -312,7 +312,7 @@ Another Example:
 	<div  class="row">
 			<div  class="col-lg-12">
 			<h2><a  href="https://www.pramodboda.com"  target="_blank"  class="websiteLink">Pramod Boda</a></h2>
-			<form  action="">
+			<form  action="" name="signup">
 				<div  class="form-group">
 					<label  for="">Name</label>
 					<input  type=""  class="form-control"></div>
@@ -361,8 +361,8 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzU3ODk5MSwxMzY3MzM1MzA5LDIxND
-czNTk1NjQsLTY5MzAxMTkxMCwtNDgzOTg1MDgxLDgzMjQ4OTQy
-NSwtOTUyMDE0MzUsLTE1NjExMTQ2MjgsNzA3NzcwMzg0LC0xNT
-Y1NjY3MTQ0LDE4MTY4ODE5NjEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNTc0MjMwNTY3LDEzNjczMzUzMDksMjE0Nz
+M1OTU2NCwtNjkzMDExOTEwLC00ODM5ODUwODEsODMyNDg5NDI1
+LC05NTIwMTQzNSwtMTU2MTExNDYyOCw3MDc3NzAzODQsLTE1Nj
+U2NjcxNDQsMTgxNjg4MTk2MSwtMjA4ODc0NjYxMl19
 -->
