@@ -275,7 +275,7 @@ Crazy! Just like that the browser is prevented from checking the box.
 
 <a  class="ctrlBehavior"  id="myLink"  href="https://pramodboda.com"  target="_blank">Click Pramod Boda</a><br>
 
-<input  class="textFieldCtrlBehavior"  id="myInput"  type=text"/>
+<input  class="textFieldCtrlBehavior"  id="myInput"  type="text"/>
 <br>
 <input  class="ctrlBehavior"  id="myRadio"  type="radio"> Select!
 <br>
@@ -318,8 +318,8 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE0Njc2NjAsLTQ4Mzk4NTA4MSw4Mz
-I0ODk0MjUsLTk1MjAxNDM1LC0xNTYxMTE0NjI4LDcwNzc3MDM4
-NCwtMTU2NTY2NzE0NCwxODE2ODgxOTYxLC0yMDg4NzQ2NjEyXX
-0=
+eyJoaXN0b3J5IjpbLTY5MzAxMTkxMCwtNDgzOTg1MDgxLDgzMj
+Q4OTQyNSwtOTUyMDE0MzUsLTE1NjExMTQ2MjgsNzA3NzcwMzg0
+LC0xNTY1NjY3MTQ0LDE4MTY4ODE5NjEsLTIwODg3NDY2MTJdfQ
+==
 -->
