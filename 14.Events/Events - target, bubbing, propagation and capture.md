@@ -178,7 +178,7 @@ Answer: c
 Explanation: Event bubbling and capturing are two ways of event propagation in the HTML DOM API. With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements. With capturing, the event is first captured by the outermost element and propagated to the inner elements.
 
 
-##  event.target
+##  `event.target`
 A handler on a parent element can always get the details about where it actually happened.
 
 **The most deeply nested element that caused the event is called a  _target_  element, accessible as  `event.target`.**
@@ -249,6 +249,10 @@ form.onclick = function(event) {
 </script>
 
 ```
+## `preventDefault`
+
+
+
 
 # **Conclusion :**
 Event Bubbling and Event Capturing is the foundation of event handler and event delegation in JavaScript
@@ -261,6 +265,7 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjExMTQ2MjgsNzA3NzcwMzg0LC0xNT
-Y1NjY3MTQ0LDE4MTY4ODE5NjEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTk1MjAxNDM1LC0xNTYxMTE0NjI4LDcwNz
+c3MDM4NCwtMTU2NTY2NzE0NCwxODE2ODgxOTYxLC0yMDg4NzQ2
+NjEyXX0=
 -->
