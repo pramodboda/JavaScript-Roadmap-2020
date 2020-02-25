@@ -283,6 +283,7 @@ Crazy! Just like that the browser is prevented from checking the box.
 
 <button  class="ctrlBehavior"  id="myBtn"  type="button">Click Me!</button>
 <br>
+
 <textarea  class="textFieldCtrlBehavior"  id="myTextarea"  name="message"  rows="10"  cols="30">
 Try to change this text or Type any new text.
 </textarea>
@@ -320,7 +321,7 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODgzNTA2NiwtNjkzMDExOTEwLC00OD
+eyJoaXN0b3J5IjpbMjE0NzM1OTU2NCwtNjkzMDExOTEwLC00OD
 M5ODUwODEsODMyNDg5NDI1LC05NTIwMTQzNSwtMTU2MTExNDYy
 OCw3MDc3NzAzODQsLTE1NjU2NjcxNDQsMTgxNjg4MTk2MSwtMj
 A4ODc0NjYxMl19
