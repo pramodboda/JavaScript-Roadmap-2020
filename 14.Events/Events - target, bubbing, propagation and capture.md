@@ -264,7 +264,6 @@ let myCheckbox = document.querySelector('myCheckbox');
 
 myCheckbox.addEventListener('click', function(e){
  e.preventDefault(); // 👈
-
 });
 ```
 
@@ -281,7 +280,7 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNDkwMjI5LC05NTIwMTQzNSwtMTU2MT
-ExNDYyOCw3MDc3NzAzODQsLTE1NjU2NjcxNDQsMTgxNjg4MTk2
-MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTY5NTc3NTM1MywtOTUyMDE0MzUsLTE1Nj
+ExMTQ2MjgsNzA3NzcwMzg0LC0xNTY1NjY3MTQ0LDE4MTY4ODE5
+NjEsLTIwODg3NDY2MTJdfQ==
 -->
