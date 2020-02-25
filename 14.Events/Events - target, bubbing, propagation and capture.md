@@ -111,7 +111,7 @@ divEl.addEventListener("click", function(){
 
 pEl.addEventListener("click", function(e){
   alert("P");
-  e.stopPropagation();
+  e.stopPropagation(); // 👈
 });
 ```
 
@@ -123,7 +123,7 @@ formEl.addEventListener("click", function(){
 
 divEl.addEventListener("click", function(e){
   alert("DIV");
-  e.stopPropagation();  
+  e.stopPropagation();  // 👈
 });
 
 pEl.addEventListener("click", function(){
@@ -321,8 +321,8 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY0NTE3MDMsMjE0NzM1OTU2NCwtNj
-kzMDExOTEwLC00ODM5ODUwODEsODMyNDg5NDI1LC05NTIwMTQz
-NSwtMTU2MTExNDYyOCw3MDc3NzAzODQsLTE1NjU2NjcxNDQsMT
-gxNjg4MTk2MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTM2NzMzNTMwOSwyMTQ3MzU5NTY0LC02OT
+MwMTE5MTAsLTQ4Mzk4NTA4MSw4MzI0ODk0MjUsLTk1MjAxNDM1
+LC0xNTYxMTE0NjI4LDcwNzc3MDM4NCwtMTU2NTY2NzE0NCwxOD
+E2ODgxOTYxLC0yMDg4NzQ2NjEyXX0=
 -->
