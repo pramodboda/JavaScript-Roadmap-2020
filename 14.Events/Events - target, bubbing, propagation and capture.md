@@ -156,7 +156,7 @@ let pEl = document.getElementById('pEl');
 
 formEl.addEventListener("click", function(){
   alert("FORM");
-},true);
+},true); // 👈
 
 divEl.addEventListener("click", function(){
   alert("DIV");
@@ -295,13 +295,13 @@ const textFieldCtrlBehavior = document.querySelectorAll('.textFieldCtrlBehavior'
 
 formElements.forEach(function(formElements){
 	formElements.addEventListener('click',  function(e){
-		e.preventDefault();
+		e.preventDefault(); //👈
 	});
 });
 
 textFieldCtrlBehavior.forEach(function(textFieldElements){
 	textFieldElements.addEventListener('keypress',  function(e){
-		e.preventDefault();
+		e.preventDefault(); //👈
 	});
 });
 ```
@@ -321,8 +321,8 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzM1OTU2NCwtNjkzMDExOTEwLC00OD
-M5ODUwODEsODMyNDg5NDI1LC05NTIwMTQzNSwtMTU2MTExNDYy
-OCw3MDc3NzAzODQsLTE1NjU2NjcxNDQsMTgxNjg4MTk2MSwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTExNjY0NTE3MDMsMjE0NzM1OTU2NCwtNj
+kzMDExOTEwLC00ODM5ODUwODEsODMyNDg5NDI1LC05NTIwMTQz
+NSwtMTU2MTExNDYyOCw3MDc3NzAzODQsLTE1NjU2NjcxNDQsMT
+gxNjg4MTk2MSwtMjA4ODc0NjYxMl19
 -->
