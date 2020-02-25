@@ -255,6 +255,14 @@ If you’ve ever doubted how much power JavaScript gives you, try using `event.p
 
 Normally, when you click on a checkbox it’ll toggle the check. However if you use `preventDefault` it will actually stop the browser from doing that.
 
+```html
+<input  type="checkbox"  id="myCheckbox">
+```
+
+```js
+document  .getElementById('myCheckbox')  .addEventListener('click',  (event)  =>  {  event.preventDefault();  // 👈  });
+```
+
 
 
 # **Conclusion :**
@@ -268,7 +276,7 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDcwOTI1NzksLTk1MjAxNDM1LC0xNT
-YxMTE0NjI4LDcwNzc3MDM4NCwtMTU2NTY2NzE0NCwxODE2ODgx
-OTYxLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTUxMDIzNjYwMCwtOTUyMDE0MzUsLTE1Nj
+ExMTQ2MjgsNzA3NzcwMzg0LC0xNTY1NjY3MTQ0LDE4MTY4ODE5
+NjEsLTIwODg3NDY2MTJdfQ==
 -->
