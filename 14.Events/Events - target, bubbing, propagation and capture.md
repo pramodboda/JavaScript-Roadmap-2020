@@ -345,6 +345,15 @@ websiteLink.addEventListener('click', function(e){
 	}
 });
 ```
+Add this below to JS code
+```js
+const signupForm = document.querySelector('[name="signup"]');
+
+signupForm.addEventListener("submit",  function(evt)  {
+	evt.preventDefault();
+	console.log(evt);
+});
+```
 
 
 
@@ -361,8 +370,9 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0MjMwNTY3LDEzNjczMzUzMDksMjE0Nz
-M1OTU2NCwtNjkzMDExOTEwLC00ODM5ODUwODEsODMyNDg5NDI1
-LC05NTIwMTQzNSwtMTU2MTExNDYyOCw3MDc3NzAzODQsLTE1Nj
-U2NjcxNDQsMTgxNjg4MTk2MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTc2MjA0NTA0NCw1NzQyMzA1NjcsMTM2Nz
+MzNTMwOSwyMTQ3MzU5NTY0LC02OTMwMTE5MTAsLTQ4Mzk4NTA4
+MSw4MzI0ODk0MjUsLTk1MjAxNDM1LC0xNTYxMTE0NjI4LDcwNz
+c3MDM4NCwtMTU2NTY2NzE0NCwxODE2ODgxOTYxLC0yMDg4NzQ2
+NjEyXX0=
 -->
