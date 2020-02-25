@@ -330,6 +330,22 @@ Another Example:
 </div>
 ```
 
+```js
+var websiteLink = document.querySelector('.websiteLink');
+
+websiteLink.addEventListener('click', function(e){
+	console.log('YOU CLICKED IT!');
+
+	const shouldChangePage = confirm('This website might be super powerful!, do you wish to procced?');
+
+	console.log(shouldChangePage);
+
+	if(!shouldChangePage){
+		e.preventDefault();
+	}
+});
+```
+
 
 
 
@@ -345,7 +361,7 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODczODQxMywxMzY3MzM1MzA5LDIxND
+eyJoaXN0b3J5IjpbLTY1MzU3ODk5MSwxMzY3MzM1MzA5LDIxND
 czNTk1NjQsLTY5MzAxMTkxMCwtNDgzOTg1MDgxLDgzMjQ4OTQy
 NSwtOTUyMDE0MzUsLTE1NjExMTQ2MjgsNzA3NzcwMzg0LC0xNT
 Y1NjY3MTQ0LDE4MTY4ODE5NjEsLTIwODg3NDY2MTJdfQ==
