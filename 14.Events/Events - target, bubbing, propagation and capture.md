@@ -365,9 +365,6 @@ signupForm.addEventListener("submit",  function(evt)  {
 ```
 
 
-
-
-
 # **Conclusion :**
 Event Bubbling and Event Capturing is the foundation of event handler and event delegation in JavaScript
 
@@ -379,9 +376,9 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQwOTYyMjMsNTc0MjMwNTY3LDEzNj
-czMzUzMDksMjE0NzM1OTU2NCwtNjkzMDExOTEwLC00ODM5ODUw
-ODEsODMyNDg5NDI1LC05NTIwMTQzNSwtMTU2MTExNDYyOCw3MD
-c3NzAzODQsLTE1NjU2NjcxNDQsMTgxNjg4MTk2MSwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbODI1NTQ3NDE1LC0xODM0MDk2MjIzLDU3ND
+IzMDU2NywxMzY3MzM1MzA5LDIxNDczNTk1NjQsLTY5MzAxMTkx
+MCwtNDgzOTg1MDgxLDgzMjQ4OTQyNSwtOTUyMDE0MzUsLTE1Nj
+ExMTQ2MjgsNzA3NzcwMzg0LC0xNTY1NjY3MTQ0LDE4MTY4ODE5
+NjEsLTIwODg3NDY2MTJdfQ==
 -->
