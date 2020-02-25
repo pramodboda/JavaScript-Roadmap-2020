@@ -269,6 +269,36 @@ myCheckbox.addEventListener('click', function(e){
 
 Crazy! Just like that the browser is prevented from checking the box.
 
+```js
+const formElements = document.querySelectorAll('.ctrlBehavior');
+
+const textFieldCtrlBehavior = document.querySelectorAll('.textFieldCtrlBehavior');
+
+  
+
+formElements.forEach(function(formElements){
+
+formElements.addEventListener('click',  function(e){
+
+e.preventDefault();
+
+});
+
+});
+
+  
+
+textFieldCtrlBehavior.forEach(function(textFieldElements){
+
+textFieldElements.addEventListener('keypress',  function(e){
+
+e.preventDefault();
+
+});
+
+});
+```
+
 
 
 
@@ -284,7 +314,7 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyNDg5NDI1LC05NTIwMTQzNSwtMTU2MT
-ExNDYyOCw3MDc3NzAzODQsLTE1NjU2NjcxNDQsMTgxNjg4MTk2
-MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTQ4Mzk4NTA4MSw4MzI0ODk0MjUsLTk1Mj
+AxNDM1LC0xNTYxMTE0NjI4LDcwNzc3MDM4NCwtMTU2NTY2NzE0
+NCwxODE2ODgxOTYxLC0yMDg4NzQ2NjEyXX0=
 -->
