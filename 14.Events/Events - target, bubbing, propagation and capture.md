@@ -314,9 +314,11 @@ Another Example:
 			<h2><a  href="https://www.pramodboda.com"  target="_blank"  class="websiteLink">Pramod Boda</a></h2>
 			<form  action="">
 				<div  class="form-group">
-					<label  for="">Name</label><input  type=""  class="form-control"></div>
+					<label  for="">Name</label>
+					<input  type=""  class="form-control"></div>
 				<div  class="form-group">
-					<label  for="">Email</label><input  type=""  class="form-control"></div>
+					<label  for="">Email</label>
+					<input  type=""  class="form-control"></div>
 				<div  class="form-check">
 					<input  type="checkbox"  class="form-check-input"><label  for=""  class="form-check-label">I Agree</label>
 				</div>
@@ -343,7 +345,7 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjkzOTgyMSwxMzY3MzM1MzA5LDIxND
+eyJoaXN0b3J5IjpbMTgwODczODQxMywxMzY3MzM1MzA5LDIxND
 czNTk1NjQsLTY5MzAxMTkxMCwtNDgzOTg1MDgxLDgzMjQ4OTQy
 NSwtOTUyMDE0MzUsLTE1NjExMTQ2MjgsNzA3NzcwMzg0LC0xNT
 Y1NjY3MTQ0LDE4MTY4ODE5NjEsLTIwODg3NDY2MTJdfQ==
