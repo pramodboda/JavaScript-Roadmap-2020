@@ -312,19 +312,22 @@ Another Example:
 	<div  class="row">
 			<div  class="col-lg-12">
 			<h2><a  href="https://www.pramodboda.com"  target="_blank"  class="websiteLink">Pramod Boda</a></h2>
-			<form  action="" name="signup">
+			<form  name="signup">
 				<div  class="form-group">
-					<label  for="">Name</label>
-					<input  type=""  class="form-control"></div>
+					<label  for="name">Name</label>
+					<input  type="text"  name="name"  class="form-control"  value="pramodboda">
+				</div>
 				<div  class="form-group">
-					<label  for="">Email</label>
-					<input  type=""  class="form-control"></div>
+					<label  for="email">Email</label>
+					<input  type="text"  name="email"  class="form-control"  value="pramodboda@gmail.com">
+				</div>
 				<div  class="form-check">
-					<input  type="checkbox"  class="form-check-input"><label  for=""  class="form-check-label">I Agree</label>
+					<input  type="checkbox"  class="form-check-input"  name="agree">
+					<label  for="agree"  class="form-check-label">I Agree</label>
 				</div>
 				<br>
-				<button  class="btn btn-primary btn-block">Submit</button>
-			</form>
+				<button  class="btn btn-primary btn-block"  type="submit">Submit</button>
+</form>
 		</div>
 	</div>
 </div>
@@ -349,6 +352,7 @@ Add this below to JS code:
 ```js
 const signupForm = document.querySelector('[name="signup"]');
 
+//track information before sending to server
 signupForm.addEventListener("submit",  function(evt)  {
 	evt.preventDefault();
 	console.log(evt); //👈
@@ -358,12 +362,12 @@ Update:
 ```js
 const signupForm = document.querySelector('[name="signup"]');
 
+//track information before sending to server
 signupForm.addEventListener("submit",  function(evt)  {
 	evt.preventDefault();
 	console.log(evt.currentTarget); //👈
 });
 ```
-
 
 # **Conclusion :**
 Event Bubbling and Event Capturing is the foundation of event handler and event delegation in JavaScript
@@ -376,9 +380,9 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NTQ3NDE1LC0xODM0MDk2MjIzLDU3ND
-IzMDU2NywxMzY3MzM1MzA5LDIxNDczNTk1NjQsLTY5MzAxMTkx
-MCwtNDgzOTg1MDgxLDgzMjQ4OTQyNSwtOTUyMDE0MzUsLTE1Nj
-ExMTQ2MjgsNzA3NzcwMzg0LC0xNTY1NjY3MTQ0LDE4MTY4ODE5
-NjEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIyOTQxNTU2OCw4MjU1NDc0MTUsLTE4Mz
+QwOTYyMjMsNTc0MjMwNTY3LDEzNjczMzUzMDksMjE0NzM1OTU2
+NCwtNjkzMDExOTEwLC00ODM5ODUwODEsODMyNDg5NDI1LC05NT
+IwMTQzNSwtMTU2MTExNDYyOCw3MDc3NzAzODQsLTE1NjU2Njcx
+NDQsMTgxNjg4MTk2MSwtMjA4ODc0NjYxMl19
 -->
