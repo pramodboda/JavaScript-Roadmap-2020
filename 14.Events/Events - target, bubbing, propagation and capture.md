@@ -268,9 +268,8 @@ myCheckbox.addEventListener('click', function(e){
 ```
 
 Crazy! Just like that the browser is prevented from checking the box.
-```html
-  
 
+```html
 <input  class="ctrlBehavior"  id="myCheckbox"  type="checkbox"> Check IT!<br>
 
 <a  class="ctrlBehavior"  id="myLink"  href="https://pramodboda.com"  target="_blank">Click Pramod Boda</a><br>
@@ -380,9 +379,10 @@ Some of the popular properties from the  Event  type that we will use are:
 4.  stopPropagation
 5.  type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTQxNTU2OCw4MjU1NDc0MTUsLTE4Mz
-QwOTYyMjMsNTc0MjMwNTY3LDEzNjczMzUzMDksMjE0NzM1OTU2
-NCwtNjkzMDExOTEwLC00ODM5ODUwODEsODMyNDg5NDI1LC05NT
-IwMTQzNSwtMTU2MTExNDYyOCw3MDc3NzAzODQsLTE1NjU2Njcx
-NDQsMTgxNjg4MTk2MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE5MDcwNzk2MjIsLTIyOTQxNTU2OCw4Mj
+U1NDc0MTUsLTE4MzQwOTYyMjMsNTc0MjMwNTY3LDEzNjczMzUz
+MDksMjE0NzM1OTU2NCwtNjkzMDExOTEwLC00ODM5ODUwODEsOD
+MyNDg5NDI1LC05NTIwMTQzNSwtMTU2MTExNDYyOCw3MDc3NzAz
+ODQsLTE1NjU2NjcxNDQsMTgxNjg4MTk2MSwtMjA4ODc0NjYxMl
+19
 -->
